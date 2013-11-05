@@ -1,4 +1,5 @@
 \documentclass[a4paper,12pt]{report}
+\usepackage{subfiles}
 \usepackage{hyperref}
 
 \begin{document}
@@ -22,7 +23,7 @@ jade
 a la duflo
 
 \chapter{Surviving Andersonville}
-Survival analysis
+%\subfile{../Surviving-Andersonville/draft.tex}
 
 \chapter{Single-Agent Belief Distritutions}
 examples
