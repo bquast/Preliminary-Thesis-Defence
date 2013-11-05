@@ -1,0 +1,36 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Preliminary Thesis Defence\\~\\ Supervisor: Jean-Louis Arcand\\ Second Reader: Love Vanderwalle}
+\author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+\maketitle
+
+\tableofcontents
+
+\chapter*{Introduction}
+jade
+
+\chapter{South Africa}
+a la duflo
+
+\chapter{Surviving Andersonville}
+Survival analysis
+
+\chapter{Single-Agent Belief Distritutions}
+examples
+
+\chapter{Police Reform Conkary}
+Guinea bla bla.
+
+\chapter{Bitcoin remitances}
+How I...
+
+\chapter{Rare events}
+black swans, dragon king
+
+\chapter{Singh}
+The difference between risk and uncertainty.
+
+\end{document}
