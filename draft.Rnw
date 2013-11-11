@@ -1,8 +1,6 @@
 \documentclass[a4paper,12pt]{report}
-\usepackage{subfiles}
+\usepackage{combine}
 \usepackage{hyperref}
-
-\begin{document}
 
 \title{Preliminary Thesis Defence\\~\\
 \begin{tabular}{rl}
@@ -12,6 +10,10 @@ Second Reader:&Love Vanderwalle
 }
 
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+
+\begin{document}
+
+
 \maketitle
 
 \tableofcontents
@@ -29,7 +31,7 @@ a la duflo
 examples
 
 \chapter{Police Reform Conkary}
-Guinea bla bla.
+\import{conakry}
 
 \chapter{Bitcoin remitances}
 How I...
