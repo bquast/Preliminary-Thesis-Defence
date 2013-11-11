@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \documentclass[a4paper,12pt]{scrreprt}
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -6,10 +7,22 @@
 
 \title{Preliminary Thesis Defence}
 \subtitle{\begin{tabular}{rl}
+=======
+\documentclass[a4paper,12pt]{report}
+\usepackage{combine}
+\usepackage{hyperref}
+
+\title{Preliminary Thesis Defence\\~\\
+\begin{tabular}{rl}
+>>>>>>> 4f45c4c9f9440d7c0012f4b0268987aba3dc293a
 Supervisor:&Jean-Louis Arcand\\
 Second Reader:&Love Vanderwalle
 \end{tabular}}
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+
+\begin{document}
+
+
 \maketitle
 
 \tableofcontents
@@ -27,7 +40,7 @@ a la duflo
 examples
 
 \chapter{Police Reform Conkary}
-Guinea bla bla.
+\import{conakry}
 
 \chapter{Bitcoin remitances}
 How I...

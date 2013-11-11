@@ -1,0 +1,11 @@
+\documentclass{article}
+\title{Impact evaluation of Police de Proximitee in Conakry, Guinea}
+\author{Bastiaan Quast}
+\begin{document}
+\maketitle
+
+\abstract{In this article I will analyse the impact of police the proximitee in Conakry, Guinea.}
+
+
+
+\end{document}

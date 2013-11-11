@@ -53,11 +53,8 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
-\usepackage{subfiles}
+\usepackage{combine}
 \usepackage{hyperref}
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-
-\begin{document}
 
 \title{Preliminary Thesis Defence}
 \subtitle{\begin{tabular}{rl}
@@ -65,6 +62,11 @@ Supervisor:&Jean-Louis Arcand\\
 Second Reader:&Love Vanderwalle
 \end{tabular}}
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+
+\begin{document}
+
+
 \maketitle
 
 \tableofcontents
@@ -82,7 +84,7 @@ a la duflo
 examples
 
 \chapter{Police Reform Conkary}
-Guinea bla bla.
+\import{conakry}
 
 \chapter{Bitcoin remitances}
 How I...
