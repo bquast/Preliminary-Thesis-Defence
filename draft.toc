@@ -14,21 +14,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Tables}{5}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Robustness check - Logit instead of Probit}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Robustness check - Logit instead of Probit}{13}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{17}{section.2.4}
+\contentsline {section}{\numberline {2.4}Conclusion}{20}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}In-text estimation}{17}{section.2.5}
+\contentsline {section}{\numberline {2.5}In-text estimation}{20}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Probit statement}{17}{section*.3}
+\contentsline {paragraph}{Probit statement}{20}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Comment on late capture}{21}{section*.4}
+\contentsline {paragraph}{Comment on late capture}{20}{section*.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{OLS statement}{21}{section*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Predicted probability of death}{21}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Table 3 with regiment fixed effects}{21}{section*.7}
+\contentsline {paragraph}{Table 3 with regiment fixed effects}{23}{section*.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Table 3 with splines}{23}{section*.8}
 \defcounter {refsection}{0}\relax 
@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Month dummies}{23}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cox Proportional Hazard Model}{23}{section*.11}
+\contentsline {paragraph}{Cox Proportional Hazard Model}{25}{section*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{On limiting the sample}{25}{section*.12}
 \defcounter {refsection}{0}\relax 
@@ -44,7 +44,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{25}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Non-parametric estimation}{29}{section.2.6}
+\contentsline {section}{\numberline {2.6}Non-parametric estimation}{25}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{33}{chapter.3}
 \defcounter {refsection}{0}\relax 
