@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \documentclass[a4paper]{report}
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -11,6 +12,29 @@
 %}
 
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva; bastiaan.quast@graduateinstitute.ch / bquast@gmail.com}}
+=======
+<<<<<<< HEAD
+\documentclass[a4paper,12pt]{scrreprt}
+\usepackage{subfiles}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Preliminary Thesis Defence}
+\subtitle{\begin{tabular}{rl}
+=======
+\documentclass[a4paper,12pt]{report}
+\usepackage{combine}
+\usepackage{hyperref}
+
+\title{Preliminary Thesis Defence\\~\\
+\begin{tabular}{rl}
+>>>>>>> 4f45c4c9f9440d7c0012f4b0268987aba3dc293a
+Supervisor:&Jean-Louis Arcand\\
+Second Reader:&Love Vanderwalle
+\end{tabular}}
+\author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+>>>>>>> 94871c1337a680fd543066ba997c77fda4b6c774
 
 \begin{document}
 
@@ -19,7 +43,7 @@
 
 \tableofcontents
 
-\chapter*{Introduction}
+\addchap{Introduction}
 jade
 
 \chapter{South Africa}
