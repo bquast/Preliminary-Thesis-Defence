@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  13 NOV 2013 17:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  13 NOV 2013 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,7 +931,7 @@ File: kaplan4.png Graphic file (type png)
  <use kaplan4.png>
 Package pdftex.def Info: kaplan4.png used on input line 718.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
- [29 <./kaplan1.png>]
+) [29 <./kaplan1.png>]
 Overfull \hbox (21.44713pt too wide) has occurred while \output is active
 []|\OT1/cmr/m/sl/10.95 2 Replication of: ``Surviving Andersonville: The Benefit
 s of Social Networks in POW Camps'' []
@@ -941,61 +941,54 @@ s of Social Networks in POW Camps'' []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33])
-[34
-
-
-]
 Chapter 3.
-[35] [36
+[33] [34
 
 
 ]
 Chapter 4.
-(./conakry.tex) [37] [38
+(./conakry.tex) [35] [36
 
 
 ]
 Chapter 5.
-(./bitcoin.tex) [39] [40
+(./bitcoin.tex) [37] [38
 
 
 ]
 Chapter 6.
-[41] [42
+[39] [40
 
 
 ]
 Chapter 7.
-(./MorrisShin.tex) [43] [44
+(./MorrisShin.tex) [41] [42
 
 
-] [45
+] [43
 
 
-] [46
+] [44
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
- [47]
+ [45]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./draft.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: B203E42ADDE131355FE20C462D56AAAE;1150.
+(rerunfilecheck)             Checksum: A41998B8A2CEF0992AE5F98858C48458;1150.
 Package logreq Info: Writing requests to 'draft.run.xml'.
 \openout1 = `draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13860 strings out of 495059
- 225284 string characters out of 3182030
+ 13856 strings out of 495059
+ 225249 string characters out of 3182030
  529491 words of memory out of 3000000
- 16736 multiletter control sequences out of 15000+200000
+ 16735 multiletter control sequences out of 15000+200000
  13419 words of font info for 48 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,15n,53p,2077b,1282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1015,10 +1008,10 @@ cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (53 pages, 332454 bytes).
+Output written on draft.pdf (51 pages, 331798 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 134 named destinations out of 1000 (max. 500000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 131 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
