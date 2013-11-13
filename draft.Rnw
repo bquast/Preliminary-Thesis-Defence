@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-\documentclass[a4paper,12pt]{report}
-\usepackage{combine}
-\usepackage{hyperref}
-
-\title{Preliminary Thesis Defence\\~\\
-\begin{tabular}{rl}
-Supervisor:&Jean-Louis Arcand\\
-Second Reader:&Love Vanderwalle
-\end{tabular}}
-\author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
-=======
 \documentclass[a4paper]{report}
 \usepackage{subfiles}
 \usepackage{hyperref}
@@ -23,10 +11,8 @@ Second Reader:&Love Vanderwalle
 %}
 
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva; bastiaan.quast@graduateinstitute.ch / bquast@gmail.com}}
->>>>>>> 91427af3faf7dc8e295ed9e8aac7a6c782238e34
 
 \begin{document}
-
 
 \maketitle
 
@@ -45,13 +31,7 @@ article
 examples
 
 \chapter{Police Reform Conkary}
-<<<<<<< HEAD
-\begin{papers}
-\import{conakry}
-\end{papers}
-=======
 \subfile{conakry.tex}
->>>>>>> 91427af3faf7dc8e295ed9e8aac7a6c782238e34
 
 \chapter{Bitcoin remitances}
 \subfile{bitcoin.tex}
@@ -63,6 +43,5 @@ black swans, dragon king
 \subfile{MorrisShin.tex}
 
 \chapter*{End notes}
-
 
 \end{document}
