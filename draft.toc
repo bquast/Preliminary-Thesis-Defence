@@ -4,16 +4,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}South Africa}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Surviving Andersonville}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}Replication of: ``Surviving Andersonville: The Benefits of Social Networks in POW Camps''}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{5}{chapter.3}
+\contentsline {section}{\numberline {2.1}Summary of the paper}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Police Reform Conkary}{7}{chapter.4}
+\contentsline {section}{\numberline {2.2}Data}{4}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Bitcoin remitances}{9}{chapter.5}
+\contentsline {section}{\numberline {2.3}Stata code and interpretation}{5}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Rare events}{11}{chapter.6}
+\contentsline {subsection}{\numberline {2.3.1}Tables}{5}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}{13}{chapter.7}
+\contentsline {subsection}{\numberline {2.3.2}Robustness check - Logit instead of Probit}{17}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{End notes}{15}{chapter*.3}
+\contentsline {section}{\numberline {2.4}Conclusion}{17}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}In-text estimation}{17}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Probit statement}{17}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comment on late capture}{21}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{OLS statement}{21}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Predicted probability of death}{21}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Table 3 with regiment fixed effects}{21}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Table 3 with splines}{23}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Weibull specification}{23}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Month dummies}{23}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cox Proportional Hazard Model}{23}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{On limiting the sample}{25}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{On the mortality of privates}{25}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{25}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Non-parametric estimation}{29}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{35}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Police Reform Conkary}{37}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Bitcoin remitances}{39}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Rare events}{41}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}{43}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{End notes}{45}{chapter*.16}
