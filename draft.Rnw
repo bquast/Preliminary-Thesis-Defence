@@ -1,20 +1,9 @@
-<<<<<<< HEAD
-\documentclass[a4paper,12pt]{scrreprt}
-\usepackage{subfiles}
-\usepackage{hyperref}
-
-\begin{document}
-
-\title{Preliminary Thesis Defence}
-\subtitle{\begin{tabular}{rl}
-=======
 \documentclass[a4paper,12pt]{report}
 \usepackage{combine}
 \usepackage{hyperref}
 
 \title{Preliminary Thesis Defence\\~\\
 \begin{tabular}{rl}
->>>>>>> 4f45c4c9f9440d7c0012f4b0268987aba3dc293a
 Supervisor:&Jean-Louis Arcand\\
 Second Reader:&Love Vanderwalle
 \end{tabular}}
@@ -40,7 +29,9 @@ a la duflo
 examples
 
 \chapter{Police Reform Conkary}
+\begin{papers}
 \import{conakry}
+\end{papers}
 
 \chapter{Bitcoin remitances}
 How I...
