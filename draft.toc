@@ -1,9 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{v}{chapter*.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}South Africa}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Surviving Andersonville}{3}{chapter.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{5}{chapter.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Police Reform Conkary}{7}{chapter.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Bitcoin remitances}{9}{chapter.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Rare events}{11}{chapter.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}{13}{chapter.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{End notes}{15}{chapter*.3}

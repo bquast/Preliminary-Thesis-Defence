@@ -1,6 +1,10 @@
 \documentclass[a4paper]{scrbook}
 \usepackage{subfiles}
-\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage[authordate,backend=biber]{biblatex-chicago}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
 
 \title{Preliminary Thesis Defence}
 \subtitle{
@@ -11,6 +15,37 @@ Second Reader:&Love Vanderwalle\footnote{Assistant Professor of Economics, The G
 }
 
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva; bastiaan.quast@graduateinstitute.ch / bquast@gmail.com}}
+
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]
+{\raggedright\footnotesize #1}}
+
+\addbibresource{bibliography.bib}
+
+\newbibmacro{string+doiurlisbn}[1]{%
+  \iffieldundef{doi}{%
+    \iffieldundef{url}{%
+      \iffieldundef{isbn}{%
+        \iffieldundef{issn}{%
+          #1%
+        }{%
+          \href{http://books.google.com/books?vid=ISSN\thefield{issn}}{#1}%
+        }%
+      }{%
+        \href{http://books.google.com/books?vid=ISBN\thefield{isbn}}{#1}%
+      }%
+    }{%
+      \href{\thefield{url}}{#1}%
+    }%
+  }{%
+    \href{http://dx.doi.org/\thefield{doi}}{#1}%
+  }%
+}
+
+\DeclareFieldFormat{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
+\DeclareFieldFormat[article,incollection]{title}%
+    {\usebibmacro{string+doiurlisbn}{\mkbibquote{#1}}} 
+
 
 \begin{document}
 
@@ -45,5 +80,7 @@ black swans, dragon king
 
 \backmatter
 \chapter{End notes}
+
+\printbibliography
 
 \end{document}
