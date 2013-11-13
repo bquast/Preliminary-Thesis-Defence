@@ -1,26 +1,28 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper]{scrbook}
 \usepackage{subfiles}
 \usepackage{hyperref}
 
 \title{Preliminary Thesis Defence}
-%\subtitle{
-%\begin{tabular}{rl}
-%Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; Director, Centre for Finance and Development; jean-louis.arcand@graduateinstitute.ch}\\
-%Second Reader:&Love Vanderwalle\footnote{Assistant Professor of Economics, The Graduate Institute, Geneva; lore.vandewalle@graduateinstitute.ch}
-%\end{tabular}
-%}
+\subtitle{
+\begin{tabular}{rl}
+Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; Director, Centre for Finance and Development; jean-louis.arcand@graduateinstitute.ch}\\
+Second Reader:&Love Vanderwalle\footnote{Assistant Professor of Economics, The Graduate Institute, Geneva; lore.vandewalle@graduateinstitute.ch}
+\end{tabular}
+}
 
 \author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva; bastiaan.quast@graduateinstitute.ch / bquast@gmail.com}}
 
 \begin{document}
 
+\frontmatter
 \maketitle
 
 \tableofcontents
 
-\chapter*{Introduction}
+\chapter{Introduction}
 jade
 
+\mainmatter
 \chapter{South Africa}
 a la duflo
 
@@ -31,10 +33,10 @@ article
 examples
 
 \chapter{Police Reform Conkary}
-%\subfile{conakry.tex}
+\subfile{conakry.tex}
 
 \chapter{Bitcoin remitances}
-%\subfile{bitcoin.tex}
+\subfile{bitcoin.tex}
 
 \chapter{Rare events}
 black swans, dragon king
@@ -42,6 +44,7 @@ black swans, dragon king
 \chapter{Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}
 \subfile{MorrisShin.tex}
 
-\chapter*{End notes}
+\backmatter
+\chapter{End notes}
 
 \end{document}
