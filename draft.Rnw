@@ -16,7 +16,6 @@ Second Reader:&Love Vanderwalle\footnote{Assistant Professor of Economics, The G
 
 \frontmatter
 \maketitle
-
 \tableofcontents
 
 \chapter{Introduction}
