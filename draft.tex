@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{report}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[a4paper]{report}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -48,17 +48,18 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
-\usepackage{combine}
+\usepackage{subfiles}
 \usepackage{hyperref}
 
-\title{Preliminary Thesis Defence\\~\\
-\begin{tabular}{rl}
-Supervisor:&Jean-Louis Arcand\\
-Second Reader:&Love Vanderwalle
-\end{tabular}
-}
+\title{Preliminary Thesis Defence}
+%\subtitle{
+%\begin{tabular}{rl}
+%Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; Director, Centre for Finance and Development; jean-louis.arcand@graduateinstitute.ch}\\
+%Second Reader:&Love Vanderwalle\footnote{Assistant Professor of Economics, The Graduate Institute, Geneva; lore.vandewalle@graduateinstitute.ch}
+%\end{tabular}
+%}
 
-\author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva. bquast@gmail.com}}
+\author{Bastiaan Quast\thanks{PhD Student, The Graduate Institute, Geneva; bastiaan.quast@graduateinstitute.ch / bquast@gmail.com}}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 
 \begin{document}
@@ -75,21 +76,24 @@ jade
 a la duflo
 
 \chapter{Surviving Andersonville}
-%\subfile{../Surviving-Andersonville/draft.tex}
+article
 
 \chapter{Single-Agent Belief Distritutions}
 examples
 
 \chapter{Police Reform Conkary}
-\import{conakry}
+\subfile{conakry.tex}
 
 \chapter{Bitcoin remitances}
-How I...
+\subfile{bitcoin.tex}
 
 \chapter{Rare events}
 black swans, dragon king
 
-\chapter{Singh}
-The difference between risk and uncertainty.
+\chapter{Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}
+\subfile{MorrisShin.tex}
+
+\chapter*{End notes}
+
 
 \end{document}
