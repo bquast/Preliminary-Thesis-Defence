@@ -54,6 +54,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Rare events}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}{41}{chapter.7}
+\contentsline {chapter}{\numberline {7}Morris Shin 1998}{41}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{End notes}{43}{chapter*.15}
