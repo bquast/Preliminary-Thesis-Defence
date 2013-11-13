@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \contentsline {chapter}{\numberline {1}South Africa}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Surviving Andersonville}{4}{chapter.2}
 \contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{5}{chapter.3}
@@ -6,13 +5,3 @@
 \contentsline {chapter}{\numberline {5}Bitcoin remitances}{2}{chapter.5}
 \contentsline {chapter}{\numberline {6}Rare events}{2}{chapter.6}
 \contentsline {chapter}{\numberline {7}Morris Shin 1998, Unique equilibrium in a model of self-fulfilling currency attacks}{3}{chapter.7}
-=======
-\contentsline {chapter}{Introduction}{3}{chapter*.2}
-\contentsline {chapter}{\numberline {1}South Africa}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Surviving Andersonville}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Police Reform Conkary}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}Bitcoin remitances}{8}{chapter.5}
-\contentsline {chapter}{\numberline {6}Rare events}{9}{chapter.6}
-\contentsline {chapter}{\numberline {7}Singh}{10}{chapter.7}
->>>>>>> 94871c1337a680fd543066ba997c77fda4b6c774
