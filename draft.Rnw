@@ -60,8 +60,7 @@ jade
 \chapter{South Africa}
 a la duflo
 
-\chapter{Surviving Andersonville}
-article
+\subfile{surviving.tex}
 
 \chapter{Single-Agent Belief Distritutions}
 examples

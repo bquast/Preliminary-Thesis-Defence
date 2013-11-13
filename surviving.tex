@@ -1,60 +1,11 @@
-\documentclass{article}
-\usepackage{mathtools}
-\usepackage{rotating}
-\usepackage{graphicx}
-\usepackage[authordate,backend=biber]{biblatex-chicago}
-\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
-% \makeatletter
-% \def\@seccntformat#1{\llap{\csname the#1\endcsname\quad}}
-% \makeatother
-\let\oldmarginpar\marginpar
-\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]
-{\raggedright\footnotesize #1}}
+\documentclass[draft.tex]{subfiles}
 
-\addbibresource{bibliography.bib}
 
-\newbibmacro{string+doiurlisbn}[1]{%
-  \iffieldundef{doi}{%
-    \iffieldundef{url}{%
-      \iffieldundef{isbn}{%
-        \iffieldundef{issn}{%
-          #1%
-        }{%
-          \href{http://books.google.com/books?vid=ISSN\thefield{issn}}{#1}%
-        }%
-      }{%
-        \href{http://books.google.com/books?vid=ISBN\thefield{isbn}}{#1}%
-      }%
-    }{%
-      \href{\thefield{url}}{#1}%
-    }%
-  }{%
-    \href{http://dx.doi.org/\thefield{doi}}{#1}%
-  }%
-}
-
-\DeclareFieldFormat{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
-\DeclareFieldFormat[article,incollection]{title}%
-    {\usebibmacro{string+doiurlisbn}{\mkbibquote{#1}}} 
-
-\title{Replication of\\~\\Surviving Andersonville: The Benefits of Social Networks in POW Camps}
-\author{Aksel Erbahar, Cecilia Heuser, Victor K\"ummritz, Bastiaan Quast}
+%\author{Aksel Erbahar, Cecilia Heuser, Victor K\"ummritz, Bastiaan Quast}
 
 \begin{document}
-\maketitle
-\vspace{\stretch{1}}
-\abstract{\noindent
-We replicate \textcite{costa2007surviving}.
 
-}
-
-\newpage
-
-\tableofcontents
-\newpage
-\listoftables
-\listoffigures
-\newpage
+\chapter{Replication of: ``Surviving Andersonville: The Benefits of Social Networks in POW Camps''}
 
 \section{Summary of the paper}
 \textcite{costa2007surviving} tries to estimate the effect of quality and size of social networks on ensuring the survival of prisoners of war (POW) in POW camps. To examine the relationship the authors combine two datasets, a longitudinal dataset of Union Army soldiers and a cross-sectional dataset of the POW camp in Andersonville. 
@@ -453,7 +404,7 @@ Furthermore, the interpretation of the results seems convincing to us. While the
 
 To come back to the differences between our replication and the original paper, we consider the most relevant issue the difference in significance levels. Interestingly, when looking into this matter in more detail we find that in almost all cases the p-values are at the margin which clearly points in the direction of a rounding error. We can only speculate that given the lack of exporting commands the reason for this is a certain degree of carelessness and, therefore, would like to emphasize the need of these very exporting commands. Nevertheless, and as mentioned before, the differences do not affect the general message of the paper.
 
-\appendix
+%\appendix
 
 \section{In-text estimation}
 Most in-text estimations are not included in the .do files provided, therefore some of the results to follow do not exactly reproduce the ones published, probably due to differences in specifications. They can nonetheless generally be replicated in terms of signs and significance.
