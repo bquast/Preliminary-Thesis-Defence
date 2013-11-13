@@ -20,7 +20,7 @@
 \renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]
 {\raggedright\footnotesize #1}}
 
-\addbibresource{bibliography.bib}
+\addglobalbib{bibliography.bib}
 
 \newbibmacro{string+doiurlisbn}[1]{%
   \iffieldundef{doi}{%
@@ -60,7 +60,10 @@ jade
 \chapter{South Africa}
 a la duflo
 
+\begin{refsection}
 \subfile{surviving.tex}
+\printbibliography
+\end{refsection}
 
 \chapter{Single-Agent Belief Distritutions}
 examples
@@ -74,7 +77,11 @@ examples
 \chapter{Rare events}
 black swans, dragon king
 
+\begin{refsection}
 \subfile{morrisShin.tex}
+\parencite{morris1998unique}
+\printbibliography
+\end{refsection}
 
 \backmatter
 \chapter{End notes}
