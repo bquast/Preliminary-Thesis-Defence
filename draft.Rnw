@@ -64,8 +64,8 @@ a la duflo
 \printbibliography
 \end{refsection}
 
-\chapter{Single-Agent Belief Distritutions}
-examples
+\chapter{Single-Agent Belief Distributions}
+\subfile{distributions.tex}
 
 \chapter{Police Reform Conkary}
 \subfile{conakry.tex}
@@ -84,7 +84,5 @@ black swans, dragon king
 
 \backmatter
 \chapter{End notes}
-
-\printbibliography
 
 \end{document}

@@ -46,14 +46,28 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {2.6}Non-parametric estimation}{25}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Single-Agent Belief Distritutions}{35}{chapter.3}
+\contentsline {chapter}{\numberline {3}Single-Agent Belief Distributions}{35}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Police Reform Conkary}{37}{chapter.4}
+\contentsline {section}{\numberline {3.1}Modelling probabilistic beliefs for single agents as distributions, incorporating changes and apparent incommensurability.}{35}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Bitcoin remitances}{39}{chapter.5}
+\contentsline {section}{\numberline {3.2}Abstract}{35}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Rare events}{41}{chapter.6}
+\contentsline {section}{\numberline {3.3}Introduction}{35}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}An example}{36}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}As a distribution}{37}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}An application}{38}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Now\ldots {}for something much more important}{38}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Police Reform Conkary}{39}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Bitcoin remitances}{41}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Rare events}{43}{chapter.6}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {7}Morris Shin 1998}{43}{chapter.7}
+\contentsline {chapter}{\numberline {7}Morris Shin 1998}{45}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{End notes}{47}{chapter*.17}
+\contentsline {chapter}{End notes}{49}{chapter*.17}
