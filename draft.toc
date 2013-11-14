@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}South Africa}{1}{chapter.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2}Replication of: ``Surviving Andersonville: The Benefits of Social Networks in POW Camps''}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}Replication of: ``Surviving Andersonville''}{3}{chapter.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {2.1}Summary of the paper}{3}{section.2.1}
 \defcounter {refsection}{1}\relax 
