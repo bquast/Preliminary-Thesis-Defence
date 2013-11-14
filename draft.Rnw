@@ -56,8 +56,8 @@ Second Reader:&Lore Vandewalle\footnote{Assistant Professor of Economics, The Gr
 jade
 
 \mainmatter
-\chapter{South Africa}
-a la duflo
+
+\subfile{south-africa.tex}
 
 \begin{refsection}
 \chapter{Replication of: ``Surviving Andersonville''}
@@ -67,11 +67,7 @@ a la duflo
 
 \chapter{Single-Agent Belief Distributions}
 
-\section{Modelling probabilistic beliefs for single agents as
-distributions, incorporating changes and apparent incommensurability.}
-
-\section{Abstract}
-
+\section*{Abstract}
 By constructing a distribution of the belief structure of a single
 agent, we can mitigate seemingly incommensurable beliefs. This paper
 proposes to generalise the concept of a single agents beliefs, from a
@@ -295,17 +291,8 @@ how the lottery profit from this.
 \href{http://www.youtube.com/watch?v=FVwtTrlPSSk}{A video of a penguin
 being tickled}
 
-
-\chapter{Police Reform Conkary}
-\subfile{conakry.tex}
-
-\chapter{Bitcoin remitances}
-\subfile{bitcoin.tex}
-
-\chapter{Rare events}
-black swans, dragon king
-
 \begin{refsection}
+\chapter{Morris Shin Currency Attacks}
 \subfile{morrisShin.tex}
 \parencite{morris1998unique}
 \printbibliography
