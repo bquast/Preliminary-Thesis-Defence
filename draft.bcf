@@ -331,15 +331,6 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
-  </bcf:section>
-  <!-- section 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- section 4 -->
-  <bcf:bibdata section="4">
-    <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="4">
     <bcf:citekey>morris1998unique</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
