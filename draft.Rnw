@@ -57,10 +57,126 @@ jade
 
 \mainmatter
 
-\subfile{south-africa.tex}
+\chapter{Additional South African Evidence on Pensions and Child Growth}
+
+\section*{Abstract}
+
+In this paper I look at the effect of the gender of pension recipients
+on the growth of children in the same households.
+
+I do this by comparing z-scores of anthropometrics of South African
+children living in the same household as state pension recipients. This
+paper exploits the fact that the data set consists of two surveys which
+were done before and after the lowering of the pension eligibility age
+for men to the same age as women.
+
+The main preliminary finding is that the household effect was only
+significant in 2012.
+
+\section{Introduction}
+
+This paper looks at the effect of the gender of pension recipients on
+the growth of children in their household in South Africa. The approach
+is very similar to Duflo
+(\href{http://www.jstor.org/discover/10.2307/117257}{2000},\href{http://wber.oxfordjournals.org/content/17/1/1}{2003}).
+The deviation from international standards
+\href{http://www.who.int/childgrowth/en/}{Child Growth Standards} for
+weight-for-height and length-for-age are computed as z-scores. These are
+then compared for different pension recipient status.
+
+The anthropometrics are useful for computing z-scores. These z-scores
+are considered a good representation of short-term or long-term
+malnutrition respectively, especially for children between 6 and 60
+months old.
+
+The South African pension is a useful variable to measure income because
+of its criteria. Besides a maximum level of income, the only criterium
+is the age of a person. Because of this the status as a recipient is
+quite exogenous and there are few selection bias problems. The
+problematic difference between the eligibility age of men and women was
+eliminated between the two surveys which creates an interesting natural
+experiment.
+
+Duflo finds evidence in South Africa's 1993
+\href{http://microdata.worldbank.org/index.php/catalog/297}{Integrated
+Household Survey} that girls' short term nutrition (weight-for-height)
+was positively influence by living with the maternal grandmother if the
+grandmother was eligible for a state pension. This is directly after the
+significant increase in the pension sum for blacks. The
+pension-eligibility age at this time was 60 for women and 65 for men.
+
+This study deviates from the Duflo study in several ways. In 2008 and
+2012 the first and second wave of the
+\href{http://www.nids.uct.ac.za/home/}{National Income Dynamics Study}
+have gathered similar data. In the period 2008-2010, the government
+lowered the eligibility age for men from 65 to 60
+(\href{http://www.southafrica.info/services/government/pension-160708.htm}{Announcement}).
+
+This happened in a few steps. As of July 16th 2008 men aged 63 and 64
+were eligible for a pension. Men aged 61 and 62 became eligible in April
+2009. Finally in January 2010, pension eligibility age was at 60 for all
+citizens.
+
+Another deviation is the usage of
+\href{http://www.who.int/childgrowth/en/}{Child Growth Standards} in
+stead of CDC's, since these have superseded the CDC charts, however this
+should not be of any consequence.
+
+The main preliminary result is that the household effect (i.e.~having
+one or more recipients in the household) is very insignificant in the
+2008 estimate. But in the 2012 estimate it is very significant.
+
+\section{Data}
+
+In this paper I use data from two sources. The first is the South
+African National Income Dynamics Survey and the second is the World
+Health Organization's Child Growth Standards
+\href{http://www.who.int/childgrowth/en/}{Child Growth Standards}.
+
+The main source of data is the NIDS. This survey collects data on a
+representative set of appproximately 10,000 South African households.
+The primary information types I use are, the child anthropometrics, the
+age and gender of household members, and the status as state pension
+recipients.
+
+For adults several variables measure the different amounts and sources
+of income. Among those, a variable if the adult receives a state
+pension, and if so, how much. This is a numeric variable, the values of
+which lie very close together. For simplicity I have temporarily used
+this variable as a dummy.
+
+Children's anthropometrics are taken, these are length/height, weight,
+and waist. Using these anthropometics and WHO growth standards, z-scores
+have been calculated. Unfortunately wave 2 (2012) accidentally omitted
+the z-scores, so that these cannot be evaluated until an updated version
+is published. However, I have computed the length-for-age z-scores
+manually.
+
+In 2006 the WHO published its standards for child growth
+\href{http://www.who.int/childgrowth/en/}{Child Growth Standards}. These
+standards are based on the scores of children from different ethnic
+populations in households which observed a healthy lifestyle. The
+standards provide the means and standards deviations used. These are on
+a monthly basis for height-for-age, and on a semi-centimeter level for
+weight-for-height scores.
+
+\texttt{\{r, include=FALSE\} load("w1w2.RData") library(sem) library(ggplot2)}
+
+\texttt{\{r\} p1 \textless{}- ggplot(subset(w1\_child,w1\_woman\_60 == 1), aes(w1\_c\_age\_m, w1\_zhfa, colour=factor(w1\_c\_woman))) p1 + stat\_smooth(method="loess")\# + geom\_point()}
+
+\section{Results}
+
+Basic HAZ (2008). \texttt{\{r\} summary(w1\_haz0)}
+
+HAZ 2008, with 2012 eligiblity as an IV
+\texttt{\{r\} summary(tsls\_w1w2\_haz0)}
+
+HAZ 2008, with 2012 eligiblity as an IV (men over 65 only)
+\texttt{\{r\} summary(tsls\_w1w2\_haz1)}
+
 
 \begin{refsection}
-\chapter{Replication of: ``Surviving Andersonville''}
+\chapter{Replication of: Surviving Andersonville}
 \subfile{surviving.tex}
 \printbibliography
 \end{refsection}
