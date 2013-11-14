@@ -10,60 +10,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Results}{3}{section.1.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2}Replication of: Surviving Andersonville}{5}{chapter.2}
+\contentsline {chapter}{\numberline {2}Replication of: Surviving Andersonville}{7}{chapter.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.1}Summary of the paper}{5}{section.2.1}
+\contentsline {section}{\numberline {2.1}Summary of the paper}{7}{section.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Data}{6}{section.2.2}
+\contentsline {section}{\numberline {2.2}Data}{8}{section.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.3}Stata code and interpretation}{7}{section.2.3}
+\contentsline {section}{\numberline {2.3}Stata code and interpretation}{9}{section.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Tables}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Tables}{9}{subsection.2.3.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Robustness check - Logit instead of Probit}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Robustness check - Logit instead of Probit}{17}{subsection.2.3.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.4}Conclusion}{22}{section.2.4}
+\contentsline {section}{\numberline {2.4}Conclusion}{24}{section.2.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.5}In-text estimation}{22}{section.2.5}
+\contentsline {section}{\numberline {2.5}In-text estimation}{24}{section.2.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Probit statement}{22}{section*.4}
+\contentsline {paragraph}{Probit statement}{24}{section*.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Comment on late capture}{22}{section*.5}
+\contentsline {paragraph}{Comment on late capture}{24}{section*.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{OLS statement}{23}{section*.6}
+\contentsline {paragraph}{OLS statement}{25}{section*.6}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Predicted probability of death}{23}{section*.7}
+\contentsline {paragraph}{Predicted probability of death}{25}{section*.7}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Table 3 with regiment fixed effects}{25}{section*.8}
+\contentsline {paragraph}{Table 3 with regiment fixed effects}{27}{section*.8}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Table 3 with splines}{25}{section*.9}
+\contentsline {paragraph}{Table 3 with splines}{27}{section*.9}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Weibull specification}{25}{section*.10}
+\contentsline {paragraph}{Weibull specification}{27}{section*.10}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Month dummies}{25}{section*.11}
+\contentsline {paragraph}{Month dummies}{27}{section*.11}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Cox Proportional Hazard Model}{27}{section*.12}
+\contentsline {paragraph}{Cox Proportional Hazard Model}{29}{section*.12}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{On limiting the sample}{27}{section*.13}
+\contentsline {paragraph}{On limiting the sample}{29}{section*.13}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{On the mortality of privates}{27}{section*.14}
+\contentsline {paragraph}{On the mortality of privates}{29}{section*.14}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{27}{section*.15}
+\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{29}{section*.15}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.6}Non-parametric estimation}{27}{section.2.6}
+\contentsline {section}{\numberline {2.6}Non-parametric estimation}{29}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Single-Agent Belief Distributions}{37}{chapter.3}
+\contentsline {chapter}{\numberline {3}Single-Agent Belief Distributions}{39}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}
+\contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}An example}{38}{section.3.2}
+\contentsline {section}{\numberline {3.2}An example}{40}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}As a distribution}{39}{section.3.3}
+\contentsline {section}{\numberline {3.3}As a distribution}{41}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}An application}{40}{section.3.4}
+\contentsline {section}{\numberline {3.4}An application}{42}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Now\ldots {}for something much more important}{40}{section.3.5}
+\contentsline {section}{\numberline {3.5}Now\ldots {}for something much more important}{42}{section.3.5}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{41}{chapter.4}
+\contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{43}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{End notes}{45}{chapter*.19}
+\contentsline {chapter}{End notes}{47}{chapter*.19}

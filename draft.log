@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  14 NOV 2013 11:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  14 NOV 2013 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,42 +701,38 @@ Chapter 1.
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 218
-.
- (/usr/share/R/share/texmf/tex/latex/omscmtt.fd
-File: omscmtt.fd 
-)
-LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
+Package color Info: Redefining color shadecolor on input line 222.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 224.
 
-Overfull \hbox (21.24706pt too wide) in paragraph at lines 218--219
-[]\OMS/cmsy/m/n/10 f\OT1/cmtt/m/n/10 r, include=FALSE\OMS/cmsy/m/n/10 g \OT1/cm
-tt/m/n/10 load("w1w2.RData") library(sem) library(ggplot2) 
- []
-
-LaTeX Font Info:    Try loading font information for OML+cmtt on input line 220
-.
-LaTeX Font Info:    No file OMLcmtt.fd. on input line 220.
-
-LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 220.
-
-
-Overfull \hbox (14.9549pt too wide) in paragraph at lines 220--221
-[]\OMS/cmsy/m/n/10 f\OT1/cmtt/m/n/10 r\OMS/cmsy/m/n/10 g \OT1/cmtt/m/n/10 p1 \O
-ML/cmm/m/it/10 <\OT1/cmtt/m/n/10 - ggplot(subset(w1[]child,w1[]woman[]60 == 1),
- aes(w1[]c[]age[]m,
+Overfull \hbox (195.74529pt too wide) in paragraph at lines 224--224
+[]\OT1/cmtt/m/n/10 p1 <- []ggplot[]([]subset[](w1_child, w1_woman_60 == 1), []a
+es[](w1_c_age_m, w1_zhfa, colour = []factor[](w1_c_woman)))[] 
  []
 
 
-Overfull \hbox (16.61679pt too wide) in paragraph at lines 220--221
-\OT1/cmtt/m/n/10 w1[]zhfa, colour=factor(w1[]c[]woman))) p1 + stat[]smooth(meth
-od="loess")#
+Overfull \hbox (21.0268pt too wide) in paragraph at lines 229--230
+[]\OT1/cmtt/m/n/10 ## Warning: Removed 324 rows containing missing values (stat
+[]smooth).[] 
  []
 
 
-Underfull \vbox (badness 1360) has occurred while \output is active []
+Overfull \hbox (21.0268pt too wide) in paragraph at lines 231--232
+[]\OT1/cmtt/m/n/10 ## Warning: Removed 263 rows containing missing values (stat
+[]smooth).[] 
+ []
+
+
+Overfull \hbox (15.77684pt too wide) in paragraph at lines 233--234
+[]\OT1/cmtt/m/n/10 ## Warning: Removed 51 rows containing missing values (stat[
+]smooth).[] 
+ []
+
+
+Overfull \hbox (15.77684pt too wide) in paragraph at lines 235--235
+[]\OT1/cmtt/m/n/10 ## Warning: Removed 638 rows containing missing values (geom
+[]point).[] 
+ []
 
 
 Overfull \hbox (116.07993pt too wide) has occurred while \output is active
@@ -744,31 +740,79 @@ Overfull \hbox (116.07993pt too wide) has occurred while \output is active
 E ON PENSIONS AND CHILD GROWTH
  []
 
-[2]
-Overfull \hbox (59.72382pt too wide) in paragraph at lines 229--231
-[]\OT1/cmr/m/n/10 HAZ 2008, with 2012 el-i-gi-b-lity as an IV (men over 65 only
-) \OMS/cmsy/m/n/10 f\OT1/cmtt/m/n/10 r\OMS/cmsy/m/n/10 g \OT1/cmtt/m/n/10 summa
-ry(tsls[]w1w2[]haz1) 
+[2] <figure/r-p1.pdf, id=171, 505.89pt x 505.89pt>
+File: figure/r-p1.pdf Graphic file (type pdf)
+ <use figure/r-p1.pdf>
+Package pdftex.def Info: figure/r-p1.pdf used on input line 236.
+(pdftex.def)             Requested size: 345.0pt x 345.00414pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 236--237
+[][] 
  []
 
-Package biblatex Info: Reference section=1 on input line 233.
-Package biblatex Info: Setting label 'refsection:1' on input line 233.
-[3]
+Package color Info: Redefining color shadecolor on input line 246.
+
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 253--253
+[]\OT1/cmtt/m/n/10 ## lm(formula = w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tinc 
++ w1_best_edu +[] 
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 270
+.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [3 <./figure/r-p1.pdf>]
+Package color Info: Redefining color shadecolor on input line 283.
+
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 291--291
+[]\OT1/cmtt/m/n/10 ## Model Formula: w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tin
+c + w1_best_edu + w1_best_age_yrs[] 
+ []
+
+
+Overfull \hbox (85.49625pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/10 ## Instruments: ~w2_spen_w + w2_spen_m + w1_h_tinc + w1_best
+_edu + w1_best_age_yrs[] 
+ []
+
+Package color Info: Redefining color shadecolor on input line 317.
+
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 325--325
+[]\OT1/cmtt/m/n/10 ## Model Formula: w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tin
+c + w1_best_edu + w1_best_age_yrs[] 
+ []
+
+
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 327--327
+[]\OT1/cmtt/m/n/10 ## Instruments: ~w2_spen_w + w2_spen_m_65 + w1_h_tinc + w1_b
+est_edu + w1_best_age_yrs[] 
+ []
+
+
 Overfull \hbox (116.07993pt too wide) has occurred while \output is active
 \OT1/cmr/m/n/10 4 \OT1/cmr/m/sl/10 CHAPTER 1.  ADDITIONAL SOUTH AFRICAN EVIDENC
 E ON PENSIONS AND CHILD GROWTH
  []
 
-[4
+[4]
+Package biblatex Info: Reference section=1 on input line 349.
+Package biblatex Info: Setting label 'refsection:1' on input line 349.
+ [5]
+Overfull \hbox (116.07993pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 6 \OT1/cmr/m/sl/10 CHAPTER 1.  ADDITIONAL SOUTH AFRICAN EVIDENC
+E ON PENSIONS AND CHILD GROWTH
+ []
+
+[6
 
 ]
 Chapter 2.
-(./surviving.tex [5] [6]
+(./surviving.tex [7] [8]
 Overfull \hbox (86.58423pt too wide) in paragraph at lines 50--77
  [][] 
  []
 
-[7] [8]
+[9] [10]
 Overfull \hbox (15.39026pt too wide) in paragraph at lines 91--116
 [][] 
  []
@@ -784,11 +828,11 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[9] [10] [11] [12]
+[11] [12] [13] [14]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [13] [14]
+ [15] [16]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ∑ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
@@ -799,15 +843,15 @@ Missing character: There is no ∑ in font cmr10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-[16] [17] [18] [19] [20] [21] [22]
-<exponential.png, id=321, 404.26031pt x 295.85532pt>
+ [17]
+[18] [19] [20] [21] [22] [23] [24]
+<exponential.png, id=340, 404.26031pt x 295.85532pt>
 File: exponential.png Graphic file (type png)
  <use exponential.png>
 Package pdftex.def Info: exponential.png used on input line 504.
 (pdftex.def)             Requested size: 262.76608pt x 192.30367pt.
 
-[23 <./exponential.png (PNG copy)>] [24] [25] [26]
+[25 <./exponential.png (PNG copy)>] [26] [27] [28]
 Overfull \hbox (34.36234pt too wide) in paragraph at lines 668--684
 [][][][][][] [] 
  []
@@ -815,36 +859,36 @@ Overfull \hbox (34.36234pt too wide) in paragraph at lines 668--684
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-<kaplan1.png, id=358, 747.79375pt x 541.02126pt>
+<kaplan1.png, id=377, 747.79375pt x 541.02126pt>
 File: kaplan1.png Graphic file (type png)
  <use kaplan1.png>
 Package pdftex.def Info: kaplan1.png used on input line 695.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan2.png, id=360, 747.79375pt x 541.02126pt>
+<kaplan2.png, id=379, 747.79375pt x 541.02126pt>
 File: kaplan2.png Graphic file (type png)
  <use kaplan2.png>
 Package pdftex.def Info: kaplan2.png used on input line 702.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan3.png, id=361, 747.79375pt x 541.02126pt>
+<kaplan3.png, id=380, 747.79375pt x 541.02126pt>
 File: kaplan3.png Graphic file (type png)
  <use kaplan3.png>
 Package pdftex.def Info: kaplan3.png used on input line 709.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan4.png, id=362, 747.79375pt x 541.02126pt>
+<kaplan4.png, id=381, 747.79375pt x 541.02126pt>
 File: kaplan4.png Graphic file (type png)
  <use kaplan4.png>
 Package pdftex.def Info: kaplan4.png used on input line 716.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
-) [27]
-[28] [29] [30] [31 <./kaplan1.png> <./kaplan2.png> <./kaplan3.png>] [32 <./kapl
-an4.png>] [33] [34
+) [29]
+[30] [31] [32] [33 <./kaplan1.png> <./kaplan2.png> <./kaplan3.png>] [34 <./kapl
+an4.png>] [35] [36
 
 ]
-Package biblatex Info: Reference section=0 on input line 237.
- [35] [36
+Package biblatex Info: Reference section=0 on input line 353.
+ [37] [38
 
 ]
 Chapter 3.
@@ -862,88 +906,85 @@ Missing character: There is no † in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no † in font cmr10!
-[37]
+[39]
 Missing character: There is no ¬ in font cmti10!
 Missing character: There is no ¨ in font cmti10!
-Package color Info: Redefining color shadecolor on input line 299.
-Package color Info: Redefining color shadecolor on input line 350.
- [38]
-Package color Info: Redefining color shadecolor on input line 398.
-Package color Info: Redefining color shadecolor on input line 411.
-Package color Info: Redefining color shadecolor on input line 437.
-Package color Info: Redefining color shadecolor on input line 450.
- [39]
-Package color Info: Redefining color shadecolor on input line 474.
-Package color Info: Redefining color shadecolor on input line 491.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 511.
+Package color Info: Redefining color shadecolor on input line 415.
+Package color Info: Redefining color shadecolor on input line 466.
+ [40]
+Package color Info: Redefining color shadecolor on input line 514.
+Package color Info: Redefining color shadecolor on input line 527.
+Package color Info: Redefining color shadecolor on input line 553.
+Package color Info: Redefining color shadecolor on input line 566.
+ [41]
+Package color Info: Redefining color shadecolor on input line 590.
+Package color Info: Redefining color shadecolor on input line 607.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 627.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 511.
-Package biblatex Info: Reference section=2 on input line 529.
-Package biblatex Info: Setting label 'refsection:2' on input line 529.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 627.
+Package biblatex Info: Reference section=2 on input line 645.
+Package biblatex Info: Setting label 'refsection:2' on input line 645.
 
-[40]
+[42]
 Chapter 4.
-(./morrisShin.tex) [41
+(./morrisShin.tex) [43
 
-] [42
-
-]
-Package biblatex Info: Reference section=0 on input line 534.
- [43] [44
+] [44
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 539.
- [45
+Package biblatex Info: Reference section=0 on input line 650.
+ [45] [46
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 655.
+ [47
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 655.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 539.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 539.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 655.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 655.
 Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: 4ACFC54F010E388AA0C898FD0196151E;1429.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package logreq Info: Writing requests to 'draft.run.xml'.
 \openout1 = `draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  12612 strings out of 495059
- 202998 string characters out of 3182030
+ 203245 string characters out of 3182030
  493507 words of memory out of 3000000
- 15486 multiletter control sequences out of 15000+200000
- 12941 words of font info for 46 fonts, out of 3000000 for 9000
+ 15483 multiletter control sequences out of 15000+200000
+ 13238 words of font info for 47 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  35i,15n,59p,2077b,1282s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
 ist, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (51 pages, 388624 bytes).
+ </home/bquast/.texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1000.600pk></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on draft.pdf (53 pages, 501661 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 150 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

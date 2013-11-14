@@ -160,20 +160,34 @@ standards provide the means and standards deviations used. These are on
 a monthly basis for height-for-age, and on a semi-centimeter level for
 weight-for-height scores.
 
-\texttt{\{r, include=FALSE\} load("w1w2.RData") library(sem) library(ggplot2)}
+<<load, include=FALSE>>=
+load("w1w2.RData")
+library(sem)
+library(ggplot2)
+@
 
-\texttt{\{r\} p1 \textless{}- ggplot(subset(w1\_child,w1\_woman\_60 == 1), aes(w1\_c\_age\_m, w1\_zhfa, colour=factor(w1\_c\_woman))) p1 + stat\_smooth(method="loess")\# + geom\_point()}
+<<r-p1, eval=TRUE>>=
+p1 <- ggplot(subset(w1_child,w1_woman_60 == 1), aes(w1_c_age_m, w1_zhfa, colour=factor(w1_c_woman)))
+p1 + stat_smooth(method="loess") + geom_point()
+@
 
 \section{Results}
 
-Basic HAZ (2008). \texttt{\{r\} summary(w1\_haz0)}
+Basic HAZ (2008)
+
+<<sum-w1, eval=TRUE>>=
+summary(w1_haz0)
+@
 
 HAZ 2008, with 2012 eligiblity as an IV
-\texttt{\{r\} summary(tsls\_w1w2\_haz0)}
+<<sum-iv, eval=TRUE>>=
+summary(tsls_w1w2_haz0)
+@
 
 HAZ 2008, with 2012 eligiblity as an IV (men over 65 only)
-\texttt{\{r\} summary(tsls\_w1w2\_haz1)}
-
+<<sum-iv-men65, eval=TRUE>>=
+summary(tsls_w1w2_haz1)
+@
 
 \begin{refsection}
 \chapter{Replication of: Surviving Andersonville}
