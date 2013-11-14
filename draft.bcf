@@ -300,6 +300,16 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
+    <bcf:citekey>duflo2000</bcf:citekey>
+    <bcf:citekey>duflo2003</bcf:citekey>
+    <bcf:citekey>who2006child</bcf:citekey>
+    <bcf:citekey>saldru2008nids</bcf:citekey>
+    <bcf:citekey>saldru2012nids</bcf:citekey>
+    <bcf:citekey>who2006child</bcf:citekey>
+    <bcf:citekey>saldru2008nids</bcf:citekey>
+    <bcf:citekey>saldru2012nids</bcf:citekey>
+    <bcf:citekey>who2006child</bcf:citekey>
+    <bcf:citekey>who2006child</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
   <bcf:section number="0">

@@ -18,21 +18,129 @@
 \endgroup
 
 
+\refsection{1}
+  \entry{duflo2000}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2000}
+    \field{journaltitle}{The American Economic Review}
+    \field{number}{2}
+    \field{title}{Child health and household resources in South Africa: Evidence from the Old Age Pension program}
+    \field{volume}{90}
+    \field{year}{2000}
+    \field{pages}{393\bibrangedash 398}
+    \verb{url}
+    \verb http://www.jstor.org/discover/10.2307/117257
+    \endverb
+  \endentry
+
+  \entry{duflo2003}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2003}
+    \field{journaltitle}{The World Bank Economic Review}
+    \field{number}{1}
+    \field{title}{Grandmothers and Granddaughters: Old-Age Pensions and Intrahousehold Allocation in South Africa}
+    \field{volume}{17}
+    \field{year}{2003}
+    \field{pages}{1\bibrangedash 25}
+    \verb{doi}
+    \verb 10.1093/wber/lhg013
+    \endverb
+  \endentry
+
+  \entry{who2006child}{article}{}
+    \true{morelabelname}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=c6c0f3f973ea5aefb8f1d9622387f647}{Onis}{O\bibinitperiod}{Mercedes}{M\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=c6c0f3f973ea5aefb8f1d9622387f647}{Onis}{O\bibinitperiod}{Mercedes}{M\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {World Health Organization}%
+    }
+    \strng{namehash}{216a7d4e8626ee6c8c57e2b25144f4e7}
+    \strng{fullhash}{216a7d4e8626ee6c8c57e2b25144f4e7}
+    \field{sortinit}{O}
+    \field{labelyear}{2006}
+    \field{title}{WHO Child Growth Standards: Length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age: Methods and development}
+    \field{year}{2006}
+    \verb{url}
+    \verb http://www.who.int/childgrowth
+    \endverb
+  \endentry
+
+  \entry{saldru2008nids}{misc}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \strng{namehash}{c4056dd2906700580e7f2bd7bd04ff03}
+    \strng{fullhash}{c4056dd2906700580e7f2bd7bd04ff03}
+    \field{sortinit}{S}
+    \field{labelyear}{2008}
+    \field{title}{{National Income Dynamics Study, Wave 1}}
+    \field{version}{4.1}
+    \field{year}{2008}
+    \verb{url}
+    \verb http://www.nids.uct.ac.za/home/
+    \endverb
+  \endentry
+
+  \entry{saldru2012nids}{misc}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \strng{namehash}{c4056dd2906700580e7f2bd7bd04ff03}
+    \strng{fullhash}{c4056dd2906700580e7f2bd7bd04ff03}
+    \field{sortinit}{S}
+    \field{labelyear}{2012}
+    \field{title}{{National Income Dynamics Study, Wave 2}}
+    \field{version}{1}
+    \field{year}{2012}
+    \verb{url}
+    \verb http://www.nids.uct.ac.za/home/
+    \endverb
+  \endentry
+
+\endrefsection
+
 \refsection{2}
   \entry{costa2007surviving}{article}{}
     \name{labelname}{2}{}{%
-      {{uniquename=0,hash=6cfdc7e9e3c9efc9d53a32aed35baa7d}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=12503a45597e610dd5a138a2fb56ed7c}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       {{uniquename=0,hash=810bd2c359dcd66ebe51180e096a598b}{Kahn}{K\bibinitperiod}{Matthew\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
     }
     \name{author}{2}{}{%
-      {{uniquename=0,hash=6cfdc7e9e3c9efc9d53a32aed35baa7d}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=12503a45597e610dd5a138a2fb56ed7c}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       {{uniquename=0,hash=810bd2c359dcd66ebe51180e096a598b}{Kahn}{K\bibinitperiod}{Matthew\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
     }
     \list{publisher}{1}{%
       {JSTOR}%
     }
-    \strng{namehash}{4921deafbe0689657a3c5f451aef7dd1}
-    \strng{fullhash}{4921deafbe0689657a3c5f451aef7dd1}
+    \strng{namehash}{e14e0ca4cb9b9bc17980725c51f7ab6f}
+    \strng{fullhash}{e14e0ca4cb9b9bc17980725c51f7ab6f}
     \field{sortinit}{C}
     \field{labelyear}{2007}
     \field{journaltitle}{The American Economic Review}
@@ -66,6 +174,9 @@
     \field{title}{Unique equilibrium in a model of self-fulfilling currency attacks}
     \field{year}{1998}
     \field{pages}{587\bibrangedash 597}
+    \verb{url}
+    \verb http://www.jstor.org/stable/116850
+    \endverb
   \endentry
 
 \endrefsection
