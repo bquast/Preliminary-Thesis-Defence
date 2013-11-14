@@ -63,6 +63,30 @@
     \endverb
   \endentry
 
+  \entry{nchs2000cdc}{article}{}
+    \true{morelabelname}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=b59416ef101f9f11054cf3874c32b9f7}{Kuczmarski}{K\bibinitperiod}{RJ}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=b59416ef101f9f11054cf3874c32b9f7}{Kuczmarski}{K\bibinitperiod}{RJ}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{82cb2e9baa42a7616597debe12192948}
+    \strng{fullhash}{82cb2e9baa42a7616597debe12192948}
+    \field{sortinit}{K}
+    \field{labelyear}{2000}
+    \field{journaltitle}{Advanced data from vital and health statistics}
+    \field{number}{314}
+    \field{title}{CDC growth Charts: United States}
+    \field{volume}{17}
+    \field{year}{2000}
+    \field{pages}{1\bibrangedash 28}
+    \verb{url}
+    \verb http://www.cdc.gov/growthcharts/reports.htm
+    \endverb
+  \endentry
+
   \entry{who2006child}{article}{}
     \true{morelabelname}
     \name{labelname}{1}{}{%
