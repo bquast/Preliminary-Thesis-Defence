@@ -56,6 +56,7 @@ jade
 
 \mainmatter
 
+\begin{refsection}
 \chapter{Additional South African Evidence on Pensions and Child Growth}
 
 \section*{Abstract}
@@ -69,11 +70,11 @@ The main preliminary finding is that the household effect was only significant i
 \section{Introduction}
 
 This paper looks at the effect of the gender of pension recipients on the growth of children in their household in South Africa. The approach
-is very similar to Duflo (\href{http://www.jstor.org/discover/10.2307/117257}{2000},\href{http://wber.oxfordjournals.org/content/17/1/1}{2003}). The deviation from international standards \href{http://www.who.int/childgrowth/en/}{Child Growth Standards} for weight-for-height and length-for-age are computed as z-scores. These are then compared for different pension recipient status.
+is very similar to Duflo (\href{http://www.jstor.org/discover/10.2307/117257}{2000},\href{http://wber.oxfordjournals.org/content/17/1/1}{2003}). The deviation from international standards \href{http://www.who.int/childgrowth/en/}{Child Growth Standards} for weight-for-height and length-for-age are computed as z-scores. These are then compared for different pension recipient status and gender.
 
 The anthropometrics are useful for computing z-scores. These z-scores are considered a good representation of short-term or long-term malnutrition respectively, especially for children between 6 and 60 months old.
 
-The South African pension is a useful variable to measure income because of its criteria. Besides a maximum level of income, the only criterium is the age of a person. Because of this the status as a recipient is quite exogenous and there are few selection bias problems. The problematic difference between the eligibility age of men and women was eliminated between the two surveys which creates an interesting natural experiment.
+The South African pension is a interesting variable to measure income because of its criteria. Besides a maximum level of income, the only criterium is the age of a person. Because of this the status as a recipient is quite exogenous and there are few selection bias issues. The problematic difference between the eligibility age of men and women was eliminated between the two surveys which creates an interesting natural experiment.
 
 Duflo finds evidence in South Africa's 1993 \href{http://microdata.worldbank.org/index.php/catalog/297}{Integrated Household Survey} that girls' short term nutrition (weight-for-height) was positively influence by living with the maternal grandmother if the grandmother was eligible for a state pension. This is directly after the significant increase in the pension sum for blacks. The pension-eligibility age at this time was 60 for women and 65 for men.
 
@@ -125,6 +126,10 @@ HAZ 2008, with 2012 eligiblity as an IV (men over 65 only)
 <<sum-iv-men65, eval=TRUE>>=
 summary(tsls_w1w2_haz1)
 @
+
+\printbibliography
+
+\end{refsection}
 
 \begin{refsection}
 
@@ -781,7 +786,7 @@ Observations            & 15998       &           \\
 \end{table}
 
 \paragraph{On limiting the sample}
-page 1480, line 17. ``When we restricted the sample to exclude deaths after September 1864 and captures prior to October 1864 because only the dying may have been left at Andersonville once men were transferred out, our results remained unchanged. The derivative of the coefficient on the number of men in the company was 0.003 (sdev=0.001) and the derivative of the coefficient on the number of men in the regiment with the same last name was 0.035 (sdev=0.007).
+page 1480, line 17. ``When we restricted the sample to exclude deaths after September 1864 and captures prior to October 1864 because only the dying may have been left at Andersonville once men were transferred out, our results remained unchanged. The derivative of the coefficient on the number of men in the company was 0.003 (sdev=0.001) and the derivative of the coefficient on the number of men in the regiment with the same last name was 0.035 (sdev=0.007).''
 
 \paragraph{On the mortality of privates}
 page 1480, line 54. ``The fraction of sergeants or higher rank is not a reflection of own officer mortality. When we restricted the sample to privates, we found that the derivative of this coefficient was 0.115 (sdev=0.054).''
@@ -846,6 +851,8 @@ The following figures are our replications of the Kaplan-Meier survival estimate
 \printbibliography
 
 \end{refsection}
+
+\begin{refsection}
 
 \chapter{Single-Agent Belief Distributions}
 
@@ -1002,12 +1009,20 @@ p\_1 = 0.02 1 - p\_2 = 0.95 =\textgreater{} p\_2 = 0.05
 
 Estimation of a 95\% confidence interval for a belief on probability, how the lottery profit from this.
 
+\printbibliography
+
+\end{refsection}
 
 \begin{refsection}
+
 \chapter{Morris Shin Currency Attacks}
+
 blafslkfjas;lfkjasfd
+
 \parencite{morris1998unique}
+
 \printbibliography
+
 \end{refsection}
 
 \backmatter
