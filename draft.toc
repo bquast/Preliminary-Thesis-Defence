@@ -61,8 +61,6 @@
 \contentsline {section}{\numberline {3.3}As a distribution}{41}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}An application}{42}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Now\ldots {}for something much more important}{42}{section.3.5}
 \defcounter {refsection}{2}\relax 
 \contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{43}{chapter.4}
 \defcounter {refsection}{0}\relax 
