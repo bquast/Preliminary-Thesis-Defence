@@ -1,59 +1,59 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
+\defcounter {refsection}{1}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2}Pensions and Child Growth in South Africa}{4}{chapter.2}
-\defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}
-\defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Data}{5}{section.2.2}
-\defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.3}Results}{6}{section.2.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {3}Replication: Surviving Andersonville}{10}{chapter.3}
+\contentsline {chapter}{\numberline {2}Pensions and Child Growth in South Africa}{5}{chapter.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.1}Summary of the paper}{10}{section.3.1}
+\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.2}Data}{11}{section.3.2}
+\contentsline {section}{\numberline {2.2}Data}{6}{section.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.3}Stata code and interpretation}{12}{section.3.3}
-\defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Tables}{12}{subsection.3.3.1}
-\defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Robustness check - Logit instead of Probit}{20}{subsection.3.3.2}
-\defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.4}Conclusion}{27}{section.3.4}
-\defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.5}In-text estimation}{27}{section.3.5}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Probit statement}{27}{section*.4}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Comment on late capture}{27}{section*.5}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{OLS statement}{28}{section*.6}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Predicted probability of death}{28}{section*.7}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Table 3 with regiment fixed effects}{30}{section*.8}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Table 3 with splines}{30}{section*.9}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Weibull specification}{30}{section*.10}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Month dummies}{30}{section*.11}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Cox Proportional Hazard Model}{32}{section*.12}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{On limiting the sample}{32}{section*.13}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{On the mortality of privates}{32}{section*.14}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{32}{section*.15}
-\defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.6}Non-parametric estimation}{32}{section.3.6}
+\contentsline {section}{\numberline {2.3}Results}{7}{section.2.3}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{40}{chapter.4}
+\contentsline {chapter}{\numberline {3}Replication: Surviving Andersonville}{11}{chapter.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.1}Summary of the paper}{11}{section.3.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.2}Data}{12}{section.3.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.3}Stata code and interpretation}{13}{section.3.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Tables}{13}{subsection.3.3.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Robustness check - Logit instead of Probit}{21}{subsection.3.3.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.4}Conclusion}{28}{section.3.4}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.5}In-text estimation}{28}{section.3.5}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Probit statement}{28}{section*.5}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Comment on late capture}{28}{section*.6}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{OLS statement}{29}{section*.7}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Predicted probability of death}{29}{section*.8}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Table 3 with regiment fixed effects}{31}{section*.9}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Table 3 with splines}{31}{section*.10}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Weibull specification}{31}{section*.11}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Month dummies}{31}{section*.12}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Cox Proportional Hazard Model}{33}{section*.13}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{On limiting the sample}{33}{section*.14}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{On the mortality of privates}{33}{section*.15}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{33}{section*.16}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.6}Non-parametric estimation}{33}{section.3.6}
 \defcounter {refsection}{4}\relax 
-\contentsline {chapter}{\numberline {5}Bitcoin and Remitances}{42}{chapter.5}
+\contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{41}{chapter.4}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{\numberline {5}Bitcoin and Remitances}{43}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}End notes}{45}{chapter.6}
+\contentsline {chapter}{\numberline {6}End notes}{46}{chapter.6}
