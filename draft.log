@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  14 NOV 2013 16:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  21 NOV 2013 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,6 +658,12 @@ LaTeX Info: Redefining \nameref on input line 103.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[][]\OT1/cmr/m/n/9 Professor of Eco-nomics, The Grad-u-ate In-sti-tute, Geneva;
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 [][]\OT1/cmr/m/n/9 PhD Stu-dent, The Grad-u-ate In-sti-tute, Geneva; bas-ti-
  []
 
@@ -926,7 +932,7 @@ Package logreq Info: Writing requests to 'draft.run.xml'.
 Here is how much of TeX's memory you used:
  12608 strings out of 495059
  202960 string characters out of 3182030
- 493660 words of memory out of 3000000
+ 493763 words of memory out of 3000000
  15483 multiletter control sequences out of 15000+200000
  13238 words of font info for 47 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -950,7 +956,7 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (55 pages, 505156 bytes).
+Output written on draft.pdf (55 pages, 506018 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  538 compressed objects within 6 object streams
