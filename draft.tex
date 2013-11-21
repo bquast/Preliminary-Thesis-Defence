@@ -106,12 +106,33 @@ The Graduate Institute, Geneva}
 \tableofcontents
 
 \chapter{Introduction}
-jade
+In this Preliminary Thesis Defence I present the research projects which I would like to use for my PhD dissertation. These projects are titled:
+
+\begin{itemize}
+\item Additional South African Evidence on Pensions and Child Growth
+\item Replication: Surviving Andersonville
+\item Risk and Uncertainty in Unique Equilibria in Currency Attacks (MS1998)
+\item Bitcoin and Remittances: The Potential of Stupid Phones
+\item Blacks-Swan and Dragon-King Events in Microeconomics
+\end{itemize}
+
+These project are in various stages of completion, though none of them are actually near completion. Below I will briefly describe the research idea, the current state, and the potential for each project.
+
+Additional South African Evidence of Pensions and Child Growth builds \textcite{duflo2000, duflo2003}. Duflo looks at the effect of the gender of grandparents on the growth metrics of their grandchildren. A problem in this comparison lies in the fact that pension eligibility of men was at 65 years, whereas it was 60 for women. This paper makes use of a Household Survey from 2008, 2012 and 2013. The survey is especially of interest, because the pension eligibility age for men was lowered from 65 to 60 in 2009. As it stand now I have analysed the data from 2008 and 2012. As the 2013 data was released several weeks ago I will incorporate these data as well.
+
+Together with several other PhD students we have replicated the paper Surviving Andersonville by \textcite{costa2007surviving}. We were able to replicate all results from the paper, save for a few decimal numbers, which we have taken to be the result of rounding errors. However, replicating this numbers required us to take a number of steps and questionable steps in our analysis. When we replace these steps with more obvious alternatives, we find that we cannot quantitatively and qualitatively replicate the main results from the paper. As an example, we find that the dataset distinguishes between two different POW camps both located in Andersonville, whereas the authors do not. This leads to overstated magnitudes of the social ties of POW. This is problematic because the main finding of the paper is that the size of these social networks is relevant to an individual's odds of survival. At this point our replication is quite complete. Before rewriting this paper, I will redo the analysis in R (the original and our current replication are in Stata).
+
+\textcite{morris1998unique} claim that introducing a measure of risk in a model of currency attacks, leads to a unique equilibrium. It thus solves the previous multiple-equilibrium zone called 'ripe for attack' for a unique equilibrium. I believe that this is a result of the fact that the risk factor introduces replaces uncertainty, not certainy. We thus gain information. I want to discuss MS1998 in light of the distinction between Knightian uncertainty and quantified risk.
+
+Bitcoin is the first of a new breed of currencies, commonly referred to as a cryptocurrencies. The transactions are conducted using an electronic process called signing. I would like to study the role of Bitcoin in remittances. For this I would like to participate in building bitcoin applications for phones common in developing economies (stupid phones). We could study the spread of bitcoin by looking at the downloads of the apps from regions, as well looking at how releasing the app in different languages evolves.
+
+After this the papers follow, in the order listed above. In the end notes I present a brief discussion of my dissertation, as it stands now, a whole.
+
 
 
 \begin{refsection}
 \chapter{Pensions and Child Growth in South Africa}
-
+\label{south-africa}
 \section*{Abstract}
 
 In this paper I look at the effect of the gender of pension recipients on the growth of children in the same households.
@@ -1012,7 +1033,9 @@ The following figures are our replications of the Kaplan-Meier survival estimate
 \begin{refsection}
 
 \chapter{Morris Shin Currency Attacks}
-\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks. In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most relevant when the risk factor (epsilon) is minimised, as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire 'ripe for attack' domain.
+\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
+
+In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most relevant when the risk factor (epsilon) is minimised, as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire 'ripe for attack' domain.
 
 \printbibliography
 
@@ -1045,7 +1068,7 @@ I propose to participate in the development of open-source applications which wo
 
 \end{refsection}
 
-
 \chapter{End notes}
+\label{end-notes}
 
 \end{document}

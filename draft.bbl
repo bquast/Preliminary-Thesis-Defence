@@ -18,6 +18,102 @@
 \endgroup
 
 
+\refsection{0}
+  \entry{costa2007surviving}{article}{}
+    \name{labelname}{2}{}{%
+      {{uniquename=0,hash=12503a45597e610dd5a138a2fb56ed7c}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=810bd2c359dcd66ebe51180e096a598b}{Kahn}{K\bibinitperiod}{Matthew\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{uniquename=0,hash=12503a45597e610dd5a138a2fb56ed7c}{Costa}{C\bibinitperiod}{Dora\bibnamedelima L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=810bd2c359dcd66ebe51180e096a598b}{Kahn}{K\bibinitperiod}{Matthew\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{e14e0ca4cb9b9bc17980725c51f7ab6f}
+    \strng{fullhash}{e14e0ca4cb9b9bc17980725c51f7ab6f}
+    \field{sortinit}{C}
+    \field{labelyear}{2007}
+    \field{journaltitle}{The American Economic Review}
+    \field{number}{4}
+    \field{title}{Surviving andersonville: The benefits of social networks in POW camps}
+    \field{volume}{97}
+    \field{year}{2007}
+    \field{pages}{1467\bibrangedash 1487}
+  \endentry
+
+  \entry{duflo2000}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2000}
+    \field{journaltitle}{The American Economic Review}
+    \field{number}{2}
+    \field{title}{Child health and household resources in South Africa: Evidence from the Old Age Pension program}
+    \field{volume}{90}
+    \field{year}{2000}
+    \field{pages}{393\bibrangedash 398}
+    \verb{url}
+    \verb http://www.jstor.org/discover/10.2307/117257
+    \endverb
+  \endentry
+
+  \entry{duflo2003}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2003}
+    \field{journaltitle}{The World Bank Economic Review}
+    \field{number}{1}
+    \field{title}{Grandmothers and Granddaughters: Old-Age Pensions and Intrahousehold Allocation in South Africa}
+    \field{volume}{17}
+    \field{year}{2003}
+    \field{pages}{1\bibrangedash 25}
+    \verb{doi}
+    \verb 10.1093/wber/lhg013
+    \endverb
+  \endentry
+
+  \entry{morris1998unique}{article}{}
+    \name{labelname}{2}{}{%
+      {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{cbca2efafa750c0a0b976f37ebb1a375}
+    \strng{fullhash}{cbca2efafa750c0a0b976f37ebb1a375}
+    \field{sortinit}{M}
+    \field{labelyear}{1998}
+    \field{journaltitle}{American Economic Review}
+    \field{title}{Unique equilibrium in a model of self-fulfilling currency attacks}
+    \field{year}{1998}
+    \field{pages}{587\bibrangedash 597}
+    \verb{url}
+    \verb http://www.jstor.org/stable/116850
+    \endverb
+  \endentry
+
+\endrefsection
+
 \refsection{1}
   \entry{duflo2000}{article}{}
     \name{labelname}{1}{}{%
