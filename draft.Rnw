@@ -1,4 +1,4 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper]{report}
 \usepackage{mathtools}
 \usepackage{rotating}
 \usepackage{graphicx}
@@ -44,17 +44,14 @@ Second Reader:&Ugo Panizza\footnote{Professor of Economics, The Graduate Institu
 \DeclareFieldFormat[article,incollection]{title}%
     {\usebibmacro{string+doiurlisbn}{\mkbibquote{#1}}} 
 
-
 \begin{document}
 
-\frontmatter
 \maketitle
 \tableofcontents
 
 \chapter{Introduction}
 jade
 
-\mainmatter
 
 \begin{refsection}
 \chapter{Pensions and Child Growth in South Africa}
@@ -890,7 +887,7 @@ I propose to participate in the development of open-source applications which wo
 
 \end{refsection}
 
-\backmatter
+
 \chapter{End notes}
 
 \end{document}
