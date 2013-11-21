@@ -854,168 +854,37 @@ The following figures are our replications of the Kaplan-Meier survival estimate
 
 \end{refsection}
 
-\chapter{Single-Agent Belief Distributions}
-
-\section*{Abstract}
-By constructing a distribution of the belief structure of a single agent, we can mitigate seemingly incommensurable beliefs. This paper proposes to generalise the concept of a single agents beliefs, from a point estimate to a distributional approximation. This will allow us to deal with differing estimates of the probability \emph{p}, as well aswith estimates of \emph{p} and \emph{¬p} violating unitarity, in meaningful way. Additionally with a distributional approximation, we can estimate agents' beliefs, using the state which they are in.
-
-\section{Introduction}
-It generally held to be so that people sometimes hold beliefs which are incommensurable with each other. In technical terms we could say, the knowledge base is interally inconsistent. This incommensurability becomes especially apparent when these beliefs are quantified.
-
-As an example consider the following. If we have the probability of some event \emph{e} occuring with probability \emph{p}. By definition, all probabilities are exhausted at \emph{1}. Therefore the probability of that event not occuring (i.e. \emph{¬p} or \emph{not p}) is \emph{1-p}.
-
-\begin{quote}
-¬p = 1 - p
-\end{quote}
-
-It is often observed, that people hold beliefs that do not meet this condition, these beliefs can thus be described as:
-
-\begin{quote}
-¬p ≠ 1 - p
-\end{quote}
-
-In addition to this, we often see that people have different beliefs about the same thing, often just moments apart (e.g.~beginning and end of a survey). This could be the case for many (unrelated) reasons, such as, fatigue, hunger, anchoring, etc. We can express this as:
-
-\begin{quote}
-p\_1(e) ≠ p\_2(e)
-\end{quote}
-
-% We are thus faced with the fact that we get responses from agents
-
-In this paper I describe how we can generalise the idea of perception of probability -for a single agent- from a point estimate, to a distributional approximation.
-
-Doing this will allow us to deal with seemingly inconsistent beliefs in a single framework in a \emph{meaningful} way.
-
-\section{An example}
-
-On a fair die, the chance of throwing 3 eyes is 16, call this \emph{p}. The chance that you do not throw 3 eyes (i.e. \emph{¬p}) is therefore \emph{1-p}, or
-
-<<die, eval=TRUE>>=
-1 - (1/6)
-@
-
-This is a very simple statistical exercise, and most people will be able to give you the answer that I derived. The reason for this is that people learn to use dice and how they operate, in e.g.~board games. Likewise for coin flipping and many other basic statistical trials. In this context, you would rarely find people accepting a bet that has a negative expected value. Such as non-equal payout for a fair coin flip.
-
-However, as soon as odds become less transparent, statistical methods are often applied with less rigour. Especially when dealing with observed implicit payout structures. As a results bets with negative expected payouts, such as lotteries, are often accepted.
-
-Let us continue with the idea of a lottery. For a lottery at the local sports club, 100 tickets were printed, yet only 5 out of every 8 tickets was sold, therefore tickets will be drawn until a winner is found. The price of a ticket is 1 apple, and the prize for the winner is 50 apples.
-
-Our victim is called Janus. After Janus buys a ticket for the lottery, we ask him the following questions.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\itemsep1pt\parskip0pt\parsep0pt
-\item
-  What is the chance (in percent) that you will win the lottery?
-\item
-  What is the chance (as a ratio) that someone else will win the
-  lottery?
-\item
-  What is the chance that nobody wins the lottery?
-\item
-  You came with one apple, with how many apples do you expect to walked
-  away?
-\item
-  What is the chance (as a ratio) that you will win the lottery?
-\end{enumerate}
-
-The first question is not very hard:
-
-<<first, eval=TRUE>>=
-1/(100 * (5*8))
-@
-
-But perhaps it is something you wouldn't always do without a calculator or at least pen and paper. The second probability is:
-
-Definitely something most people would do on paper. However, since we are at the sports club, this is something we might not have at hand.
-
-As can be seen, question (1) and (5) are identical. If you go through the questions without having done the calculations beforehand, you will likely be inclined to give a lower answer to (5) than you were to (1). Presumable you would be quite neutral when answering question (1). Yet the question preceding question (5) is rather negative, since you would probably expect to walk away with zero apples, this would lead you to be in a more negative mood when answering (5). Furthermore, you could have become tired of answering so many questions, which generally diminishes your perception of your chance of being successful.
-
-Janus acts very much in accordance with our expectations, and gives us the following responses.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\itemsep1pt\parskip0pt\parsep0pt
-\item
-  2\% (has to be more than two)
-\item
-  19/20
-\item
-  0
-\item
-  0
-\item
-  1/60
-\end{enumerate}
-
-We observe two different estimates of the same \emph{p(e)}.
-
-<<p1, eval=TRUE>>=
-p_1 = 1/100
-p_1
-@
-
-<<p2, eval=TRUE>>=
-p_2 = 1/60
-p_2
-@
-
-
-Normally we would take either one of the responses, or such some other way to come to a point estimate, such as averaging.
-
-\section{As a distribution}
-
-Let us assume that question (2) was answered in an slightly optimistic state, and question 6 in a slightly pessimistic state. Furthermore, let us assume that beliefs are normally distributed, and that these slightly pessimistic and slightly optimistic state are each away from the mean, below and above respectively. Lets express (5) as a number: 0.0167. We can now construct the standard deviation.
-
-<<mu, eval=TRUE>>=
-mu = p_1
-mu
-@
-
-<<sigma, eval=TRUE>>=
-sigma = p_2 - mu
-sigma
-@
-
-We can now define our subjects beliefs on winning the lottery as:
-
-\begin{quote}
-B\textasciitilde{}N(0.0167,0.00167)
-\end{quote}
-
-Let us now suppose that our subject loses his wallet before the winner is drawn. If we want to predict how is beliefs have changed, we can for example assume that they are now one standard deviation below his mean belief. This would thus give us:
-
-<<mu-sigma, eval=TRUE>>=
-mu - sigma
-@
-
-If however, Janus there after is in a euphoric state because he find his wallet again, and on top of this a nice shiny green apple, than his new belief might change to 2 standard deviations above his mean level. Which would give us:
-
-<<mu+2sigma, eval=TRUE>>=
-mu + 2 * sigma
-@
-
-\begin{quote}
-p anp (1-p)
-\end{quote}
-
-How do we match the answers to questions (2) and (3), the chance that Janus thinks he has of winning, with the chance that somebody else win (i.e.~that he does not win). Let us write both odds as numbers:
-
-\begin{quote}
-p\_1 = 0.02 1 - p\_2 = 0.95 =\textgreater{} p\_2 = 0.05
-\end{quote}
-
-\section{An application}
-
-Estimation of a 95\% confidence interval for a belief on probability, how the lottery profits from this.
-
 \begin{refsection}
 
 \chapter{Morris Shin Currency Attacks}
+\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks. In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most relevant when the risk factor (epsilon) is minimised, as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire 'ripe for attack' domain.
 
-blafslkfjas;lfkjasfd
+\printbibliography
 
-\parencite{morris1998unique}
+\end{refsection}
+
+\begin{refsection}
+
+\chapter{Bitcoin and Remitances}
+In the 2008 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). This currency (the first of a group called cryptocurrencies) has the following economics features:
+
+\begin{itemize}
+\item public transactions
+\item anonymous addresses
+\item fixed amount of units
+\item high granularity (1 Bitcoin can be broken into 100,000,000 Satoshi)
+\item no or low transaction costs
+\end{itemize}
+
+An addition to these economic features, the key feature of Bitcoin is decentralisation. All transactions are kept in a public ledger called the blockchain. An incentive in the form of transaction fees is provided to stimulate the creation of multiple copies of this ledger. Conflict resolution is done through majority voting by blockchain copy holders.
+
+There are a number of features which make Bitcoin attractive for remittances. Firstly, the low transaction costs are a huge step up from the current facilitators, which charge high percentages. Secondly, government intervention (especially in the recipient country) is prevented by the anonymity. Thirdly, recipients can choose to keep their remittance in a currency which is not controlled by their government. Fourthly, the granularity ensures very small transactions can be conducted.
+
+Bitcoin initially because popular in advanced economies such as those in Europe and North America. However, since mid 2013 there has been a large shift towards developing economies, in which comparative advantages of Bitcoin are more pronounced. For example, since its inception, Mt.Gox (located in Japan) was the largest Bitcoin exchange (marketplace), however in October 2013, Mt.Gox was overtaken by a Chinese exchange.
+
+Bitcoin transactions are conducted by the electronic 'signing' of a transaction. This is a very simple electronic process. Currently many smartphone applications are available to this purpose. However, in the targeted developing economies, many phones are not smartphones. The vast majority using Nokia Operating System. These phone can also run applications, of the kind Java Mobile App. Currently there are no Bitcoin apps available for this platform.
+
+I propose to participate in the development of open-source applications which would enable the users of stupid phones. We can then exploit the temporal difference when releasing the applications in different languages at different times, as well the downloads from traceable IP addresses.
 
 \printbibliography
 

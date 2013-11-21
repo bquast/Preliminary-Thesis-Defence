@@ -337,4 +337,15 @@
   <!-- section 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
+  <!-- section 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
+    <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
+    <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
+  </bcf:section>
+  <!-- section 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
 </bcf:controlfile>

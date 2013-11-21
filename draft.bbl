@@ -204,5 +204,26 @@
   \endentry
 
 \endrefsection
+
+\refsection{4}
+  \entry{nakamoto2008bitcoin}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+    \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+    \field{sortinit}{N}
+    \field{labelyear}{2009}
+    \field{title}{Bitcoin: A Peer-to-Peer Electronic Cash System}
+    \field{year}{2009}
+    \verb{url}
+    \verb http://bitcoin.org/bitcoin.pdf
+    \endverb
+  \endentry
+
+\endrefsection
 \endinput
 

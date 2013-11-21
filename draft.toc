@@ -51,17 +51,9 @@
 \contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{31}{section*.16}
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {2.6}Non-parametric estimation}{31}{section.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Single-Agent Belief Distributions}{41}{chapter.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}An example}{42}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}As a distribution}{43}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}An application}{44}{section.3.4}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {4}Morris Shin Currency Attacks}{45}{chapter.4}
+\contentsline {chapter}{\numberline {3}Morris Shin Currency Attacks}{41}{chapter.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {chapter}{\numberline {4}Bitcoin and Remitances}{45}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{End notes}{49}{chapter*.20}
