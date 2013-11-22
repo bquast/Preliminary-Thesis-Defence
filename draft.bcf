@@ -303,6 +303,7 @@
     <bcf:citekey>duflo2000</bcf:citekey>
     <bcf:citekey>duflo2003</bcf:citekey>
     <bcf:citekey>costa2007surviving</bcf:citekey>
+    <bcf:citekey>costa2007surviving</bcf:citekey>
     <bcf:citekey>morris1998unique</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
@@ -336,6 +337,7 @@
     <bcf:citekey>costa2007surviving</bcf:citekey>
     <bcf:citekey>costa2007surviving</bcf:citekey>
     <bcf:citekey>costa2007surviving</bcf:citekey>
+    <bcf:citekey>costa2007surviving</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
   <bcf:section number="0">
@@ -346,6 +348,7 @@
   </bcf:bibdata>
   <bcf:section number="4">
     <bcf:citekey>morris1998unique</bcf:citekey>
+    <bcf:citekey>taleb2010black</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
   <bcf:section number="0">
@@ -357,6 +360,24 @@
   <bcf:section number="5">
     <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
     <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
+  </bcf:section>
+  <!-- section 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- section 6 -->
+  <bcf:bibdata section="6">
+    <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="6">
+    <bcf:citekey>R</bcf:citekey>
+    <bcf:citekey>bell2013questioning</bcf:citekey>
+    <bcf:citekey>rauchhaus2009evaluating</bcf:citekey>
+    <bcf:citekey>duflo2000</bcf:citekey>
+    <bcf:citekey>duflo2003</bcf:citekey>
+    <bcf:citekey>morris1998unique</bcf:citekey>
+    <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
+    <bcf:citekey>taleb2010black</bcf:citekey>
+    <bcf:citekey>sornette2009dragon</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
   <bcf:section number="0">

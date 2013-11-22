@@ -2,12 +2,13 @@
 \usepackage{mathtools}
 \usepackage{rotating}
 \usepackage{graphicx}
+\usepackage{cleveref}
 \usepackage[authordate,backend=biber]{biblatex-chicago}
 \usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
 
 \title{Preliminary Thesis Defence\\~\\
 \begin{tabular}{rl}
-Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; Director, Centre for Finance and Development; jean-louis.arcand@graduateinstitute.ch}\\
+Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; jean-louis.arcand@graduateinstitute.ch}\\
 Second Reader:&Ugo Panizza\footnote{Professor of Economics, The Graduate Institute, Geneva; ugo.panizza@graduateinstitute.ch}
 \end{tabular}
 }
@@ -49,31 +50,31 @@ The Graduate Institute, Geneva}
 
 \maketitle
 \tableofcontents
+\listoftables
+\listoffigures
 
 \begin{refsection}
-
 \chapter{Introduction}
 In this Preliminary Thesis Defence I present the research projects which I would like to use for my PhD dissertation. These projects are titled:
 
 \begin{itemize}
-\item Additional South African Evidence on Pensions and Child Growth
-\item Replication: Surviving Andersonville
-\item Risk and Uncertainty in Unique Equilibria in Currency Attacks
-\item Bitcoin and Remittances: The Potential of Stupid Phones
-\item Blacks-Swan and Dragon-King Events in Microeconomics
+\item Additional South African Evidence on Pensions and Child Growth (\ref{south-africa})
+\item Replication: Surviving Andersonville (\ref{andersonville})
+\item Risk and Uncertainty in Unique Equilibria in Currency Attacks (\ref{currency})
+\item Bitcoin and Remittances: The Potential of Stupid Phones (\ref{bitcoin})
 \end{itemize}
 
 These project are in various stages of completion, though none of them are actually near completion. Below I will briefly describe the research idea, the current state, and the potential for each project.
 
 Additional South African Evidence of Pensions and Child Growth builds \textcite{duflo2000, duflo2003}. Duflo looks at the effect of the gender of grandparents on the growth metrics of their grandchildren. A problem in this comparison lies in the fact that pension eligibility of men was at 65 years, whereas it was 60 for women. This paper makes use of a Household Survey from 2008, 2012 and 2013. The survey is especially of interest, because the pension eligibility age for men was lowered from 65 to 60 in 2009. As it stand now I have analysed the data from 2008 and 2012. As the 2013 data was released several weeks ago I will incorporate these data as well.
 
-Together with several other PhD students we have replicated the paper Surviving Andersonville by \textcite{costa2007surviving}. We were able to replicate all results from the paper, save for a few decimal numbers, which we have taken to be the result of rounding errors. However, replicating this numbers required us to take a number of steps and questionable steps in our analysis. When we replace these steps with more obvious alternatives, we find that we cannot quantitatively and qualitatively replicate the main results from the paper. As an example, we find that the dataset distinguishes between two different POW camps both located in Andersonville, whereas the authors do not. This leads to overstated magnitudes of the social ties of POW. This is problematic because the main finding of the paper is that the size of these social networks is relevant to an individual's odds of survival. At this point our replication is quite complete. Before rewriting this paper, I will redo the analysis in R (the original and our current replication are in Stata).
+Together with several other PhD students we have replicated the paper ``\citetitle{costa2007surviving}'' by \textcite{costa2007surviving}. We were able to replicate all results from the paper, save for a few decimal numbers, which we have taken to be the result of rounding errors. However, replicating this numbers required us to take a number of steps and questionable steps in our analysis. When we replace these steps with more obvious alternatives, we find that we cannot quantitatively and qualitatively replicate the main results from the paper. As an example, we find that the dataset distinguishes between two different POW camps both located in Andersonville, whereas the authors do not. This leads to overstated magnitudes of the social ties of POW. This is problematic because the main finding of the paper is that the size of these social networks is relevant to an individual's odds of survival. At this point our replication is quite complete. Before rewriting this paper, I will redo the analysis in R (the original and our current replication are in Stata).
 
 \textcite{morris1998unique} claim that introducing a measure of risk in a model of currency attacks, leads to a unique equilibrium. It thus solves the previous multiple-equilibrium zone called 'ripe for attack' for a unique equilibrium. I believe that this is a result of the fact that the risk factor introduces replaces uncertainty, not certainy. We thus gain information. I want to discuss MS1998 in light of the distinction between Knightian uncertainty and quantified risk.
 
 Bitcoin is the first of a new breed of currencies, commonly referred to as a cryptocurrencies. The transactions are conducted using an electronic process called signing. I would like to study the role of Bitcoin in remittances. For this I would like to participate in building bitcoin applications for phones common in developing economies (stupid phones). We could study the spread of bitcoin by looking at the downloads of the apps from regions, as well looking at how releasing the app in different languages evolves.
 
-After this the papers follow, in the order listed above. In the end notes (\ref{end-notes}) I present a brief discussion of my dissertation, as it stands now, a whole.
+After this the papers follow, in the order listed above. A separate citations section is included for each chapter. For ease of reference, the titles of the citations in the bibliography link to the online articles using DOIs and URLs. In the end notes (\ref{end-notes}) I present a brief discussion of my dissertation, as it stands now, a whole. I also mention some very premature ideas.
 
 \printbibliography
 \end{refsection}
@@ -156,13 +157,15 @@ summary(tsls_w1w2_haz1)
 \end{refsection}
 
 \begin{refsection}
-
 \chapter{Replication: Surviving Andersonville}
+\label{andersonville}
+\textbf{Aksel Erbahar, Cecilia Heuser, Victor K\"ummritz, Bastiaan Quast}
 
-%\author{Aksel Erbahar, Cecilia Heuser, Victor K\"ummritz, Bastiaan Quast}
+\section*{Abstract}
+We replicate \textcite{costa2007surviving}. We are able to replicate all the result from the paper. The authors make a number of choices in order to arrive to the results published. We raise some concerns regarding some of these choices. For example, the authors treat the POWs of the two Andersonville camps as if they were in the same camp. This inflates size of the POWs social network, which is used as the explanatory variable. When we make choices which to us seem more defendable, we cannot, quantitatively and qualitatively, replicate the authors' results.
 
 \section{Summary of the paper}
-\textcite{costa2007surviving} tries to estimate the effect of quality and size of social networks on ensuring the survival of prisoners of war (POW) in POW camps. To examine the relationship the authors combine two datasets, a longitudinal dataset of Union Army soldiers and a cross-sectional dataset of the POW camp in Andersonville. 
+\textcite{costa2007surviving} try to estimate the effect of quality and size of social networks on ensuring the survival of prisoners of war (POW) in POW camps. To examine the relationship the authors combine two datasets, a longitudinal dataset of Union Army soldiers and a cross-sectional dataset of the POW camp in Andersonville. 
 
 The empirical specification for the longitudinal data that measures the effect of the size of the network is as follows:
 
@@ -878,25 +881,26 @@ The following figures are our replications of the Kaplan-Meier survival estimate
 
 \begin{refsection}
 
-\chapter{Morris Shin Currency Attacks}
+\chapter{Risk and Uncertainty in Unique Equilibria in Currency Attacks}
+\label{currency}
 \textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
 
-In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most relevant when the risk factor (epsilon) is minimised, as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire 'ripe for attack' domain.
+In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since Knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most pronounced when the risk factor (epsilon) is minimised (i.e.~set equal to zero), as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire `ripe for attack' domain.
 
+\nocite{taleb2010black}
 \printbibliography
-
 \end{refsection}
 
 \begin{refsection}
-
 \chapter{Bitcoin and Remitances}
-In the 2008 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). This currency (the first of a group called cryptocurrencies) has the following economics features:
+\label{bitcoin}
+In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). This currency (the first of a group called cryptocurrencies) has the following economics features:
 
 \begin{itemize}
 \item public transactions
 \item anonymous addresses
 \item fixed amount of units
-\item high granularity (1 Bitcoin can be broken into 100,000,000 Satoshi)
+\item high granularity (1 Bitcoin = 100,000,000 Satoshi)
 \item no or low transaction costs
 \end{itemize}
 
@@ -906,7 +910,7 @@ There are a number of features which make Bitcoin attractive for remittances. Fi
 
 Bitcoin initially because popular in advanced economies such as those in Europe and North America. However, since mid 2013 there has been a large shift towards developing economies, in which comparative advantages of Bitcoin are more pronounced. For example, since its inception, Mt.Gox (located in Japan) was the largest Bitcoin exchange (marketplace), however in October 2013, Mt.Gox was overtaken by a Chinese exchange.
 
-Bitcoin transactions are conducted by the electronic 'signing' of a transaction. This is a very simple electronic process. Currently many smartphone applications are available to this purpose. However, in the targeted developing economies, many phones are not smartphones. The vast majority using Nokia Operating System. These phone can also run applications, of the kind Java Mobile App. Currently there are no Bitcoin apps available for this platform.
+Bitcoin transactions are conducted by the electronic `signing' of a transaction. This is a very simple electronic process. Currently many smartphone applications are available to this purpose. However, in the targeted developing economies, many phones are not smartphones. The vast majority using Nokia Operating System. These phone can also run applications, of the kind Java Mobile App. Currently there are no Bitcoin apps available for this platform.
 
 I propose to participate in the development of open-source applications which would enable the users of stupid phones. We can then exploit the temporal difference when releasing the applications in different languages at different times, as well the downloads from traceable IP addresses.
 
@@ -914,7 +918,32 @@ I propose to participate in the development of open-source applications which wo
 
 \end{refsection}
 
+\begin{refsection}
 \chapter{End notes}
 \label{end-notes}
+In the previous chapters I have presented my current research projects. These projects are in various stages of completions.
+
+The replication of Surviving Andersonville is already completed in term of replication in Stata. We would like to redo the analysis in R \parencite{R}. That this can be relevant for replications can be seen from the recent replication \textcite{bell2013questioning} of the original \textcite{rauchhaus2009evaluating} paper. The findings of this replication can summarised as:
+
+\begin{quote}
+We were easily able to replicate Rauchhaus’ key findings in Stata, but couldn't get it to work in R. It took us a long while to work out why, but the reason turned out to be an error in Stata: Stata was finding a solution when it shouldn’t'have (because of separation in the data). This solution, as we show in the paper, was wrong – and led Rauchhaus’ paper to overestimate the effect of nuclear weapons on conflict by a factor of several million.
+\end{quote}
+
+We do not expect to find anything similar to Bell and Miller, but think that it can nevertheless be interesting to replicate findings using a different software package. In R we can replicate this using the package called `survival', which supports the Kaplan Meier and NPMLE methods. In addition to this, the paper needs to be rewritten to emphasise the key finding of our replication.
+
+The South-Africa paper, I think, provides an interesting opportunity to exploit the data from the household survey done before and after a highly relevant policy change. Especially since the methodology and location are as in \textcite{duflo2000, duflo2003} In addition to this there is now a third data wave which has become available. In addition to this, the text of the paper still has to be written. 
+
+The discussion of \textcite{morris1998unique} is in a very early stage. I have looked at the paper in detail. I have also done a brief analysis of my main critique, namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable). However, I would like to present a worked out example which demonstrates how this convolution leads to the main result of the paper. In addition to this, this example shoul demonstrate how not the entire `ripe for attack' region is solved for the unique equilibrium.
+
+Relating to Bitcoin \parencite{nakamoto2008bitcoin}, I think that there is a enormous potention for uncontrolled low-cost remintances using Bitcoin. I would like to analyse the spread of this. I propose to follow the spread of applications for platforms which are popular in developing economies.
+
+I realise that almost of all the previously discussed research projects are some form of a replication of a prior work. As replications they are mostly critiques of others' work, rather than constructive idea. This is mostly a results of the fact that it is easier to progress when building upon the works of others. For this reason, these research projects have progressed more then the projects which are primarily based on my own ideas. However, it is my attention to shift the focus of my thesis to include more original work. Here I present two more ideas which are to premature to include in the main body of the text, but are based on my own work.
+
+Firstly, I was in charge of setting up a baseline diagnostic into security perceptions in Conakry, Guinea. This diagnostic will be used to analyse the impact of a police reform conducted here. The reform constitutes of the implementation of a model of `police de proximitee'. The baseline consist of 4500 interviews using smartphones in the comune of Conkary as well a large number of interviews in N'Zerekore (east Guinea). Some time after the implementation of the police reform as follow up study will be conducted. I propose to conduct an impact evaluation using the results from the studies in which I have taken and will take part.
+
+Also, \parencite{taleb2010black, sornette2009dragon} 
+
+\printbibliography
+\end{refsection}
 
 \end{document}

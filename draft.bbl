@@ -37,10 +37,13 @@
     \field{labelyear}{2007}
     \field{journaltitle}{The American Economic Review}
     \field{number}{4}
-    \field{title}{Surviving andersonville: The benefits of social networks in POW camps}
+    \field{title}{Surviving Andersonville: The benefits of social networks in POW camps}
     \field{volume}{97}
     \field{year}{2007}
     \field{pages}{1467\bibrangedash 1487}
+    \verb{url}
+    \verb http://www.aeaweb.org/articles.php?doi=10.1257/aer.97.4.1467\x{fffd}\x{fffd}\x{fffd}
+    \endverb
   \endentry
 
   \entry{duflo2000}{article}{}
@@ -265,10 +268,13 @@
     \field{labelyear}{2007}
     \field{journaltitle}{The American Economic Review}
     \field{number}{4}
-    \field{title}{Surviving andersonville: The benefits of social networks in POW camps}
+    \field{title}{Surviving Andersonville: The benefits of social networks in POW camps}
     \field{volume}{97}
     \field{year}{2007}
     \field{pages}{1467\bibrangedash 1487}
+    \verb{url}
+    \verb http://www.aeaweb.org/articles.php?doi=10.1257/aer.97.4.1467\x{fffd}\x{fffd}\x{fffd}
+    \endverb
   \endentry
 
 \endrefsection
@@ -299,6 +305,24 @@
     \endverb
   \endentry
 
+  \entry{taleb2010black}{book}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=9cc101d8945e12b9ce5db8209781f25c}{Taleb}{T\bibinitperiod}{Nassim\bibnamedelima Nicholas}{N\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=9cc101d8945e12b9ce5db8209781f25c}{Taleb}{T\bibinitperiod}{Nassim\bibnamedelima Nicholas}{N\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Random House Digital, Inc.}%
+    }
+    \strng{namehash}{9cc101d8945e12b9ce5db8209781f25c}
+    \strng{fullhash}{9cc101d8945e12b9ce5db8209781f25c}
+    \field{sortinit}{T}
+    \field{labelyear}{2010}
+    \field{title}{The Black Swan:: The Impact of the Highly Improbable Fragility}
+    \field{year}{2010}
+  \endentry
+
 \endrefsection
 
 \refsection{5}
@@ -318,6 +342,196 @@
     \verb{url}
     \verb http://bitcoin.org/bitcoin.pdf
     \endverb
+  \endentry
+
+\endrefsection
+
+\refsection{6}
+  \entry{bell2013questioning}{article}{}
+    \name{labelname}{2}{}{%
+      {{uniquename=0,hash=7b645ead532fd3280028c6635d9196a1}{Bell}{B\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=608b90882d222c4f085a5e36bcf3f933}{Miller}{M\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{uniquename=0,hash=7b645ead532fd3280028c6635d9196a1}{Bell}{B\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=608b90882d222c4f085a5e36bcf3f933}{Miller}{M\bibinitperiod}{Nicholas}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{dcbe6fdd7bdc9ee2b3621e2619124e13}
+    \strng{fullhash}{dcbe6fdd7bdc9ee2b3621e2619124e13}
+    \field{sortinit}{B}
+    \field{labelyear}{2013}
+    \field{journaltitle}{Forthcoming, Journal of Conflict Resolution}
+    \field{title}{Questioning the Effect of Nuclear Weapons on Conflict}
+    \field{year}{2013}
+  \endentry
+
+  \entry{duflo2000}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2000}
+    \field{journaltitle}{The American Economic Review}
+    \field{number}{2}
+    \field{title}{Child health and household resources in South Africa: Evidence from the Old Age Pension program}
+    \field{volume}{90}
+    \field{year}{2000}
+    \field{pages}{393\bibrangedash 398}
+    \verb{url}
+    \verb http://www.jstor.org/discover/10.2307/117257
+    \endverb
+  \endentry
+
+  \entry{duflo2003}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+    \field{sortinit}{D}
+    \field{labelyear}{2003}
+    \field{journaltitle}{The World Bank Economic Review}
+    \field{number}{1}
+    \field{title}{Grandmothers and Granddaughters: Old-Age Pensions and Intrahousehold Allocation in South Africa}
+    \field{volume}{17}
+    \field{year}{2003}
+    \field{pages}{1\bibrangedash 25}
+    \verb{doi}
+    \verb 10.1093/wber/lhg013
+    \endverb
+  \endentry
+
+  \entry{morris1998unique}{article}{}
+    \name{labelname}{2}{}{%
+      {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{cbca2efafa750c0a0b976f37ebb1a375}
+    \strng{fullhash}{cbca2efafa750c0a0b976f37ebb1a375}
+    \field{sortinit}{M}
+    \field{labelyear}{1998}
+    \field{journaltitle}{American Economic Review}
+    \field{title}{Unique equilibrium in a model of self-fulfilling currency attacks}
+    \field{year}{1998}
+    \field{pages}{587\bibrangedash 597}
+    \verb{url}
+    \verb http://www.jstor.org/stable/116850
+    \endverb
+  \endentry
+
+  \entry{nakamoto2008bitcoin}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=1977190f018b398e43ede3de043de8ea}{Nakamoto}{N\bibinitperiod}{Satoshi}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+    \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+    \field{sortinit}{N}
+    \field{labelyear}{2009}
+    \field{title}{Bitcoin: A Peer-to-Peer Electronic Cash System}
+    \field{year}{2009}
+    \verb{url}
+    \verb http://bitcoin.org/bitcoin.pdf
+    \endverb
+  \endentry
+
+  \entry{rauchhaus2009evaluating}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=75f1ed8350b51f664370851dcbe50a41}{Rauchhaus}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=75f1ed8350b51f664370851dcbe50a41}{Rauchhaus}{R\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications}%
+    }
+    \strng{namehash}{75f1ed8350b51f664370851dcbe50a41}
+    \strng{fullhash}{75f1ed8350b51f664370851dcbe50a41}
+    \field{sortinit}{R}
+    \field{labelyear}{2009}
+    \field{journaltitle}{Journal of Conflict Resolution}
+    \field{number}{2}
+    \field{title}{Evaluating the Nuclear Peace Hypothesis A Quantitative Approach}
+    \field{volume}{53}
+    \field{year}{2009}
+    \field{pages}{258\bibrangedash 277}
+  \endentry
+
+  \entry{R}{manual}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Vienna, Austria}%
+    }
+    \list{organization}{1}{%
+      {R Foundation for Statistical Computing}%
+    }
+    \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+    \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+    \field{sortinit}{R}
+    \field{labelyear}{2013}
+    \field{title}{R: A Language and Environment for Statistical Computing}
+    \field{year}{2013}
+    \verb{url}
+    \verb http://www.R-project.org/
+    \endverb
+  \endentry
+
+  \entry{sornette2009dragon}{article}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=f09839d6781db87008be2b09a018e899}{Sornette}{S\bibinitperiod}{Didier}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=f09839d6781db87008be2b09a018e899}{Sornette}{S\bibinitperiod}{Didier}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{f09839d6781db87008be2b09a018e899}
+    \strng{fullhash}{f09839d6781db87008be2b09a018e899}
+    \field{sortinit}{S}
+    \field{labelyear}{2009}
+    \field{title}{Dragon-kings, black swans and the prediction of crises}
+    \field{year}{2009}
+    \verb{url}
+    \verb http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1470006
+    \endverb
+  \endentry
+
+  \entry{taleb2010black}{book}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=9cc101d8945e12b9ce5db8209781f25c}{Taleb}{T\bibinitperiod}{Nassim\bibnamedelima Nicholas}{N\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=9cc101d8945e12b9ce5db8209781f25c}{Taleb}{T\bibinitperiod}{Nassim\bibnamedelima Nicholas}{N\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Random House Digital, Inc.}%
+    }
+    \strng{namehash}{9cc101d8945e12b9ce5db8209781f25c}
+    \strng{fullhash}{9cc101d8945e12b9ce5db8209781f25c}
+    \field{sortinit}{T}
+    \field{labelyear}{2010}
+    \field{title}{The Black Swan:: The Impact of the Highly Improbable Fragility}
+    \field{year}{2010}
   \endentry
 
 \endrefsection
