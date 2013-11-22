@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  22 NOV 2013 12:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  22 NOV 2013 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,20 +933,20 @@ Missing character: There is no ™ in font cmr10!
 [48
 
 ] [49]
-Overfull \hbox (7.21504pt too wide) in paragraph at lines 1104--1104
+Overfull \hbox (7.21504pt too wide) in paragraph at lines 1106--1106
 [][]\OT1/cmr/m/n/10 Bell, Mark, and Nicholas Miller. 2013. ``Ques-tion-ing the 
 Ef-fect of Nu-clear Weapons
  []
 
-Package biblatex Info: Reference section=0 on input line 1104.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1106.
+Package biblatex Info: Reference section=0 on input line 1106.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1108.
 [50
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1108.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1108.
 
 Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: 91637A58E96B163384E9D127A9E5E4C1;1096.
@@ -985,7 +985,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (51 pages, 504204 bytes).
+Output written on draft.pdf (51 pages, 504543 bytes).
 PDF statistics:
  691 PDF objects out of 1000 (max. 8388607)
  603 compressed objects within 7 object streams
