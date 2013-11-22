@@ -319,7 +319,7 @@
     \strng{fullhash}{9cc101d8945e12b9ce5db8209781f25c}
     \field{sortinit}{T}
     \field{labelyear}{2010}
-    \field{title}{The Black Swan:: The Impact of the Highly Improbable Fragility}
+    \field{title}{The Black Swan: The Impact of the Highly Improbable Fragility}
     \field{year}{2010}
   \endentry
 
@@ -409,6 +409,24 @@
     \endverb
   \endentry
 
+  \entry{kahneman2011thinking}{book}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{Kahneman}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{Kahneman}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \list{publisher}{1}{%
+      {Macmillan}%
+    }
+    \strng{namehash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+    \strng{fullhash}{d0dcea81f8587e7d56bb5dbe34a39d6c}
+    \field{sortinit}{K}
+    \field{labelyear}{2011}
+    \field{title}{Thinking, fast and slow}
+    \field{year}{2011}
+  \endentry
+
   \entry{morris1998unique}{article}{}
     \name{labelname}{2}{}{%
       {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
@@ -468,7 +486,7 @@
     \field{labelyear}{2009}
     \field{journaltitle}{Journal of Conflict Resolution}
     \field{number}{2}
-    \field{title}{Evaluating the Nuclear Peace Hypothesis A Quantitative Approach}
+    \field{title}{Evaluating the Nuclear Peace Hypothesis: A Quantitative Approach}
     \field{volume}{53}
     \field{year}{2009}
     \field{pages}{258\bibrangedash 277}
@@ -530,7 +548,7 @@
     \strng{fullhash}{9cc101d8945e12b9ce5db8209781f25c}
     \field{sortinit}{T}
     \field{labelyear}{2010}
-    \field{title}{The Black Swan:: The Impact of the Highly Improbable Fragility}
+    \field{title}{The Black Swan: The Impact of the Highly Improbable Fragility}
     \field{year}{2010}
   \endentry
 
