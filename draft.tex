@@ -56,7 +56,6 @@
 \usepackage{mathtools}
 \usepackage{rotating}
 \usepackage{graphicx}
-\usepackage{cleveref}
 \usepackage[authordate,backend=biber]{biblatex-chicago}
 \usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
 
@@ -338,7 +337,7 @@ Pr(S = 1) &= \Phi (\beta_1 F + \beta_2 F) \label{s1} \\
 Pr(S = 1) &= \Phi (\beta_1 F_i + \beta_2 F_{ij} + \beta_3 I | ethnicity = j) \label{s1b} 
 \end{align}
 
-where equation (3.2) examines quantity and equation (3.3) quality of the social network. The measure for number of friends here is the number of POWs from the same company in Andersonville.
+where equation \autoref{s1} examines quantity and \autoref{s1b} quality of the social network. The measure for number of friends here is the number of POWs from the same company in Andersonville.
 
 The longitudinal data indicates that POWs had special characteristics. For instance, they were likely to be volunteers, and from companies with more wounded or dead. POWs with more friends were typically US-born and wealthier while Irish and older men had less friends. Concerning survival rates, Kaplan-Meier hazard rates show that POWs captured later (after 1963 when the Union and the Confederate Army stopped exchanging POWs) have lower survival rates. They also show that survival rates were higher for POWs with 10 or more friends. In addition, the rates show that it takes 50 days until there is a divergence in survival between POWs with and without friends. The exponential function estimates that an additional friend leads to a 0.98 times lower mortality hazard. An increase in the number of friends from 0 to 5 (5 to 10), decreases the predicted probability of death from 0.31 to 0.28 (0.26) while a spline specification provides evidence that the effect is greatest for the first two friends. In addition, survival is more likely for POWs that had survived at least one or two months. Factors increasing mortality are the number of men in the camp, low rank, high age, and height among others. Insignificant variables are for instance wealth and marital status. There is no evidence for individual heterogeneity. The use of a Weibull specification indicates no duration dependence (toughen up effects). Interestingly though, a Cox model gives no significant effect of friends which the authors interpret as a result of their loss of power due to the small sample size. Robustness checks, including the IV approach and the effect of friends transferred in, confirms the significant effect of friends. Finally, the cross-sectional results provide evidence that having the same last name, being from the same town for smaller towns, ethnic similarity and having a sergeant or a higher rank in one's network are all important factors in raising survival probabilities which in turn shows that the quality of social networks matters.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  22 NOV 2013 15:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.20)  22 NOV 2013 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -174,11 +174,6 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip52
 \rot@float@box=\box28
 \rot@mess@toks=\toks20
-)
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2012/03/07{} v0.18.5{} Intelligent cross-referencing
-Package cleveref Info: loaded `english' language definitions on input line 6907
-.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
 Package: biblatex-chicago 2011/08/31 v 1.6 biblatex style
@@ -579,28 +574,28 @@ File: english.lbx 2011/11/13 v1.7 biblatex localization
  (./draft.aux)
 \openout1 = `draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 103.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    ... okay on input line 103.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -640,10 +635,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'draft.bbl' found.
 
 (./draft.bbl)
-Package biblatex Info: Reference section=0 on input line 104.
-Package biblatex Info: Reference segment=0 on input line 104.
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 103.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -653,28 +648,28 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 Normal \count register pool exhausted, switching to extended pool.
 \c@section@level=\count277
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 
 (./draft.out) (./draft.out)
 \@outlinefile=\write4
 \openout4 = `draft.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 [][]\OT1/cmr/m/n/9 Professor of Eco-nomics, The Grad-u-ate In-sti-tute, Geneva;
  jean-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 [][]\OT1/cmr/m/n/9 Professor of Eco-nomics, The Grad-u-ate In-sti-tute, Geneva;
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 [][]\OT1/cmr/m/n/9 PhD Stu-dent, The Grad-u-ate In-sti-tute, Geneva; bas-ti-
  []
 
@@ -688,7 +683,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \listoftables
+l.107 \listoftables
                     [1
 
 ] (./draft.lot)
@@ -701,8 +696,8 @@ l.108 \listoftables
 \tf@lof=\write7
 \openout7 = `draft.lof'.
 
-Package biblatex Info: Reference section=1 on input line 111.
-Package biblatex Info: Setting label 'refsection:1' on input line 111.
+Package biblatex Info: Reference section=1 on input line 110.
+Package biblatex Info: Setting label 'refsection:1' on input line 110.
  [3
 
 ]
@@ -710,9 +705,9 @@ Chapter 1.
 [4
 
 ] [5]
-Package biblatex Info: Reference section=0 on input line 135.
-Package biblatex Info: Reference section=2 on input line 137.
-Package biblatex Info: Setting label 'refsection:2' on input line 137.
+Package biblatex Info: Reference section=0 on input line 134.
+Package biblatex Info: Reference section=2 on input line 136.
+Package biblatex Info: Setting label 'refsection:2' on input line 136.
  [6
 
 ]
@@ -720,29 +715,29 @@ Chapter 2.
 [7
 
 ]
-Package color Info: Redefining color shadecolor on input line 183.
+Package color Info: Redefining color shadecolor on input line 182.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 185.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 184.
 
-Overfull \hbox (21.0268pt too wide) in paragraph at lines 192--193
+Overfull \hbox (21.0268pt too wide) in paragraph at lines 191--192
 []\OT1/cmtt/m/n/10 ## Warning: Removed 324 rows containing missing values (stat
 []smooth).[] 
  []
 
 
-Overfull \hbox (21.0268pt too wide) in paragraph at lines 194--195
+Overfull \hbox (21.0268pt too wide) in paragraph at lines 193--194
 []\OT1/cmtt/m/n/10 ## Warning: Removed 263 rows containing missing values (stat
 []smooth).[] 
  []
 
 
-Overfull \hbox (15.77684pt too wide) in paragraph at lines 196--197
+Overfull \hbox (15.77684pt too wide) in paragraph at lines 195--196
 []\OT1/cmtt/m/n/10 ## Warning: Removed 51 rows containing missing values (stat[
 ]smooth).[] 
  []
 
 
-Overfull \hbox (15.77684pt too wide) in paragraph at lines 198--198
+Overfull \hbox (15.77684pt too wide) in paragraph at lines 197--197
 []\OT1/cmtt/m/n/10 ## Warning: Removed 638 rows containing missing values (geom
 []point).[] 
  []
@@ -750,60 +745,60 @@ Overfull \hbox (15.77684pt too wide) in paragraph at lines 198--198
 [8] <figure/r-p1.pdf, id=241, 505.89pt x 505.89pt>
 File: figure/r-p1.pdf Graphic file (type pdf)
  <use figure/r-p1.pdf>
-Package pdftex.def Info: figure/r-p1.pdf used on input line 199.
+Package pdftex.def Info: figure/r-p1.pdf used on input line 198.
 (pdftex.def)             Requested size: 345.0pt x 345.00414pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 199--200
+Overfull \hbox (15.0pt too wide) in paragraph at lines 198--199
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 209.
+Package color Info: Redefining color shadecolor on input line 208.
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 239--239
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 238--238
 []\OT1/cmtt/m/n/10 ## lm(formula = w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tinc 
 + w1_best_edu +[] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 239
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 238
 .
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [9 <./figure/r-p1.pdf>]
-Package color Info: Redefining color shadecolor on input line 246.
+Package color Info: Redefining color shadecolor on input line 245.
 
-Overfull \hbox (143.24574pt too wide) in paragraph at lines 273--273
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 272--272
 []\OT1/cmtt/m/n/10 ## Model Formula: w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tin
 c + w1_best_edu + w1_best_age_yrs[] 
  []
 
 
-Overfull \hbox (85.49625pt too wide) in paragraph at lines 273--273
+Overfull \hbox (85.49625pt too wide) in paragraph at lines 272--272
 []\OT1/cmtt/m/n/10 ## Instruments: ~w2_spen_w + w2_spen_m + w1_h_tinc + w1_best
 _edu + w1_best_age_yrs[] 
  []
 
-Package color Info: Redefining color shadecolor on input line 280.
+Package color Info: Redefining color shadecolor on input line 279.
 
-Overfull \hbox (143.24574pt too wide) in paragraph at lines 307--307
+Overfull \hbox (143.24574pt too wide) in paragraph at lines 306--306
 []\OT1/cmtt/m/n/10 ## Model Formula: w1_zhfa ~ w1_spen_w + w1_spen_m + w1_h_tin
 c + w1_best_edu + w1_best_age_yrs[] 
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 307--307
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 306--306
 []\OT1/cmtt/m/n/10 ## Instruments: ~w2_spen_w + w2_spen_m_65 + w1_h_tinc + w1_b
 est_edu + w1_best_age_yrs[] 
  []
 
 [10] [11]
-Overfull \hbox (20.09454pt too wide) in paragraph at lines 313--313
+Overfull \hbox (20.09454pt too wide) in paragraph at lines 312--312
 \OT1/cmr/m/n/10 index-for-age: Meth-ods and de-vel-op-ment[][].'' [][]$\OT1/cmt
 t/m/n/10 http : / / www . who . int / childgrowth$[][]\OT1/cmr/m/n/10 . 
  []
 
-Package biblatex Info: Reference section=0 on input line 314.
-Package biblatex Info: Reference section=3 on input line 316.
-Package biblatex Info: Setting label 'refsection:3' on input line 316.
+Package biblatex Info: Reference section=0 on input line 313.
+Package biblatex Info: Reference section=3 on input line 315.
+Package biblatex Info: Setting label 'refsection:3' on input line 315.
 [12
 
 ]
@@ -811,17 +806,17 @@ Chapter 3.
 [13
 
 ] [14]
-Overfull \hbox (86.58423pt too wide) in paragraph at lines 366--393
+Overfull \hbox (86.58423pt too wide) in paragraph at lines 365--392
  [][] 
  []
 
 [15] [16]
-Overfull \hbox (15.39026pt too wide) in paragraph at lines 407--432
+Overfull \hbox (15.39026pt too wide) in paragraph at lines 406--431
 [][] 
  []
 
 
-Overfull \hbox (25.25697pt too wide) in paragraph at lines 441--467
+Overfull \hbox (25.25697pt too wide) in paragraph at lines 440--466
  [][] 
  []
 
@@ -845,14 +840,14 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no · in font cmr10!
  [27] [28] [29] [30]
-<exponential.png, id=419, 404.26031pt x 295.85532pt>
+<exponential.png, id=421, 404.26031pt x 295.85532pt>
 File: exponential.png Graphic file (type png)
  <use exponential.png>
-Package pdftex.def Info: exponential.png used on input line 820.
+Package pdftex.def Info: exponential.png used on input line 819.
 (pdftex.def)             Requested size: 262.76608pt x 192.30367pt.
 
 [31] [32] [33] [34]
-Overfull \hbox (34.36234pt too wide) in paragraph at lines 984--1000
+Overfull \hbox (34.36234pt too wide) in paragraph at lines 983--999
 [][][][][][] [] 
  []
 
@@ -860,33 +855,33 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [35 <./exponential.png (PNG copy)>] [36] [37] [38]
-<kaplan1.png, id=474, 747.79375pt x 541.02126pt>
+<kaplan1.png, id=476, 747.79375pt x 541.02126pt>
 File: kaplan1.png Graphic file (type png)
  <use kaplan1.png>
-Package pdftex.def Info: kaplan1.png used on input line 1011.
+Package pdftex.def Info: kaplan1.png used on input line 1010.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan2.png, id=476, 747.79375pt x 541.02126pt>
+<kaplan2.png, id=478, 747.79375pt x 541.02126pt>
 File: kaplan2.png Graphic file (type png)
  <use kaplan2.png>
-Package pdftex.def Info: kaplan2.png used on input line 1018.
+Package pdftex.def Info: kaplan2.png used on input line 1017.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan3.png, id=477, 747.79375pt x 541.02126pt>
+<kaplan3.png, id=479, 747.79375pt x 541.02126pt>
 File: kaplan3.png Graphic file (type png)
  <use kaplan3.png>
-Package pdftex.def Info: kaplan3.png used on input line 1025.
+Package pdftex.def Info: kaplan3.png used on input line 1024.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
 
-<kaplan4.png, id=478, 747.79375pt x 541.02126pt>
+<kaplan4.png, id=480, 747.79375pt x 541.02126pt>
 File: kaplan4.png Graphic file (type png)
  <use kaplan4.png>
-Package pdftex.def Info: kaplan4.png used on input line 1032.
+Package pdftex.def Info: kaplan4.png used on input line 1031.
 (pdftex.def)             Requested size: 224.33984pt x 162.30762pt.
  [39 <./kaplan1.png>] [40] [41 <./kaplan2.png> <./kaplan3.png> <./kaplan4.png>]
-Package biblatex Info: Reference section=0 on input line 1037.
-Package biblatex Info: Reference section=4 on input line 1039.
-Package biblatex Info: Setting label 'refsection:4' on input line 1039.
+Package biblatex Info: Reference section=0 on input line 1036.
+Package biblatex Info: Reference section=4 on input line 1038.
+Package biblatex Info: Setting label 'refsection:4' on input line 1038.
  [42
 
 ]
@@ -894,9 +889,9 @@ Chapter 4.
 [43
 
 ]
-Package biblatex Info: Reference section=0 on input line 1049.
-Package biblatex Info: Reference section=5 on input line 1051.
-Package biblatex Info: Setting label 'refsection:5' on input line 1051.
+Package biblatex Info: Reference section=0 on input line 1048.
+Package biblatex Info: Reference section=5 on input line 1050.
+Package biblatex Info: Setting label 'refsection:5' on input line 1050.
  [44
 
 ]
@@ -904,9 +899,9 @@ Chapter 5.
 [45
 
 ] [46]
-Package biblatex Info: Reference section=0 on input line 1076.
-Package biblatex Info: Reference section=6 on input line 1078.
-Package biblatex Info: Setting label 'refsection:6' on input line 1078.
+Package biblatex Info: Reference section=0 on input line 1075.
+Package biblatex Info: Reference section=6 on input line 1077.
+Package biblatex Info: Setting label 'refsection:6' on input line 1077.
  [47
 
 ]
@@ -926,20 +921,20 @@ Missing character: There is no ™ in font cmr10!
 [48
 
 ] [49]
-Overfull \hbox (7.21504pt too wide) in paragraph at lines 1107--1107
+Overfull \hbox (7.21504pt too wide) in paragraph at lines 1106--1106
 [][]\OT1/cmr/m/n/10 Bell, Mark, and Nicholas Miller. 2013. ``Ques-tion-ing the 
 Ef-fect of Nu-clear Weapons
  []
 
-Package biblatex Info: Reference section=0 on input line 1107.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1109.
+Package biblatex Info: Reference section=0 on input line 1106.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1108.
 [50
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1108.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1108.
 
 Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: 117E3EAD0F5961094E9ED46656D36B03;993.
@@ -948,10 +943,10 @@ Package logreq Info: Writing requests to 'draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14084 strings out of 495059
- 235461 string characters out of 3182030
- 511032 words of memory out of 3000000
- 16949 multiletter control sequences out of 15000+200000
+ 12680 strings out of 495059
+ 204149 string characters out of 3182030
+ 482659 words of memory out of 3000000
+ 15549 multiletter control sequences out of 15000+200000
  13220 words of font info for 47 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  35i,15n,59p,2053b,1282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -974,10 +969,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (51 pages, 505189 bytes).
+Output written on draft.pdf (51 pages, 505495 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
+ 690 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
  163 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
