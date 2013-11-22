@@ -115,6 +115,30 @@
     \endverb
   \endentry
 
+  \entry{R}{manual}{}
+    \name{labelname}{1}{}{%
+      {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \list{location}{1}{%
+      {Vienna, Austria}%
+    }
+    \list{organization}{1}{%
+      {R Foundation for Statistical Computing}%
+    }
+    \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+    \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+    \field{sortinit}{R}
+    \field{labelyear}{2013}
+    \field{title}{R: A Language and Environment for Statistical Computing}
+    \field{year}{2013}
+    \verb{url}
+    \verb http://www.R-project.org/
+    \endverb
+  \endentry
+
 \endrefsection
 
 \refsection{2}
@@ -209,7 +233,7 @@
     \endverb
   \endentry
 
-  \entry{saldru2008nids}{misc}{}
+  \entry{saldru2008nids}{manual}{}
     \name{labelname}{1}{}{%
       {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
     }
@@ -228,7 +252,7 @@
     \endverb
   \endentry
 
-  \entry{saldru2012nids}{misc}{}
+  \entry{saldru2012nids}{manual}{}
     \name{labelname}{1}{}{%
       {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
     }

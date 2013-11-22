@@ -304,6 +304,7 @@
     <bcf:citekey>duflo2003</bcf:citekey>
     <bcf:citekey>costa2007surviving</bcf:citekey>
     <bcf:citekey>costa2007surviving</bcf:citekey>
+    <bcf:citekey>R</bcf:citekey>
     <bcf:citekey>morris1998unique</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
@@ -323,7 +324,6 @@
     <bcf:citekey>nchs2000cdc</bcf:citekey>
     <bcf:citekey>saldru2008nids</bcf:citekey>
     <bcf:citekey>saldru2012nids</bcf:citekey>
-    <bcf:citekey>who2006child</bcf:citekey>
     <bcf:citekey>who2006child</bcf:citekey>
   </bcf:section>
   <!-- section 0 (cont.) -->
@@ -369,11 +369,12 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
+    <bcf:citekey>duflo2000</bcf:citekey>
+    <bcf:citekey>duflo2003</bcf:citekey>
     <bcf:citekey>R</bcf:citekey>
     <bcf:citekey>bell2013questioning</bcf:citekey>
     <bcf:citekey>rauchhaus2009evaluating</bcf:citekey>
-    <bcf:citekey>duflo2000</bcf:citekey>
-    <bcf:citekey>duflo2003</bcf:citekey>
+    <bcf:citekey>bell2013questioning</bcf:citekey>
     <bcf:citekey>morris1998unique</bcf:citekey>
     <bcf:citekey>nakamoto2008bitcoin</bcf:citekey>
     <bcf:citekey>taleb2010black</bcf:citekey>

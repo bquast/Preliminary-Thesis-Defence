@@ -24,36 +24,32 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {3.4}Conclusion}{27}{section.3.4}
 \defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {3.5}In-text estimation}{27}{section.3.5}
+\contentsline {paragraph}{Probit statement}{27}{section*.9}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Probit statement}{27}{section*.8}
+\contentsline {paragraph}{Comment on late capture}{31}{section*.10}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Comment on late capture}{31}{section*.9}
+\contentsline {paragraph}{OLS statement}{31}{section*.11}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{OLS statement}{31}{section*.10}
+\contentsline {paragraph}{Predicted probability of death}{31}{section*.12}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Predicted probability of death}{31}{section*.11}
+\contentsline {paragraph}{Table 3 with regiment fixed effects}{31}{section*.13}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Table 3 with regiment fixed effects}{31}{section*.12}
+\contentsline {paragraph}{Table 3 with splines}{33}{section*.14}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Table 3 with splines}{33}{section*.13}
+\contentsline {paragraph}{Weibull specification}{33}{section*.15}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Weibull specification}{33}{section*.14}
+\contentsline {paragraph}{Month dummies}{33}{section*.16}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Month dummies}{33}{section*.15}
+\contentsline {paragraph}{Cox Proportional Hazard Model}{33}{section*.17}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Cox Proportional Hazard Model}{33}{section*.16}
+\contentsline {paragraph}{On limiting the sample}{33}{section*.18}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{On limiting the sample}{33}{section*.17}
+\contentsline {paragraph}{On the mortality of privates}{35}{section*.19}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{On the mortality of privates}{35}{section*.18}
-\defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{35}{section*.19}
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {3.6}Non-parametric estimation}{39}{section.3.6}
+\contentsline {paragraph}{On the role of networks in predicting escape from Andersonville}{35}{section*.20}
 \defcounter {refsection}{4}\relax 
 \contentsline {chapter}{\numberline {4}Risk and Uncertainty in Unique Equilibria in Currency Attacks}{43}{chapter.4}
 \defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {5}Bitcoin and Remitances}{45}{chapter.5}
+\contentsline {chapter}{\numberline {5}Bitcoin and Remitances: The Potential of `Stupid Phones'}{45}{chapter.5}
 \defcounter {refsection}{6}\relax 
 \contentsline {chapter}{\numberline {6}End notes}{48}{chapter.6}

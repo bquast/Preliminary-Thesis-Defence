@@ -55,26 +55,26 @@ The Graduate Institute, Geneva}
 
 \begin{refsection}
 \chapter{Introduction}
-In this Preliminary Thesis Defence I present the research projects which I would like to use for my PhD dissertation. These projects are titled:
+In this Preliminary Thesis Defence I present the research projects that I intend to use for my PhD dissertation. These projects are titled:
 
 \begin{itemize}
 \item Additional South African Evidence on Pensions and Child Growth (\ref{south-africa})
 \item Replication: Surviving Andersonville (\ref{andersonville})
 \item Risk and Uncertainty in Unique Equilibria in Currency Attacks (\ref{currency})
-\item Bitcoin and Remittances: The Potential of Stupid Phones (\ref{bitcoin})
+\item Bitcoin and Remittances: The Potential of `Stupid Phones' (\ref{bitcoin})
 \end{itemize}
 
-These project are in various stages of completion, though none of them are actually near completion. Below I will briefly describe the research idea, the current state, and the potential for each project.
+These project are in various stages of completion. Below I will briefly describe the research idea, the current state, and the potential for each project.
 
-Additional South African Evidence of Pensions and Child Growth builds \textcite{duflo2000, duflo2003}. Duflo looks at the effect of the gender of grandparents on the growth metrics of their grandchildren. A problem in this comparison lies in the fact that pension eligibility of men was at 65 years, whereas it was 60 for women. This paper makes use of a Household Survey from 2008, 2012 and 2013. The survey is especially of interest, because the pension eligibility age for men was lowered from 65 to 60 in 2009. As it stand now I have analysed the data from 2008 and 2012. As the 2013 data was released several weeks ago I will incorporate these data as well.
+Firstly, the paper Additional South African Evidence of Pensions and Child Growth builds \textcite{duflo2000, duflo2003}. These papers look at the effect of the gender of grandparents on the growth metrics of their grandchildren. A problem in this comparison lies in the fact that pension eligibility of men was at 65 years, whereas it was 60 for women. This paper makes use of a Household Survey from 2008, 2012 and 2013. The survey is especially of interest, because the pension eligibility age for men was lowered from 65 to 60 in 2009. As it stands now I have analysed the data from 2008 and 2012. The 2013 data was released several weeks ago, I will incorporate these data in future versions of my analysis.
 
-Together with several other PhD students we have replicated the paper ``\citetitle{costa2007surviving}'' by \textcite{costa2007surviving}. We were able to replicate all results from the paper, save for a few decimal numbers, which we have taken to be the result of rounding errors. However, replicating this numbers required us to take a number of steps and questionable steps in our analysis. When we replace these steps with more obvious alternatives, we find that we cannot quantitatively and qualitatively replicate the main results from the paper. As an example, we find that the dataset distinguishes between two different POW camps both located in Andersonville, whereas the authors do not. This leads to overstated magnitudes of the social ties of POW. This is problematic because the main finding of the paper is that the size of these social networks is relevant to an individual's odds of survival. At this point our replication is quite complete. Before rewriting this paper, I will redo the analysis in R (the original and our current replication are in Stata).
+Secondly, together with several other PhD students we have replicated the paper ``\citetitle{costa2007surviving}'' by \textcite{costa2007surviving}. We were able to replicate all results from the paper, save for a few decimal numbers, which we have taken to be the result of rounding errors. However, replicating these numbers required us to take a number of unorthodox steps in our analysis. When in stead, we take more orthodox steps, we find that we cannot quantitatively and qualitatively replicate the authors' results. As an example, we find that the dataset distinguishes between two different POW camps both located in the town of Andersonville. The authors however, aggregate these two. This leads to overstated magnitudes of the social ties of POWs. This is problematic because the main finding of the paper is that the size of these social networks is relevant to an individual's odds of survival. At this point our replication is quite complete. Before rewriting this paper, I will redo the analysis in R \parencite{R}, currently the original and our replication are in Stata.
 
-\textcite{morris1998unique} claim that introducing a measure of risk in a model of currency attacks, leads to a unique equilibrium. It thus solves the previous multiple-equilibrium zone called 'ripe for attack' for a unique equilibrium. I believe that this is a result of the fact that the risk factor introduces replaces uncertainty, not certainy. We thus gain information. I want to discuss MS1998 in light of the distinction between Knightian uncertainty and quantified risk.
+Thirdly, \textcite{morris1998unique} claims that introducing a measure of risk in a model of currency attacks, leads to a unique equilibrium. It thus solves the previous multiple-equilibrium zone called `ripe for attack' for a unique equilibrium. I believe that this is a result of the fact that the risk factor introduces replaces uncertainty, not certainty. We thus gain information. I want to discuss MS1998 in light of the distinction between Knightian uncertainty and quantified risk.
 
-Bitcoin is the first of a new breed of currencies, commonly referred to as a cryptocurrencies. The transactions are conducted using an electronic process called signing. I would like to study the role of Bitcoin in remittances. For this I would like to participate in building bitcoin applications for phones common in developing economies (stupid phones). We could study the spread of bitcoin by looking at the downloads of the apps from regions, as well looking at how releasing the app in different languages evolves.
+Fourthly, Bitcoin is the first of a new breed of currencies, commonly referred to as a cryptocurrencies. Bitcoin transactions are conducted using an electronic process called signing. I would like to study the role of Bitcoin in remittances. For this I would like to participate in building Bitcoin applications for the simple type of phones common in developing economies (sometimes referred to stupid phones). We could study the spread of bitcoin by looking at the downloads of the apps from regions, as well looking at how releasing the app in different languages evolves.
 
-After this the papers follow, in the order listed above. A separate citations section is included for each chapter. For ease of reference, the titles of the citations in the bibliography link to the online articles using DOIs and URLs. In the end notes (\ref{end-notes}) I present a brief discussion of my dissertation, as it stands now, a whole. I also mention some very premature ideas.
+After this the papers follow, in the order listed above. A separate citations section is included for each chapter. For ease of reference, the titles of the citations in the bibliography link to the online articles using DOIs and URLs. In the end notes (\ref{end-notes}) I present a brief discussion of my dissertation, as it stands now, a whole. I also mention some very preliminary ideas.
 
 \printbibliography
 \end{refsection}
@@ -101,25 +101,25 @@ The South African pension is a interesting variable to measure income because of
 
 Duflo finds evidence in South Africa's 1993 \href{http://microdata.worldbank.org/index.php/catalog/297}{Integrated Household Survey} that girls' short term nutrition (weight-for-height) was positively influence by living with the maternal grandmother if the grandmother was eligible for a state pension. This is directly after the significant increase in the pension sum for blacks. The pension-eligibility age at this time was 60 for women and 65 for men.
 
-This study deviates from the Duflo study in several ways. In 2008 and 2012 the first and second wave of the \textcite{saldru2008nids, saldru2012nids} have gathered similar data. In the period 2008-2010, the government lowered the eligibility age for men from 65 to 60 (\href{http://www.southafrica.info/services/government/pension-160708.htm}{Announcement}).
+This study deviates from the Duflo study in several ways. In 2008 and 2012, the first and second wave of the \textcite{saldru2008nids, saldru2012nids} have gathered similar data. In the period 2008-2010, the government lowered the eligibility age for men from 65 to 60 (\href{http://www.southafrica.info/services/government/pension-160708.htm}{Announcement}).
 
 This happened in a few steps. As of July 16th 2008 men aged 63 and 64 were eligible for a pension. Men aged 61 and 62 became eligible in April 2009. Finally in January 2010, pension eligibility age was at 60 for all citizens.
 
-Another deviation is the usage of \textcite{who2006child} in stead of \textcite{nchs2000cdc}, since these have superseded the CDC charts, however this should not be of any consequence.
+Another deviation is the usage of WHO z-scores \parencite{who2006child} in stead of CDC z-scores \parencite{nchs2000cdc}, since these have superseded the CDC charts, however this should not be of any consequence, as long as we use the same standards consistently.
 
 The main preliminary result is that the household effect (i.e.~having one or more recipients in the household) is very insignificant in the 2008 estimate. But in the 2012 estimate it is very significant.
 
 \section{Data}
 
-In this paper I use data from two sources. The first is the South African National Income Dynamics Survey \parencite{saldru2008nids, saldru2012nids} and the second is the World Health Organization's Child Growth Standards \textcite{who2006child}.
+In this paper I use data from two sources. The first is the South African National Income Dynamics Survey \parencite{saldru2008nids, saldru2012nids} and the second is the World Health Organization's Child Growth Standards \parencite{who2006child}.
 
-The main source of data is the NIDS. This survey collects data on a representative set of appproximately 10,000 South African households. The primary information types I use are, the child anthropometrics, the age and gender of household members, and the status as state pension recipients.
+The main source of data is the NIDS. This survey collects data on a representative set of appproximately 10,000 South African households. The primary information variables that I use are, the child anthropometrics, the age and gender of household members, and the status as state pension recipients.
 
-For adults several variables measure the different amounts and sources of income. Among those, a variable if the adult receives a state pension, and if so, how much. This is a numeric variable, the values of which lie very close together. For simplicity I have temporarily used this variable as a dummy.
+For adults, several variables measure the different amounts and sources of income. Among those, a variable for the adult receiving a state pension, and if so, how much. This is a numeric variable, the values of which lie very close together. For simplicity I have temporarily used this variable as a dummy.
 
-Children's anthropometrics are taken, these are length/height, weight, and waist. Using these anthropometics and WHO growth standards, z-scores have been calculated. Unfortunately wave 2 (2012) accidentally omitted the z-scores, so that these cannot be evaluated until an updated version is published. However, I have computed the length-for-age z-scores manually.
+The children's anthropometrics taken are, length/height, weight, and waist. Using these anthropometics and WHO growth standards, z-scores have been calculated. Unfortunately, the latest version of wave 2 (2012) accidentally omitted the z-scores, so that these cannot be evaluated until an updated version is published. However, I have computed the length-for-age z-scores manually.
 
-In 2006 the WHO published its standards for child growth \parencite{who2006child}. These standards are based on the scores of children from different ethnic populations in households which observed a healthy lifestyle. The standards provide the means and standards deviations used. These are on a monthly basis for height-for-age, and on a semi-centimeter level for weight-for-height scores.
+In 2006 the WHO published its standards for child growth. These standards are based on the scores of children from different ethnic populations in households which maintained a healthy lifestyle. The standards provide the means and standards deviations used. These are on a monthly basis for height-for-age, and on a semi-centimeter level for weight-for-height scores.
 
 <<load, include=FALSE>>=
 load("w1w2.RData")
@@ -177,11 +177,11 @@ where $h$ is hazard at time $t$, $F$ is the number of friends (=social network),
 The specification for the Andersonville data in turn is a probit model:
 
 \begin{align}
-\label{s1} Pr(S = 1) &= \Phi (\beta_1 F + \beta_2 F)\\
-\label{s1b} Pr(S = 1) &= \Phi (\beta_1 F_i + \beta_2 F_{ij} + \beta_3 I | ethnicity = j)
+Pr(S = 1) &= \Phi (\beta_1 F + \beta_2 F) \label{s1} \\
+Pr(S = 1) &= \Phi (\beta_1 F_i + \beta_2 F_{ij} + \beta_3 I | ethnicity = j) \label{s1b} 
 \end{align}
 
-where \autoref{s1} examines quantity and \autoref{s1b} quality of the social network. The measure for number of friends here is the number of POWs from the same company in Andersonville.
+where equation (3.2) examines quantity and equation (3.3) quality of the social network. The measure for number of friends here is the number of POWs from the same company in Andersonville.
 
 The longitudinal data indicates that POWs had special characteristics. For instance, they were likely to be volunteers, and from companies with more wounded or dead. POWs with more friends were typically US-born and wealthier while Irish and older men had less friends. Concerning survival rates, Kaplan-Meier hazard rates show that POWs captured later (after 1963 when the Union and the Confederate Army stopped exchanging POWs) have lower survival rates. They also show that survival rates were higher for POWs with 10 or more friends. In addition, the rates show that it takes 50 days until there is a divergence in survival between POWs with and without friends. The exponential function estimates that an additional friend leads to a 0.98 times lower mortality hazard. An increase in the number of friends from 0 to 5 (5 to 10), decreases the predicted probability of death from 0.31 to 0.28 (0.26) while a spline specification provides evidence that the effect is greatest for the first two friends. In addition, survival is more likely for POWs that had survived at least one or two months. Factors increasing mortality are the number of men in the camp, low rank, high age, and height among others. Insignificant variables are for instance wealth and marital status. There is no evidence for individual heterogeneity. The use of a Weibull specification indicates no duration dependence (toughen up effects). Interestingly though, a Cox model gives no significant effect of friends which the authors interpret as a result of their loss of power due to the small sample size. Robustness checks, including the IV approach and the effect of friends transferred in, confirms the significant effect of friends. Finally, the cross-sectional results provide evidence that having the same last name, being from the same town for smaller towns, ethnic similarity and having a sergeant or a higher rank in one's network are all important factors in raising survival probabilities which in turn shows that the quality of social networks matters.
 
@@ -242,7 +242,7 @@ Remaining discrepancies are minor and could be due to some kind of rounding diff
 
 A last and minor comment is that the inclusion of the variable volunteer is surprising, since by sample design the Union Army dataset was restricted to white volunteer infantry regiments. The inclusion of this variable when comparing POWs and non POWs probably responds to the point raised in the paper about POWs not being representative of all soldiers, for example in ideology (p.1471). A variable that reflects that both POWs and non POWs volunteered in similar proportions would suggest homogeneity between POWs and non POWs in this dimension and, hence, increase  external validity. The similarities observed in Table 1 between POWs and non POWs in their mean of volunteer do not reflect that, since they are both close to one by construction. Any individuals not listed as volunteers, either correspond to the very few drafted men, or are actually soldiers that re-enlisted as commissioned officers, but were originally volunteers, as explained in the codebooks for the source data.
 
-\autoref{friends}: This table describes the variables later used in the main regressions, focusing in this case only on POWs.  It also presents separately their mean and standard errors for the subsamples of POWs with few (less than 3) and many friends (three or more). 
+\ref{friends}: This table describes the variables later used in the main regressions, focusing in this case only on POWs.  It also presents separately their mean and standard errors for the subsamples of POWs with few (less than 3) and many friends (three or more). 
 
 \begin{sidewaystable}
 \caption{Characteristics of POWs by Number of Friends in First Two Weeks of Captivity}
@@ -563,7 +563,7 @@ To come back to the differences between our replication and the original paper, 
 
 %\appendix
 
-\section{In-text estimation}
+\section*{Appendix: In-text estimation}
 Most in-text estimations are not included in the .do files provided, therefore some of the results to follow do not exactly reproduce the ones published, probably due to differences in specifications. They can nonetheless generally be replicated in terms of signs and significance.
 
 \paragraph{Probit statement}
@@ -844,7 +844,7 @@ Observations                                     & 25880                     & 2
 
 The only in-text claim that we are not able to confirm is their statement that there is no mortality difference between the colored non-officers and the rest of the Andersonville POWs (page 1480, footnote 29) as we don’t have any information on the race of the POWs.
 
-\section{Non-parametric estimation}
+\section*{Appendix: Non-parametric estimation}
 The following figures are our replications of the Kaplan-Meier survival estimates which show no differences to the original:
 
 \begin{figure}
@@ -885,16 +885,16 @@ The following figures are our replications of the Kaplan-Meier survival estimate
 \label{currency}
 \textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
 
-In my understanding of all the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since Knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most pronounced when the risk factor (epsilon) is minimised (i.e.~set equal to zero), as the authors also state themselve. Furthermore, I have doubts about the authors claim that the domain which leads is solved by the equilibrium is in fact the entire `ripe for attack' domain.
+In my understanding of the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor, is the result of the fact that this risk factor eliminates the previously existing uncertainty. In other words, the unique equilibrium is not a surprising result, since Knightian uncertainty is exchanged for quantifiable risk, which is a much fuller set of information. This view is enforced by the fact that the equilibrium is most pronounced when the risk factor (epsilon) is minimised (i.e.~set equal to zero), as the authors state themselves. Furthermore, I have doubts about the authors claim that the domain which is solved by the equilibrium is in fact the entire `ripe for attack' domain.
 
 \nocite{taleb2010black}
 \printbibliography
 \end{refsection}
 
 \begin{refsection}
-\chapter{Bitcoin and Remitances}
+\chapter{Bitcoin and Remitances: The Potential of `Stupid Phones'}
 \label{bitcoin}
-In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). This currency (the first of a group called cryptocurrencies) has the following economics features:
+In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). This currency -the first of a group called cryptocurrencies- has the following economics features:
 
 \begin{itemize}
 \item public transactions
@@ -904,13 +904,13 @@ In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakam
 \item no or low transaction costs
 \end{itemize}
 
-An addition to these economic features, the key feature of Bitcoin is decentralisation. All transactions are kept in a public ledger called the blockchain. An incentive in the form of transaction fees is provided to stimulate the creation of multiple copies of this ledger. Conflict resolution is done through majority voting by blockchain copy holders.
+An addition to these economic features, the key feature of Bitcoin is decentralisation. All transactions are kept in a public ledger called the blockchain. An incentive in the form of transaction fees is provided to stimulate the creation of multiple copies of this ledger. Conflict resolution, in this system, is done through majority consensus of blockchain copy holders.
 
 There are a number of features which make Bitcoin attractive for remittances. Firstly, the low transaction costs are a huge step up from the current facilitators, which charge high percentages. Secondly, government intervention (especially in the recipient country) is prevented by the anonymity. Thirdly, recipients can choose to keep their remittance in a currency which is not controlled by their government. Fourthly, the granularity ensures very small transactions can be conducted.
 
 Bitcoin initially because popular in advanced economies such as those in Europe and North America. However, since mid 2013 there has been a large shift towards developing economies, in which comparative advantages of Bitcoin are more pronounced. For example, since its inception, Mt.Gox (located in Japan) was the largest Bitcoin exchange (marketplace), however in October 2013, Mt.Gox was overtaken by a Chinese exchange.
 
-Bitcoin transactions are conducted by the electronic `signing' of a transaction. This is a very simple electronic process. Currently many smartphone applications are available to this purpose. However, in the targeted developing economies, many phones are not smartphones. The vast majority using Nokia Operating System. These phone can also run applications, of the kind Java Mobile App. Currently there are no Bitcoin apps available for this platform.
+Bitcoin transactions are conducted by the electronic `signing' of a transaction. This is a very simple electronic process. Currently many smartphone apps are available to this purpose. However, in the targeted developing economies, many phones are not smartphones, the vast majority using Nokia Operating System (Nokia OS). These phone can also run applications, using the Java Mobile App platform. Currently there are no Bitcoin apps available for this platform.
 
 I propose to participate in the development of open-source applications which would enable the users of stupid phones. We can then exploit the temporal difference when releasing the applications in different languages at different times, as well the downloads from traceable IP addresses.
 
@@ -923,25 +923,26 @@ I propose to participate in the development of open-source applications which wo
 \label{end-notes}
 In the previous chapters I have presented my current research projects. These projects are in various stages of completions.
 
-The replication of Surviving Andersonville is already completed in term of replication in Stata. We would like to redo the analysis in R \parencite{R}. That this can be relevant for replications can be seen from the recent replication \textcite{bell2013questioning} of the original \textcite{rauchhaus2009evaluating} paper. The findings of this replication can summarised as:
+I believe that my South Africa paper provides an interesting opportunity to exploit the data from the household survey done before and after a highly relevant policy change. Especially since the methodology and location are the same as in \textcite{duflo2000, duflo2003} In addition to this there is now a third data wave which has become available. This provides us with more data, and mostly the opportunity to use more interesting methodology. The text of the paper still has to be written. 
+
+The replication of Surviving Andersonville is already completed in term of the replication in Stata. We would like to redo the analysis in R \parencite{R}. The relevance of this for replications can be seen from the recent replication \textcite{bell2013questioning} of the original \textcite{rauchhaus2009evaluating} paper. The findings of this replication can summarised as:
 
 \begin{quote}
-We were easily able to replicate Rauchhaus’ key findings in Stata, but couldn't get it to work in R. It took us a long while to work out why, but the reason turned out to be an error in Stata: Stata was finding a solution when it shouldn’t'have (because of separation in the data). This solution, as we show in the paper, was wrong – and led Rauchhaus’ paper to overestimate the effect of nuclear weapons on conflict by a factor of several million.
+``We were easily able to replicate Rauchhaus’ key findings in Stata, but couldn't get it to work in R. It took us a long while to work out why, but the reason turned out to be an error in Stata: Stata was finding a solution when it shouldn’t'have (because of separation in the data). This solution, as we show in the paper, was wrong – and led Rauchhaus’ paper to overestimate the effect of nuclear weapons on conflict by a factor of several million.''~\parencite{bell2013questioning}
 \end{quote}
 
-We do not expect to find anything similar to Bell and Miller, but think that it can nevertheless be interesting to replicate findings using a different software package. In R we can replicate this using the package called `survival', which supports the Kaplan Meier and NPMLE methods. In addition to this, the paper needs to be rewritten to emphasise the key finding of our replication.
 
-The South-Africa paper, I think, provides an interesting opportunity to exploit the data from the household survey done before and after a highly relevant policy change. Especially since the methodology and location are as in \textcite{duflo2000, duflo2003} In addition to this there is now a third data wave which has become available. In addition to this, the text of the paper still has to be written. 
+We do not expect to find anything similar to Bell and Miller, but think that it can nevertheless be interesting to replicate findings using a different software package. In R, we can replicate this using the package called `survival', which supports the Kaplan Meier and NPMLE methods. In addition to this, the paper needs to be rewritten to emphasise the key finding of our replication.
 
-The discussion of \textcite{morris1998unique} is in a very early stage. I have looked at the paper in detail. I have also done a brief analysis of my main critique, namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable). However, I would like to present a worked out example which demonstrates how this convolution leads to the main result of the paper. In addition to this, this example shoul demonstrate how not the entire `ripe for attack' region is solved for the unique equilibrium.
+The discussion of \textcite{morris1998unique} is in a very early stage. I have looked at the paper in detail, I have also done a brief analysis of my main critique, namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable). However, I would like to presenta worked out example which demonstrates how this convolution leads to the main result of the paper. In addition to this, this example should demonstrate how the entire `ripe for attack' region is not solved for the unique equilibrium.
 
-Relating to Bitcoin \parencite{nakamoto2008bitcoin}, I think that there is a enormous potention for uncontrolled low-cost remintances using Bitcoin. I would like to analyse the spread of this. I propose to follow the spread of applications for platforms which are popular in developing economies.
+Finally, relating to Bitcoin \parencite{nakamoto2008bitcoin}, I think that there is a enormous potention for uncontrolled low-cost remintances using Bitcoin. I would like to analyse the spread of this. I propose to follow the spread of applications for platforms which are popular in developing economies.
 
-I realise that almost of all the previously discussed research projects are some form of a replication of prior work. As replications they are mostly critiques of others' work, rather than constructive idea. This is mostly a results of the fact that it is easier to progress when building upon the works of others. For this reason, these research projects have progressed more then the projects which are primarily based on my own ideas. However, it is my attention to shift the focus of my thesis to include more original work. Here I present two more ideas which are to premature to include in the main body of the text, but are based on my own work.
+At this point, three out of four of the previously discussed research projects are some form of a replication of prior work. As replications they are mostly critiques of others' work, rather than constructive ideas. This is mostly a result of the fact that these projects progress faster. For this reason, these research projects have progressed more than the projects which are primarily based on my own ideas. However, it is my attention to shift the focus of my thesis to include more original work. Here I present two more ideas which are too preliminary to include in the main body of the text, but are based on my own work.
 
 Firstly, I was in charge of setting up a baseline diagnostic into security perceptions in Conakry, Guinea. This diagnostic will be used to analyse the impact of a police reform conducted here. The reform constitutes of the implementation of a model of `police de proximitee'. The baseline consist of 4500 interviews using smartphones in the comune of Conkary as well a large number of interviews in N'Zerekore (east Guinea). Some time after the implementation of the police reform as follow up study will be conducted. I propose to conduct an impact evaluation using the results from the studies in which I have taken and will take part.
 
-Lastly, I have previously studied philosophy of science in my bachelors in Theoretical Philosophy. I would like to write one paper about an issue relating to this. In particular I would like to at the effect of outliers. The effect how these outliers has extensively been discussed in contexts such as finance and international economics \parencite{taleb2010black,   sornette2009dragon},  as well as indiviual behaviour \parencite{kahneman2011thinking}. I would like to see how these principles affect research in development microeconomics.
+Secondly, I have previously studied philosophy of science in my bachelors in Theoretical Philosophy. I would like to write one paper about an issue relating to this. In particular I would like to at the effect of outliers. The effect how these outliers has extensively been discussed in contexts such as finance and international economics \parencite{taleb2010black,   sornette2009dragon},  as well as indiviual behaviour \parencite{kahneman2011thinking}. I would like to see how these principles affect research in development microeconomics.
 
 In this document I have tried to give a description of my research projects. None of these projects are near completion and many are in fact in a very early stage. The purpose of this has been to describe the direction I am taking with my thesis, and to receive feedback on this. As a result of this being work in progress, the articles are still incomplete, this includes lacking the proper attribution of ideas using citations.
 
