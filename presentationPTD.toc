@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Pensions and Child Growth: Additional Evidence from South-Africa}{3}{0}{2}
+\beamer@sectionintoc {3}{Replication: Surviving Andersonville}{4}{0}{3}
+\beamer@sectionintoc {4}{Uncertainty and Risk in Currency Attacks}{5}{0}{4}
+\beamer@sectionintoc {5}{Bitcoin and Remittances: Stupid Phone Potential}{6}{0}{5}
+\beamer@sectionintoc {6}{End Notes}{7}{0}{6}
