@@ -52,8 +52,8 @@ The Graduate Institute, Geneva}
 
 \maketitle
 \tableofcontents
-\listoftables
-\listoffigures
+% \listoftables
+% \listoffigures
 
 \begin{refsection}
 \chapter{Introduction}
@@ -307,6 +307,37 @@ I propose to participate in the development of open-source applications which wo
 We can then exploit the temporal difference when releasing the applications in different languages at different times,
 as well the downloads from traceable IP addresses.
 
+\section{Data}
+Funds held at Bitcoin exchanges are not held in the owners bitcoin wallet.
+Rather, the exchange holds them in their wallet, and the clients have a claim on this wallet.
+Much like the way bank clients have a claim to their money, which is in the bank's vault.
+
+Therefore Bitcoin purchases at exchanges do not lead to transaction being recorded in the blockchain.
+Since the Bitcoins remain in the Exchange's wallet, the only thing which changes is the claims of the clients.
+
+\begin{itemize}
+ \item The blockchain (public ledger)
+ \begin{itemize}
+ 	\item IP address
+ 	\item Language of transaction notice
+ 	\item Transaction times
+ \end{itemize}
+ \item The exchanges
+ \begin{itemize}
+ 	\item Location of exchanges
+ 	\item Transaction costs for each currency
+	\item The order books
+	\item Transaction times
+ 	\item The traded currency
+ \end{itemize}
+ \item Software
+ \begin{itemize}
+ 	\item Downloads
+ 	\item Translation contributions (?)
+ 	\item Connections to server
+ \end{itemize}
+\end{itemize}
+
 \printbibliography
 
 \end{refsection}
@@ -338,7 +369,11 @@ The text of the paper still has to be written.
 % In R, we can replicate this using the package called `survival', which supports the Kaplan Meier and NPMLE methods.
 % In addition to this, the paper needs to be rewritten to emphasise the key finding of our replication.
 
-The discussion of \textcite{morris1998unique} is in a very early stage. I have looked at the paper in detail, I have also done a brief analysis of my main critique, namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable). However, I would like to presenta worked out example which demonstrates how this convolution leads to the main result of the paper. In addition to this, this example should demonstrate how the entire `ripe for attack' region is not solved for the unique equilibrium.
+The discussion of \textcite{morris1998unique} is in a very early stage.
+I have looked at the paper in detail, I have also done a brief analysis of my main critique,
+namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable).
+However, I would like to presenta worked out example which demonstrates how this convolution leads to the main result of the paper.
+In addition to this, this example should demonstrate how only a part of the `ripe for attack' region is solved for the unique equilibrium.
 
 Finally, relating to Bitcoin \parencite{nakamoto2008bitcoin}, I think that there is a enormous potention for uncontrolled low-cost remintances using Bitcoin. I would like to analyse the spread of this. I propose to follow the spread of applications for platforms which are popular in developing economies.
 
