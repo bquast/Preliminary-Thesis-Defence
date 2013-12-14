@@ -141,7 +141,8 @@ Because of this the status as a recipient is quite exogenous and there are few s
 The problematic difference between the eligibility age of men and women was eliminated between the two surveys which creates an interesting natural experiment.
 
 This study deviates from the Duflo study in several ways.
-First of all, the data from the \textcite{saldru2008nids,saldru2012nids} surveys, contains actual information on income, including pension recipient status.
+First of all, the data from the \textcite{saldru2008nids,saldru2012nids} surveys, contains actual information on income,
+including pension recipient status.
 Whereas Duflo uses age as a proxy for recipient status.
 Secondly, between mid 2008 and the end of 2009 the pension age for men was gradualy lowered to sixty, which is at par with women.
 Another deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child} in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}.
@@ -177,7 +178,8 @@ These are on a monthly basis for height-for-age, and on a semi-centimeter level 
 \section{Analysis}
 \label{analysis}
 I perform three types of analysis.
-The first analysis uses the Duflo method, whereby I compute the z-scores (using WHO in stead of CDC, this is of no consequence) and then compare based on living in the household with an of-pension-eligible adult.
+The first analysis uses the Duflo method, whereby I compute the z-scores (using WHO in stead of CDC, this is of no consequence)
+and then compare based on living in the household with an of-pension-eligible adult.
 Secondly, I use my computed z-scores and the data set provided variable which describes the actual pension received (or lack thereof).
 Lastly, I use this state pension variable to evaluate the z-scores provided in the dataset.
 
@@ -236,12 +238,17 @@ but also at other investors' perceptions of these fundamentals.
 This leads to a standard situation where there is a stable, unstable, and `ripe for attack' region (based on the economic fundamentals.
 
 However, the authors then proceed to introduce a measure of risk around perceptions by investors.
-Investors thus do not now the actual state of the fundamentals, but rather a distored form of it.
+Investors thus do not know the actual state of the fundamentals, but rather a distored form of it.
 As a result, the investors' perception of other investors' perceptions are even more distorted.
 Paradoxically, the leads to model being solvable to a unique equilibrium.
 
 \section{The Model}
-
+I will give a brief description of the model as it is defined, and some it features.
+There is a state of economic fundamentals $\theta$ which is distributed as $\theta \sim U[0,1]$.
+The exchange rate is the hypothetical situation of no government intervention is a function only of these fundamental ($f(\theta)$),
+it is assumed that $\frac{\partial f}{\partial \theta} > 0$.
+The currency is pegged at a level larger than that derived from the fundamentals ($e* \geq f(\theta)$).
+Speculators can short the currency at a cost $t$, their payoff is thus $e* - f(\theta) - t$.
 
 \section{The Results}
 
