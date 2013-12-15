@@ -2,6 +2,7 @@
 \usepackage{color}
 \usepackage{mathtools}
 \usepackage{rotating}
+\usepackage{accents}
 \usepackage{graphicx}
 \usepackage[authordate,backend=biber]{biblatex-chicago}
 \usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
@@ -252,10 +253,21 @@ There is a state of economic fundamentals $\theta$ which is distributed as $\the
 The exchange rate is the hypothetical situation of no government intervention is a function only of these fundamental ($f(\theta)$),
 it is assumed that $\frac{\partial f}{\partial \theta} > 0$.
 The currency is pegged at a level larger than that derived from the fundamentals ($e* \geq f(\theta)$).
-Speculators can short the currency at a cost $t$, their payoff is thus $e* - f(\theta) - t$.
+Speculators can short the currency at a cost $t$, their payoff is described by $e* - f(\theta) - t$.
+The government derives a positive value $\nu > 0$ from defending the peg.
+The cost of the peg is determined by the economic fundamentals and the proportion of the speculators ($\alpha$) that attack the currency.
+The payoff the government is thus $\nu - c(\alpha, \theta)$.
+
+The introduction the risk for fundamentals: $ x \sim U[\theta - \epsilon, \theta + \epsilon] $.
 
 \section{The Results}
 \label{unc:results}
+The main result from the paper is:
+\begin{quotation}
+	\noindent THEOREM 1: The is a unique $\theta *$ such that,
+	in any equilibrium of the game with imperfect information,
+	the government abandons the currency peg if and only if $\theta \leq \theta *$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+\end{quotation}
 
 
 \section{The Issues}
@@ -264,6 +276,33 @@ By introduction the idea of perceptions of other investors' perceptions, the aut
 It is thus very surprising that the outcome of their more realistic model, correspond less to reality and the more incomplete models.
 That is to say, the nature of currency attacks does seem to be characterised by multiple equilibria.
 This explicitly expressed by the authors in their introduction, with the mentioning of \textcite{eichengreen1993unstable} and \textcite{dornbusch1994mexico}.
+
+\begin{enumerate}
+	\item Multiple equilibria exist in the interval $(\underaccent{\bar}{\theta},\bar{\theta})$.
+	\item The introduction of quantief risk, removes uncertainty with $2 \epsilon$ of $x$.
+	\item Here $u(x,\theta) > 0$ leads to $\pi (x) = 1$.
+	\item Authors claim that $u(x,\theta) < 0$ leads to $\pi (x) = 0$.
+	\item This is assumption is false.
+	\item Outside the certain risk area, the previously existing uncertainty remains.
+	\item Multiple equilibria remain possible here.
+\end{enumerate}
+
+In the technical proof of the paper, we can pinpoint the non sequitur here:
+
+\begin{quotation}
+	\noindent For the next step,
+	consider the strategy profile where every speculator attacks the currency if and only if
+	the message $x$ is less than some fixed number $k$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+\end{quotation}
+
+The riskprofile of the speculator is being redefined here.
+In the first iteration of the model,
+speculators might decide the attack the currency without knowing what other investors would do.
+In this second iteration,
+speculators will only attack if they believe that there is a sufficient number of other attackers doing the same.
+Yet in the first model, attacks were possible, in absense of this certainty.
+It thus follows that speculators should be willing to attack the currency,
+even in the absense of the quantifiable-risk induced certainty.
 
 In my understanding of the model, the fact that a unique equilibrium only comes to be with the introduction of a risk factor,
 is the result of the fact that this risk factor eliminates the previously existing uncertainty.
@@ -280,6 +319,14 @@ It is unlikely that perceptions would best be described by a uniform distributio
 More importantly, it is unlikely that this distribution would be bounded, such as is assumed by the authors.
 If we replace the bounded uniform distribution, with a normal distribution (which is unbounded),
 then we cannot derive the same results.
+
+We can summarise the issues with the paper as follows:
+
+\begin{enumerate}
+	\item The introduction of risk adds information, rather than removing it.
+	\item This does not in fact lead to a unique equilibrium.
+	\item The assumption of a bounded risk interval is problematic.
+\end{enumerate}
 
 \nocite{taleb2010black}
 \printbibliography
