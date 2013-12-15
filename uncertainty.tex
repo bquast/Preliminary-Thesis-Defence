@@ -1,0 +1,235 @@
+\begin{refsection}
+
+\chapter{Risk and Uncertainty in Unique Equilibria in Currency Attacks}
+\label{unc}
+\section*{Abstract}
+\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
+The self-fullfilling currency attack model which they propose thus has the suprising feature,
+that with the introduction of perception distorion, the multiple equilibria region, seems to solve to a single equilibrium.
+It is our contention that this is not a surpising result, 
+it a consequence of the second-order effect, where the risk factor replaces a previous existant, Knightian uncertainty.
+Furthermore, the quantified-risk only solves a certain part of the multiple equilibria region.
+Lastly, if we replace the somewhat stange assumption of a bounded uniform distribution of risk perceptions,
+with the more orthodox, normaly distribution, we cannot derive the same result.
+
+\section{The Idea}
+\label{unc:idea}
+This paper addresses the issue multiple equilibria in models of currency attacks.
+In situations of a currency peg, there is the possibility of a currency attack.
+Speculators will short the pegged currency, hoping the government will release the peg.
+If a sufficiently large proportion of the market participates in this,
+the cost of maintaining the peg for the government becomes too high,
+which will lead to the government releasing the peg.
+Currency attacks thus have a self-fulling nature,
+which leads to a situation of multiple equilibria,
+as described in \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models}.
+
+In \textcite{morris1998unique} the authors describe such a model.
+This model is characterised by a situation where there is a stable, unstable,
+and a `ripe for attack' region (based on the economic fundamentals.
+The authors expand on the standard model by introducting second-order expectations.
+Hereby speculators do not only look at the economics fundamentals of a currency,
+but also at other speculators' perceptions of these fundamentals.
+
+The authors proceed by introducing a measure of risk around perceptions of the fundamentals by investors.
+Investors do not know the actual state of the fundamentals, but rather a distored form of it.
+As a result, the investors' perception of other investors' perceptions are even more distorted.
+Paradoxically, the leads to model being solvable to a unique equilibrium.
+
+\section{The Model}
+\label{unc:model}
+I will give a brief description of the model as it is defined, and some it features.
+There is a state of economic fundamentals $\theta$ which is distributed as $\theta \sim U[0,1]$.
+The exchange rate is the hypothetical situation of no government intervention is a function only of these fundamental ($f(\theta)$),
+it is assumed that $\frac{\partial f}{\partial \theta} > 0$.
+The currency is pegged at a level larger than that derived from the fundamentals ($e* \geq f(\theta)$).
+Speculators can short the currency at a cost $t$, their payoff is described by:
+\begin{equation}\label{unc:specPO}
+e^* - f(\theta) - t
+\end{equation}
+The government derives a positive value $\nu > 0$ from defending the peg.
+The cost of the peg is determined by the economic fundamentals and the proportion of the speculators ($\alpha$) that attack the currency.
+The payoff the government is thus:
+\begin{equation}\label{unc:govPO}
+\nu - c(\alpha, \theta)
+\end{equation}
+Lastly, the following, assumptions are imposed: $c(0,0) > \nu$ (with worst fundamtentals the peg always has to be released),
+$c(1,1) > \nu$ (with all speculators attacking, the peg always has to be released),
+$e^* - f(1) < t$ (with best fundamentals, it is inopportune for speculators to attack).
+
+\subsection{The possible outcomes}
+When we set \autoref{unc:specPO} and \autoref{unc:govPO} equal to zero,
+we derive the two turning points in the model.
+We define $\underaccent{\bar}{\theta}$ which solves $c(0, \theta) = \nu$.
+Also, $\bar{\theta}$ solves $f(\theta) = e^* - t$.
+
+Using the turning points described above, we can define three possible outcome intervals:
+\begin{enumerate}
+	\item $[0, \underaccent{\bar}{\theta}]$, the cost is always too high, this is the unstable region.
+	\item $[\underaccent{\bar}{\theta}, \bar{\theta}]$, if enough speculators attack, the cost of defending the peg becomes too high,
+	this is the `ripe for attack' region.
+	\item $[\bar{\theta}, 1]$, the cost of shorting the currency will always outway the possible gains,
+	this is the stable region.
+\end{enumerate}
+The two corner intervals have unique equilibria, however, the middle interval, does not. This is thus the multiple equilibria region.
+
+
+\section{The introduction of risk (replacing uncertainty)}
+The authors expand the model by introducing a measure of risk for fundamentals:
+\begin{equation}
+x \sim U[\theta - \epsilon, \theta + \epsilon]
+\end{equation}
+Where is the $x$ is the state of the fundamentas \textit{observed} by the speculators.
+A speculators observation can thus \textit{at most} deviate from the true value of the fundamentals by $\epsilon$.
+The speculators are also aware of the nature of the distortion.
+This means that they are also aware of the fact that other speculators' perceived value of the fundatmentals can at most,
+deviate from their own with a magnitude of $2\epsilon$.
+
+\subsection{The outcomes with risk}
+\label{unc:results}
+Having established the new model, the authors state:
+\begin{quotation}
+	The unique optimal strategy for the government is then to abandon the exchange rate only if the observed fraction of deviators, $\alpha$, is greater than or equal to the critical mass $a(\theta)$ in the prevailing state $\theta$.\hspace{\stretch{1}}\parencite[p.~591]{morris1998unique}
+\end{quotation}
+By solving out this government `optimal' strategy,
+the speculators can ensure themselves of a certain abandonment of the peg,
+for a sufficiently low observed $x$.
+The authors proceed to derivde from this the main result of the paper, which is:
+\begin{quotation}
+	THEOREM 1: The is a unique $\theta *$ such that,
+	in any equilibrium of the game with imperfect information,
+	the government abandons the currency peg if and only if $\theta \leq \theta *$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+\end{quotation}
+
+
+\section{The Issues}
+\label{unc:issues}
+By introduction the idea of perceptions of other speculators' perceptions,
+the authors give a more complete picture of such a currency attack.
+It is thus very surprising that the outcome of their more realistic model,
+corresponds less to reality and the more incomplete models.
+That is to say, the nature of currency attacks does seem to be characterised by multiple equilibria.
+This explicitly expressed by the authors in their introduction, with the mentioning of \textcite{eichengreen1993unstable} and \textcite{dornbusch1994mexico}.
+It is therefore quite surprising that the more realistic leads to a the unrealistic situation of a unique equilibrium,
+whereas the less intricate model gives us the more realistic multiple equilibria.
+
+We itentify three issues with this model:
+\begin{enumerate}
+	\item The unique equilibrium does not apply to the entire `ripe for attack' region.
+	\item The measure of risk replaces uncertainty, since previously there were no second-order perceptions.
+	\item The model has the unrealistic assumption that distortion would be on a bounded uniform distribution.
+\end{enumerate}
+In the following subsections, we will describe these problems in more detail.
+
+\subsection{The `Ripe for Attack' Region}
+We can summarise the first problem with the model as follows:
+\begin{enumerate}
+	\item Multiple equilibria exist in the interval $(\underaccent{\bar}{\theta},\bar{\theta})$.
+	\item The introduction of quantief risk, removes uncertainty with $2 \epsilon$ of $x$.
+	\item Here $u(x,\theta) > 0$ leads to $\pi (x) = 1$.
+	\item Authors claim that i.f.f. $x<k$ (the quantified-risk region) speculators will attack. 
+	\item This is assumption does not follow from the model.
+	\item Outside the quantified-risk area the previously existing uncertainty remains.
+	\item Multiple equilibria remain possible here.
+\end{enumerate}
+Consider the statement of the authors:
+\begin{quotation}
+	For the next step,
+	consider the strategy profile where every speculator attacks the currency if and only if
+	the message $x$ is less than some fixed number $k$.
+	\hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+\end{quotation}
+The risk profile of the speculator is being redefined here.
+In the first iteration of the model,
+speculators might decide to the attack the currency without knowing what other investors would do.
+In this second iteration,
+speculators will only attack if they believe that there is a sufficient number of other speculators doing the same.
+Yet in the first model, attacks were possible, in absense of this certainty.
+It thus follows that speculators should be willing to attack the currency,
+even in outside the quantified-risk region (which now provides certainty).
+
+Secondly, the previously mentioned:
+\begin{quotation}
+	The unique optimal strategy for the government is then to abandon the exchange rate
+	only if the observed fraction of deviators, $\alpha$,
+	is greater than or equal to the critical mass $a(\theta)$
+	in the prevailing state $\theta$.
+	\hspace{\stretch{1}}\parencite[p.~591]{morris1998unique}
+\end{quotation}
+This should say ``...abandon the exchange rate \textit{always} if the observed fraction is great than or equal to...''.
+Since quantified-risk region now gives the speculators certainty about the other speculators behavious,
+this will now always lead to an sustainable attack.
+
+However, as described above, outside of the new quantied-risk region, the old `ripe for attack region' remains.
+In this region of multiple equilibria, currency attacks may be successful, or they may not be.
+
+The condition the governments action is thus a sufficient, but not a necesarry one.
+
+
+\subsection{Risk and Uncertainty}
+The second problem is the most fundamental. The distortion measure is presented as a function that adds uncertainty.
+If we differenciate between Knightian uncertainty and risk, then this is not true.
+
+In relation to the first order effect,
+the model introduces a quantifiable risk. (which is not the same as uncertainty)
+
+What is more important, is the effect of this risk on the second-order expectations,
+that is to say, a speculator's perception of other speculators perceptions.
+In the first iteration of the model, there is no second-order expectation,
+we are thus in a situation of Knightian uncertainty.
+By introducing the quantifiable risk into the second iteration,
+\textbf{and making speculators aware of the maximum magnitude of the distortion},
+speculators can quantify second-order expectations.
+
+Summierly, the introduction of the distortion, has two effects,
+the first-order effect is moving from perfect information to risk,
+the second-order effect is moving from uncertainty to risk.
+It is this second order effect which leads to the surprising outcome of this model.
+
+\subsection{A Bounded Uniform Distortion}
+The third problem is relatively straightforward.
+The assumption of a uniform distortion is unorthodox.
+We would normally expect that these distortion would take the shape of e.g.~a normal distribution.
+The effect of this is extremely relevant.
+A uniform distribution is bounded,
+which allows the distortion to the quantied with absolute certainty.
+An unbounded distribution, such as the normal distribution,
+would not allow a speculator to know the limit of other speculators perception,
+with absolute certainty.
+
+the equilibrium is most pronounced when the risk factor ($\epsilon$) is minimised (i.e.~set equal to zero),
+as the authors state themselves. % FIND THIS CLAIM!!!!
+
+\section{Conclusion}
+\textcite{morris1998unique} presents a model for self-fulfilling currency attacks.
+Under perfect information in the first order (and uncertainty in the second order),
+this leads to a region of the state of economic fundamentals, where multiple equilibria are possible.
+With a introduction of a quantified measure of distortion on the perception of this risk,
+the authors claim that the model solves for a unique equilibrium.
+
+We have identified three problems with this model and its outcomes.
+
+Firstly, the new equilibrium, does not cover the entire previously existing multiple equilibria region.
+Even though a larger part of the region (w.r.t.~the economic fundamentals) leads to a unique equilibrium,
+a part of the old 'ripe for attack' region, remains subject to a situation of multiple equilibria.
+It is only through two assumptions which do not follow from the model,
+that this region also solves for a unique equilibrium.
+
+Secondly, the most fundamental issue is the distinction between risk and uncertainty.
+The first-order effect of the distortion is moving from perfect knowledge to a situation of quantifiable risk.
+However, by making speculators aware of the maximum distortion,
+they can now form expectations of other speculators expectations.
+The second order effect, is thus moving from uncertainty to risk.
+This is the driving mechanism behind the new equilibrium in \textbf{part of} the `ripe for attack' region.
+
+Thirdly, the authors introduce a distortion which takes the form of a uniform distribution.
+It is only due to the bounded nature of the uniform distribution,
+that speculators are able to form bounded quantitative exectatations on other speculators expectations, with absolute certainty.
+As mentioned above, it is this absolute certainty on the bounded quantifiable second-order expectations,
+that drives the result.
+
+In conclusion, we analyse the model introducted by \textcite{morris1998unique} and find that the results are driven by a second-order effect, as well as certain unjustifiable assumptions.
+
+\nocite{taleb2010black}
+\printbibliography
+\end{refsection}
