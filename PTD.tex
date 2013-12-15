@@ -1,5 +1,4 @@
 \documentclass[a4paper]{report}
-\usepackage{graphicx}
 \usepackage{color}
 \usepackage{mathtools}
 \usepackage{rotating}
@@ -57,13 +56,14 @@ The Graduate Institute, Geneva}
 
 \begin{refsection}
 \chapter{Introduction}
+\label{intro}
 In this Preliminary Thesis Defense I present the research projects that I intend to use for my PhD dissertation. These projects are titled:
 
 \begin{itemize}
-\item Additional South African Evidence on Pensions and Child Growth (\autoref{south-africa})
+\item Additional South African Evidence on Pensions and Child Growth (\autoref{sa})
 % \item Replication: Surviving Andersonville (\ref{andersonville})
-\item Risk and Uncertainty in Unique Equilibria in Currency Attacks (\autoref{uncertainty})
-\item Bitcoin and Remittances: The Potential of `Stupid Phones' (\autoref{bitcoin})
+\item Risk and Uncertainty in Unique Equilibria in Currency Attacks (\autoref{unc})
+\item Bitcoin and Remittances: The Potential of `Stupid Phones' (\autoref{btc})
 \end{itemize}
 
 These project are in various stages of completion.
@@ -76,7 +76,7 @@ This paper makes use of a Household Survey from 2008, 2012 and 2013. The
 urvey is especially of interest, because the pension eligibility age for men was lowered from 65 to 60 in 2009.
 As it stands now I have analysed the data from 2008 and 2012.
 The 2013 data was released several weeks ago, I will incorporate these data in future versions of my analysis.
-I will discuss this in \autoref{south-africa}.
+I will discuss this in \autoref{sa}.
 
 % Furthermore, in \autoref{andersonville},
 % together with several other PhD students we have replicated the paper ``\citetitle{costa2007surviving}'' by \textcite{costa2007surviving}.
@@ -97,7 +97,7 @@ It thus solves the previous multiple-equilibrium zone called `ripe for attack' f
 I believe that this is a result of the fact that the risk factor introduces replaces uncertainty, not certainty.
 We thus gain information.
 I want to discuss MS1998 in light of the distinction between Knightian uncertainty and quantified risk.
-This is done in \autoref{uncertainty}.
+This is done in \autoref{unc}.
 
 Lastly, Bitcoin is the first of a new breed of currencies, commonly referred to as a cryptocurrencies. 
 Bitcoin transactions are conducted using an electronic process called signing.
@@ -117,7 +117,7 @@ I also mention some very preliminary ideas.
 
 \begin{refsection}
 \chapter{Pensions and Child Growth in South Africa}
-\label{south-africa}
+\label{sa}
 \section*{Abstract}
 In this paper I look at differences in child malnutrition levels depending on the gender of the recipient of income.
 
@@ -128,6 +128,7 @@ which were done before and after the lowering of the pension eligibility age for
 The main preliminary finding is that the household effect was only significant in 2012.
 
 \section{Introduction}
+\label{sa:intro}
 This paper looks at the effect of the gender of pension recipients on the growth of children in their household in South Africa.
 The approach is very similar to \textcite{duflo2000child,duflo2003grandmothers}.
 The difference from international standards \parencite[WHO Child Growth Standards]{who2006child} for weight-for-height and length-for-age are computed as z-scores.
@@ -153,6 +154,7 @@ is very insignificant in the 2008 estimate.
 But in the 2012 estimate it is very significant.
 
 \section{Data}
+\label{sa:data}
 In this paper I use data from two sources.
 The first is the South African National Income Dynamics Survey \parencite[NIDS]{saldru2008nids, saldru2012nids, saldru2013nids} and the second is the World Health Organization's Child Growth Standards \parencite[WHO]{who2006child}.
 
@@ -176,7 +178,7 @@ The standards provide the means and standards deviations used.
 These are on a monthly basis for height-for-age, and on a semi-centimeter level for weight-for-height scores.
 
 \section{Analysis}
-\label{analysis}
+\label{sa:analysis}
 I perform three types of analysis.
 The first analysis uses the Duflo method, whereby I compute the z-scores (using WHO in stead of CDC, this is of no consequence)
 and then compare based on living in the household with an of-pension-eligible adult.
@@ -210,7 +212,7 @@ Thirdly, the effects based on the gender of the child can be compared.
 
 \begin{refsection}
 \chapter{Risk and Uncertainty in Unique Equilibria in Currency Attacks}
-\label{uncertainty}
+\label{unc}
 \section*{Abstract}
 \textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
 The self-fullfilling currency attack model which they propose thus has the suprising feature,
@@ -221,6 +223,7 @@ Lastly, if we replace the somewhat stange assumption of a bounded uniform distri
 with the more orthodox, normaly distribution, we cannot come to the same results.
 
 \section{The Idea}
+\label{unc:idea}
 This paper addresses the issue multiple equilibria in models of currency attacks.
 In situations of a currency peg, there is the possibility of a currency attack.
 Investors will short the pegged currency, hoping the government will release the peg.
@@ -243,6 +246,7 @@ As a result, the investors' perception of other investors' perceptions are even 
 Paradoxically, the leads to model being solvable to a unique equilibrium.
 
 \section{The Model}
+\label{unc:model}
 I will give a brief description of the model as it is defined, and some it features.
 There is a state of economic fundamentals $\theta$ which is distributed as $\theta \sim U[0,1]$.
 The exchange rate is the hypothetical situation of no government intervention is a function only of these fundamental ($f(\theta)$),
@@ -251,9 +255,11 @@ The currency is pegged at a level larger than that derived from the fundamentals
 Speculators can short the currency at a cost $t$, their payoff is thus $e* - f(\theta) - t$.
 
 \section{The Results}
+\label{unc:results}
 
 
 \section{The Issues}
+\label{unc:issues}
 By introduction the idea of perceptions of other investors' perceptions, the authors give a more complete picture of such a currency attack.
 It is thus very surprising that the outcome of their more realistic model, correspond less to reality and the more incomplete models.
 That is to say, the nature of currency attacks does seem to be characterised by multiple equilibria.
@@ -281,7 +287,7 @@ then we cannot derive the same results.
 
 \begin{refsection}
 \chapter{Bitcoin and Remitances: The Potential of `Stupid Phones'}
-\label{bitcoin}
+\label{btc}
 In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). 
 This currency -the first of a group called cryptocurrencies- has the following economics features:
 
@@ -315,6 +321,7 @@ We can then exploit the temporal difference when releasing the applications in d
 as well the downloads from traceable IP addresses.
 
 \section{Data}
+\label{btc:data}
 Funds held at Bitcoin exchanges are not held in the owners bitcoin wallet.
 Rather, the exchange holds them in their wallet, and the clients have a claim on this wallet.
 Much like the way bank clients have a claim to their money, which is in the bank's vault.
