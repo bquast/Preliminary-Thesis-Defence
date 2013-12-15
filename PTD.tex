@@ -4,10 +4,10 @@
 \usepackage{rotating}
 \usepackage{accents}
 \usepackage{graphicx}
-\usepackage[authordate,backend=biber]{biblatex-chicago}
+\usepackage[authordate,noibid,backend=biber]{biblatex-chicago}
 \usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
 
-\title{Preliminary Thesis Defense\\~\\
+\title{Preliminary Thesis Defence\\~\\
 \begin{tabular}{rl}
 Supervisor:&Jean-Louis Arcand\footnote{Professor of Economics, The Graduate Institute, Geneva; jean-louis.arcand@graduateinstitute.ch}\\
 Second Reader:&Ugo Panizza\footnote{Professor of Economics, The Graduate Institute, Geneva; ugo.panizza@graduateinstitute.ch}
@@ -58,7 +58,7 @@ The Graduate Institute, Geneva}
 \begin{refsection}
 \chapter{Introduction}
 \label{intro}
-In this Preliminary Thesis Defense I present the research projects that I intend to use for my PhD dissertation. These projects are titled:
+In this Preliminary Thesis Defence I present the research projects that I intend to use for my PhD dissertation. These projects are titled:
 
 \begin{itemize}
 \item Additional South African Evidence on Pensions and Child Growth (\autoref{sa})
@@ -70,7 +70,7 @@ In this Preliminary Thesis Defense I present the research projects that I intend
 These project are in various stages of completion.
 Below I will briefly describe the research idea, the current state, and the potential for each project.
 
-Firstly, the paper Additional South African Evidence of Pensions and Child Growth builds \textcite{duflo2000child, duflo2003grandmothers}.
+Firstly, the paper Additional South African Evidence of Pensions and Child Growth builds upon \textcite{duflo2000child, duflo2003grandmothers}.
 These papers look at the effect of the gender of grandparents on the growth metrics of their grandchildren.
 A problem in this comparison lies in the fact that pension eligibility of men was at 65 years, whereas it was 60 for women.
 This paper makes use of a Household Survey from 2008, 2012 and 2013. The 
@@ -227,7 +227,7 @@ with the more orthodox, normaly distribution, we cannot come to the same results
 \label{unc:idea}
 This paper addresses the issue multiple equilibria in models of currency attacks.
 In situations of a currency peg, there is the possibility of a currency attack.
-Investors will short the pegged currency, hoping the government will release the peg.
+Speculators will short the pegged currency, hoping the government will release the peg.
 If a sufficiently large proportion of the market participates in this,
 the cost of maintaining the peg for the government becomes too high,
 which will lead to the government releasing the peg.
@@ -237,12 +237,13 @@ as described in \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996mod
 
 In \textcite{morris1998unique} the authors describe such a model
 and expand on it by introducting a second-order mechanism.
-Hereby investors do not only look at the economics fundamentals of a currency,
-but also at other investors' perceptions of these fundamentals.
-This leads to a standard situation where there is a stable, unstable, and `ripe for attack' region (based on the economic fundamentals.
+Hereby speculators do not only look at the economics fundamentals of a currency,
+but also at other speculators' perceptions of these fundamentals.
+This leads to a standard situation where there is a stable, unstable,
+and a `ripe for attack' region (based on the economic fundamentals.
 
-However, the authors then proceed to introduce a measure of risk around perceptions by investors.
-Investors thus do not know the actual state of the fundamentals, but rather a distored form of it.
+The authors proceed by introducing a measure of risk around perceptions of the fundamentals by investors.
+Investors do not know the actual state of the fundamentals, but rather a distored form of it.
 As a result, the investors' perception of other investors' perceptions are even more distorted.
 Paradoxically, the leads to model being solvable to a unique equilibrium.
 
@@ -253,18 +254,61 @@ There is a state of economic fundamentals $\theta$ which is distributed as $\the
 The exchange rate is the hypothetical situation of no government intervention is a function only of these fundamental ($f(\theta)$),
 it is assumed that $\frac{\partial f}{\partial \theta} > 0$.
 The currency is pegged at a level larger than that derived from the fundamentals ($e* \geq f(\theta)$).
-Speculators can short the currency at a cost $t$, their payoff is described by $e* - f(\theta) - t$.
+Speculators can short the currency at a cost $t$, their payoff is described by:
+\begin{equation}\label{unc:specPO}
+e^* - f(\theta) - t
+\end{equation}
 The government derives a positive value $\nu > 0$ from defending the peg.
 The cost of the peg is determined by the economic fundamentals and the proportion of the speculators ($\alpha$) that attack the currency.
-The payoff the government is thus $\nu - c(\alpha, \theta)$.
+The payoff the government is thus:
+\begin{equation}\label{unc:govPO}
+\nu - c(\alpha, \theta)
+\end{equation}
+Lastly, the following, assumptions are imposed: $c(0,0) > \nu$ (with worst fundamtentals the peg always has to be released),
+$c(1,1) > \nu$ (with all speculators attacking, the peg always has to be released),
+$e^* - f(1) < t$ (with best fundamentals, it is inopportune for speculators to attack).
 
-The introduction the risk for fundamentals: $ x \sim U[\theta - \epsilon, \theta + \epsilon] $.
+\subsection{The possible outcomes}
+When we set \autoref{unc:specPO} and \autoref{unc:govPO} equal to zero,
+we derive the two turning points in the model.
+We define $\underaccent{\bar}{\theta}$ which solves $c(0, \theta) = \nu$.
+Also, $\bar{\theta}$ solves $f(\theta) = e^* - t$.
 
-\section{The Results}
+Using the turning points described above, we can define three possible outcome intervals:
+\begin{enumerate}
+	\item $[0, \underaccent{\bar}{\theta}]$, the cost is always too high, this is the unstable region.
+	\item $[\underaccent{\bar}{\theta}, \bar{\theta}]$, if enough speculators attack, the cost of defending the peg becomes too high,
+	this is the `ripe for attack' region.
+	\item $[\bar{\theta}, 1]$, the cost of shorting the currency will always outway the possible gains,
+	this is the stable region.
+\end{enumerate}
+The two corner intervals have unique equilibria, however, the middle interval, does not. This is thus the multiple equilibria region.
+
+
+
+\section{The introduction of risk (replacing uncertainty)}
+The authors expand the model by introducing a measure of risk for fundamentals:
+\begin{equation}
+x \sim U[\theta - \epsilon, \theta + \epsilon]
+\end{equation}
+Where is the $x$ is the state of the fundamentas \textit{observed} by the speculators.
+A speculators observation can thus \textit{at most} deviate from the true value of the fundamentals by $\epsilon$.
+The speculators are also aware of the nature of the distortion.
+This means that they are also aware of the fact that other speculators' perceived value of the fundatmentals can at most,
+deviate from their own with a magnitude of $2\epsilon$.
+
+\subsection{The outcomes with risk}
 \label{unc:results}
-The main result from the paper is:
+Having established the new model, the authors state:
 \begin{quotation}
-	\noindent THEOREM 1: The is a unique $\theta *$ such that,
+	The unique optimal strategy for the government is then to abandon the exchange rate only if the observed fraction of deviators, $\alpha$, is greater than or equal to the critical mass $a(\theta)$ in the prevailing state $\theta$.\hspace{\stretch{1}}\parencite[p.~591]{morris1998unique}
+\end{quotation}
+By solving out this government `optimal' strategy,
+the speculators can ensure themselves of a certain abandonment of the peg,
+for a sufficiently low observed $x$.
+The authors proceed to derivde from this the main result of the paper, which is:
+\begin{quotation}
+	THEOREM 1: The is a unique $\theta *$ such that,
 	in any equilibrium of the game with imperfect information,
 	the government abandons the currency peg if and only if $\theta \leq \theta *$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
 \end{quotation}
@@ -272,11 +316,16 @@ The main result from the paper is:
 
 \section{The Issues}
 \label{unc:issues}
-By introduction the idea of perceptions of other investors' perceptions, the authors give a more complete picture of such a currency attack.
-It is thus very surprising that the outcome of their more realistic model, correspond less to reality and the more incomplete models.
+By introduction the idea of perceptions of other speculators' perceptions,
+the authors give a more complete picture of such a currency attack.
+It is thus very surprising that the outcome of their more realistic model,
+corresponds less to reality and the more incomplete models.
 That is to say, the nature of currency attacks does seem to be characterised by multiple equilibria.
 This explicitly expressed by the authors in their introduction, with the mentioning of \textcite{eichengreen1993unstable} and \textcite{dornbusch1994mexico}.
+It is therefore quite surprising that the more realistic leads to a the unrealistic situation of a unique equilibrium,
+whereas the less intricate model gives us the more realistic multiple equilibria.
 
+We can summarise the main problem with the model as follows:
 \begin{enumerate}
 	\item Multiple equilibria exist in the interval $(\underaccent{\bar}{\theta},\bar{\theta})$.
 	\item The introduction of quantief risk, removes uncertainty with $2 \epsilon$ of $x$.
@@ -286,16 +335,26 @@ This explicitly expressed by the authors in their introduction, with the mention
 	\item Outside the certain risk area, the previously existing uncertainty remains.
 	\item Multiple equilibria remain possible here.
 \end{enumerate}
-
-In the technical proof of the paper, we can pinpoint the non sequitur here:
-
+In the technical proof of the paper, we can pinpoint the non sequitur in two different but related points.
+Firstly, the previously mentioned:
 \begin{quotation}
-	\noindent For the next step,
+	The unique optimal strategy for the government is then to abandon the exchange rate
+	only if the observed fraction of deviators, $\alpha$,
+	is greater than or equal to the critical mass $a(\theta)$
+	in the prevailing state $\theta$.
+	\hspace{\stretch{1}}\parencite[p.~591]{morris1998unique}
+\end{quotation}
+This should say ``...abandon the exchange rate \textit{always} if the observed fraction is great than or equal to...''. Since 
+
+Secondly,:
+\begin{quotation}
+	For the next step,
 	consider the strategy profile where every speculator attacks the currency if and only if
-	the message $x$ is less than some fixed number $k$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+	the message $x$ is less than some fixed number $k$.
+	\hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
 \end{quotation}
 
-The riskprofile of the speculator is being redefined here.
+The risk profile of the speculator is being redefined here.
 In the first iteration of the model,
 speculators might decide the attack the currency without knowing what other investors would do.
 In this second iteration,
