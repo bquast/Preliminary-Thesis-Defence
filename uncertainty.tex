@@ -1,22 +1,14 @@
 \begin{refsection}
-
 \chapter{Risk and Uncertainty in Unique Equilibria in Currency Attacks}
-\label{unc}
+
 \section*{Abstract}
-\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium coming to be in their model of currency attacks.
-The self-fullfilling currency attack model which they propose thus has the suprising feature,
-that with the introduction of perception distorion, the multiple equilibria region, seems to solve to a single equilibrium.
-It is our contention that this is not a surpising result, 
-it a consequence of the second-order effect, where the risk factor replaces a previous existant, Knightian uncertainty.
-Furthermore, the quantified-risk only solves a certain part of the multiple equilibria region.
-Lastly, if we replace the somewhat stange assumption of a bounded uniform distribution of risk perceptions,
-with the more orthodox, normaly distribution, we cannot derive the same result.
+\textcite{morris1998unique} finds that the introduction of a risk factor leads to a unique equilibrium in their model of self-fulfilling currency attacks. The currency attack model thus has the surprising feature, with the introduction of perception distortion, the multiple equilibria region seems to solve to a single equilibrium. It is our contention that this is not a surpising result, it a consequence of the second-order effect, where the risk factor replaces a previous existent, Knightian uncertainty. Previously, speculators had no expectations on other speculators expectations. Here, the risk factor replaces uncertainty, this is the main driver of the surprising result of the paper. Also, the new quantified-risk region only solves a certain part of the multiple equilibria region, not the whole of it. Lastly, if we replace the somewhat strange assumption of a bounded uniform distribution of risk perceptions, with the more orthodox, normal distribution, we cannot derive the same result.
 
 \section{The Idea}
 \label{unc:idea}
-This paper addresses the issue multiple equilibria in models of currency attacks.
+\textcite{morris1998unique} addresses the issue of multiple equilibria in models of currency attacks.
 In situations of a currency peg, there is the possibility of a currency attack.
-Speculators will short the pegged currency, hoping the government will release the peg.
+Speculators are able to short the pegged currency, hoping the government will release the peg.
 If a sufficiently large proportion of the market participates in this,
 the cost of maintaining the peg for the government becomes too high,
 which will lead to the government releasing the peg.
@@ -26,7 +18,7 @@ as described in \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996mod
 
 In \textcite{morris1998unique} the authors describe such a model.
 This model is characterised by a situation where there is a stable, unstable,
-and a `ripe for attack' region (based on the economic fundamentals.
+and a `ripe for attack' region (based on the underlying economic fundamentals).
 The authors expand on the standard model by introducting second-order expectations.
 Hereby speculators do not only look at the economics fundamentals of a currency,
 but also at other speculators' perceptions of these fundamentals.
@@ -74,7 +66,7 @@ Using the turning points described above, we can define three possible outcome i
 The two corner intervals have unique equilibria, however, the middle interval, does not. This is thus the multiple equilibria region.
 
 
-\section{The introduction of risk (replacing uncertainty)}
+\section{The Introduction of Risk}
 The authors expand the model by introducing a measure of risk for fundamentals:
 \begin{equation}
 x \sim U[\theta - \epsilon, \theta + \epsilon]
@@ -85,7 +77,7 @@ The speculators are also aware of the nature of the distortion.
 This means that they are also aware of the fact that other speculators' perceived value of the fundatmentals can at most,
 deviate from their own with a magnitude of $2\epsilon$.
 
-\subsection{The outcomes with risk}
+\subsection{The Outcomes with Risk}
 \label{unc:results}
 Having established the new model, the authors state:
 \begin{quotation}
@@ -96,24 +88,24 @@ the speculators can ensure themselves of a certain abandonment of the peg,
 for a sufficiently low observed $x$.
 The authors proceed to derivde from this the main result of the paper, which is:
 \begin{quotation}
-	THEOREM 1: The is a unique $\theta *$ such that,
+	THEOREM 1: The is a unique $\theta^*$ such that,
 	in any equilibrium of the game with imperfect information,
-	the government abandons the currency peg if and only if $\theta \leq \theta *$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+	the government abandons the currency peg if and only if $\theta \leq \theta^*$. \hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
 \end{quotation}
+We will now discuss the issues we find in the derivation of this result.
 
 
 \section{The Issues}
 \label{unc:issues}
 By introduction the idea of perceptions of other speculators' perceptions,
-the authors give a more complete picture of such a currency attack.
-It is thus very surprising that the outcome of their more realistic model,
-corresponds less to reality and the more incomplete models.
-That is to say, the nature of currency attacks does seem to be characterised by multiple equilibria.
-This explicitly expressed by the authors in their introduction, with the mentioning of \textcite{eichengreen1993unstable} and \textcite{dornbusch1994mexico}.
-It is therefore quite surprising that the more realistic leads to a the unrealistic situation of a unique equilibrium,
-whereas the less intricate model gives us the more realistic multiple equilibria.
+the authors state a more realistic model of such a currency attack.
+It is thus very surprising that the outcome of their more realistic model
+corresponds less to reality, than the more incomplete models do.
+After all, in reality, currency attacks do seem to be characterised by multiple equilibria.
+This is also explicitly expressed by the authors in their introduction, with the mentioning of \textcite{eichengreen1993unstable} and \textcite{dornbusch1994mexico}.
 
-We itentify three issues with this model:
+We believe that this is due to a number of issues in the derivation of the results,
+we itentify three issues with this model:
 \begin{enumerate}
 	\item The unique equilibrium does not apply to the entire `ripe for attack' region.
 	\item The measure of risk replaces uncertainty, since previously there were no second-order perceptions.
@@ -148,7 +140,14 @@ Yet in the first model, attacks were possible, in absense of this certainty.
 It thus follows that speculators should be willing to attack the currency,
 even in outside the quantified-risk region (which now provides certainty).
 
-Secondly, the previously mentioned:
+To illustrate this, consider the following. The risk factor has a magnitude $\epsilon$,
+where it is assumed that $\epsilon > 0$.
+However, if in stead we state that $\epsilon = 0$, we have eliminated the risk factor.
+By eliminating the risk factor, we return to a state of perfect information.
+Therefore, solving the second iteration of the model, with $\epsilon = 0$ should give us the same result as the first iteration.
+In stead, we find that we end again in a situation of unique equilibria.
+
+As a consequence of this we have the previously mentioned:
 \begin{quotation}
 	The unique optimal strategy for the government is then to abandon the exchange rate
 	only if the observed fraction of deviators, $\alpha$,
@@ -197,9 +196,6 @@ An unbounded distribution, such as the normal distribution,
 would not allow a speculator to know the limit of other speculators perception,
 with absolute certainty.
 
-the equilibrium is most pronounced when the risk factor ($\epsilon$) is minimised (i.e.~set equal to zero),
-as the authors state themselves. % FIND THIS CLAIM!!!!
-
 \section{Conclusion}
 \textcite{morris1998unique} presents a model for self-fulfilling currency attacks.
 Under perfect information in the first order (and uncertainty in the second order),
@@ -230,6 +226,9 @@ that drives the result.
 
 In conclusion, we analyse the model introducted by \textcite{morris1998unique} and find that the results are driven by a second-order effect, as well as certain unjustifiable assumptions.
 
+\vspace{\stretch{1}}
+
 \nocite{taleb2010black}
 \printbibliography
+
 \end{refsection}
