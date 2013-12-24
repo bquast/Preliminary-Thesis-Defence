@@ -1,11 +1,14 @@
 \documentclass[a4paper]{report}
 \usepackage{color}
 \usepackage{mathtools}
+% \usepackage{times}
+\usepackage[utf8]{inputenc}
+% \usepackage[T1]{fontenc}
 \usepackage{rotating}
 \usepackage{accents}
 \usepackage{graphicx}
 \usepackage[authordate,noibid,backend=biber]{biblatex-chicago}
-\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 \title{Preliminary Thesis Defence\\~\\
 \begin{tabular}{rl}
@@ -180,7 +183,24 @@ These standards are based on the scores of children from different ethnic popula
 The standards provide the means and standards deviations used. 
 These are on a monthly basis for height-for-age, and on a semi-centimeter level for weight-for-height scores.
 
-\section{Analysis}
+\section{Identification Strategy
+\label{sa:identification}}
+The policy change, a natural experiment
+
+the ATET, etc.
+
+\subsection{The estimation using OLS}
+Our first estimation method uses OLS.
+
+\subsection{Difference in Differences}
+The estimation using diff-in-diff, its equivalence to fixed-effects, and how it is different when using T=3.
+
+
+
+
+
+
+\section{Obsolete: Analysis}
 \label{sa:analysis}
 I perform three types of analysis.
 The first analysis uses the Duflo method, whereby I compute the z-scores (using WHO in stead of CDC, this is of no consequence)
@@ -208,17 +228,12 @@ Thirdly, the effects based on the gender of the child can be compared.
 \printbibliography
 \end{refsection}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% UNCOMMENT TO INCLUDE THE ANDERSONVILLE CHAPTER!!!!!
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \input{andersonville.tex}
-
 \input{uncertainty.tex}
 
 \begin{refsection}
 \chapter{Bitcoin and Remitances: The Potential of `Stupid Phones'}
 \label{btc}
-In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called ``\citetitle{nakamoto2008bitcoin}'' an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). 
+In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called \citetitle{nakamoto2008bitcoin} an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). 
 This currency -the first of a group called cryptocurrencies- has the following economics features:
 
 \begin{itemize}
@@ -283,7 +298,27 @@ Since the Bitcoins remain in the Exchange's wallet, the only thing which changes
 \end{itemize}
 
 \printbibliography
+\end{refsection}
 
+\begin{refsection}
+\chapter{Bitcoin Attacks: Or how cryptocurrencies gain momentum}
+As discussed in \autoref{btc}, there has been a new phenonemon in international finance called cryptocurrencies. The first of these was the cryptocurrency called Bitcoin \parencite{nakamoto2008bitcoin}. However, soon after Bitcoin started gaining momentum, alternative crypotcurrencies where being designed. All of these cryptocurrencies are based to a large extend on the Bitcoin protocol, but often introduce small technological innovations.
+
+The most known of all of these alternative crypocurrencies is Litecoin. Litecoin introduces a number of small technological innovations, the most import of these is the change that the process of `mining' coins is 4 times faster, this has two consequences, transactions are approved faster than in the bitcoin protocol. It also means that the technological limit for the total number of Litecoins ever available is 4x times higher. For Bitcoin the technical limit is around 21 million Bitcoin, which is expected to be reached in the year 2140. For Litecoin, the limit is around 84 million bitcoin, which is also expected to be reached around this time.
+
+The key thing to note here is the perspective of the new cryptocurrecy adopt. Even though the value of Bitcoin is much higher than that of Litecoin, it does not have more to offer. The lower valued new cryptocurrency is technologically superior and thus more attractive. Most new cryptocurrencies do not gain momentum and their value is only trivialy more than zero. However, some currencies have gain momentum, the previously mentioned litecoin introduces a technological innovation and build it base on that. However, recently a new cryptocurrency has arisen and become quite popular. This cryptocurrency is called `Dogecoin' and besides it name, it does not introduce any novelty. Dogecoin is a reference to an internet phenomenon called `Doge Meme'. Despite the fact that `Dogecoin' does not have a real reason for being considered valuable (in the sense that crypotocurrencies are considered valuable), however, by utilising a previously existing internet phenomenon, and it's fanbase, this currencies has become valuable. We thus observe that from the perspective of economic and technological fundamentals, there is a situation of multiple equilibria.
+
+My idea is to adapt standard models of currency attacks such as in \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models} to model the gaining of long (v.s.~currency attacks' short) momentum for cryptocurrencies. Initially we would model how a currency can gain sufficient momentum to establish itself as a stably above zero.
+
+This could later be expended to a model with several cryptocurrencies competing for the investment of the same new cryptocurrency adopt, who is converting his/her fiat currency into one of several cryptocurrencies.
+
+\begin{figure}
+\caption{A Doge Meme}
+\label{doge}
+%\includegraphics[scale=0.8]{doge.jpg}
+\end{figure}
+
+\printbibliography
 \end{refsection}
 
 \begin{refsection}
@@ -331,5 +366,11 @@ In this document I have tried to give a description of my research projects. Non
 
 \printbibliography
 \end{refsection}
+
+\appendix
+
+% The Surviving Andersonville replication goes to the appendix
+% \input{andersonville.tex}
+
 
 \end{document}
