@@ -2,56 +2,83 @@
 \chapter{Pensions and Child Growth in South Africa}
 \label{sa}
 \section*{Abstract}
-In this paper I look at differences in child malnutrition levels depending on the gender of the recipient of income.
+In this paper we look at variation in the health of young children driven by the gender of the household income recipient.
+We do this by comparing z-scores of anthropometrics of South-African children living in the same household as state pension recipients.
 
-I do this by comparing z-scores of anthropometrics of South African children living in the same household as state pension recipients.
-This paper exploits the fact that the data set consists of three surveys,
-one of which was done before the lowering of the pension eligibility age for men to the same age as women,
-and two after.
+This paper exploits the lowering of the state-pension eligibility-age of men, 
+to the same age as women (60, previously 65).
+This takes place between two waves in the South-African National Income Dynamics Survey.
+This enables us to perform a Difference-in-Difference estimation on the panel data set.
 
-The main preliminary finding is that the household effect was only significant in 2012.
+Our finding is that policy change had a negative effect on long-term growth metrics of young children
+and the general mens pension income had a negative effect on young children's BMI.
 
 \section{Introduction}
 \label{sa:intro}
-This paper looks at the effect of the gender of pension recipients on the growth of children in their household in South Africa.
-The approach is very similar to \textcite{duflo2000child,duflo2003grandmothers}.
-The difference from international standards \parencite[WHO Child Growth Standards]{who2006child} for weight-for-height and length-for-age are computed as z-scores.
-These are then compared for different pension recipient status.
-
-The anthropometrics are useful for computing z-scores. These z-scores are considered a good representation of short-term or long-term malnutrition respectively, especially for children between 6 and 60 months old.
-
-The South African pension is a useful variable to measure income because of its criteria.
-Besides a maximum level of income, the only criterium is the age of a person.
-Because of this the status as a recipient is quite exogenous and there are few selection bias problems.
-The problematic difference between the eligibility age of men and women was eliminated between the two surveys which creates an interesting natural experiment.
+This paper looks at the effect of the gender of pension recipients on the growth of children in the same household.
+The study is based on South-African data and the approach is very similar to \textcite{duflo2000child,duflo2003grandmothers}.
+The difference from international standards \parencite[WHO Child Growth Standards]{who2006child} for anthropometrics are computed as z-scores.
+Using these standardised metrics, we compare children living in household with pension recipients of different gender.
 
 This study deviates from the Duflo study in several ways.
-% MAIN DEVIATION, PANEL NATURAL EXPERIMENT
-First of all, the data from the \textcite{saldru2008nids,saldru2012nids} surveys, contains actual information on income,
-including pension recipient status.
-Whereas Duflo uses age as a proxy for recipient status.
-Secondly, between mid 2008 and the end of 2009 the pension age for men was gradualy lowered to sixty, which is at par with women.
-Another deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child} in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}.
-Since these have superseded the CDC charts, however this should not be of any consequence.
+The core contribution of this paper is the analyis of exogenous change in men's pension eligibility age,
+which is the main explanatum.
+The pension eligibility age for men was lowered from 65 to 60 between mid 2009 and 1-1-2011.
+This brought the pension eligibility age for men at par with women.
+We employ a Difference-in-Difference (or Fixed Effects) analysis of this change.
+Under then assumptions of the Difference-in-Difference model,
+this enables us to make a causal inference on the policy variable.
+
+Furthermore, the data from the \textcite{saldru2008nids,saldru2012nids} surveys contains actual information on income,
+including pension recipient status, whereas Duflo uses age as a proxy for recipient status.
+Another minor deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child},
+in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}, since these have superseded the CDC charts.
+As long as all observations are held against the same standards, this should not be of any consequence.
 
 % THE IMPERTUS FOR THE PAPER IS THE GENDER IN CCTs and OPTIMAL DESIGN
+The impertus for this paper lies in the optimal design of cash transfer schemes such as CCTs and UCTs.
 % RELATES TO THE ISSUE OF HOUSEHOLD AS A UNIT
-% THEY ARE NO LONGER THAT RARE IN DEVELOPING COUNTRIES ???
+The lack Paretto optimal allocation of resources within households is discussed in i.a.
+\textcite{udry1995gender}, \textcite{udry1996gender}, and \textcite{duflo2004intrahousehold}.
+Based on this lack of Paretto optimal allocation,
+we have to reject the idea of households acting as a unit in an economic sense.
+For the design of cash transfer schemes it is therefore necisarry to determine the prefered recipient within the household.
+
+The South African pension system is an interesting object of study because of its eligibility criteria.
+The primary criterium is the age of the recipient.
+In adition to this there is a maximum income threshold.
+Because of these few criteria there are few selection bias issues in this study.
+
+The anthropometrics are useful for computing z-scores.
+These z-scores are considered a good representation of short-term or long-term health issues, respectively.
+This relation is especially well observed for children between 6 and 60 months old.
+We therefore stay with the best practice and only include those individuals in our analysis.
 
 % HISTORY OF APARTHEID AND CHANGE IN PENSION SCHEME
 
-% STATE THE MAIN RESULT
+% ESTIMATION
+
+Our main finding is that we find a negative effect of the policy change on the age-based growth metrics on children (HAZ and WAZ).
+In the height-based metrics we find a negative effect of the state pension income of men on the body mass index (though not on the WHZ).
+Our results seems to indicate that the policy change had a negative impact on the long-term growth of children.
+Furthermore, we see a negative effect of the mens pension income on the BMI of children.
+These results provide support for the theory that exogenous incomes in a poverty relief context,
+such as CCTs and UCTs are best transfered to women in the households.
 
 \section{Data}
 \label{sa:data}
 % DESCRIPTIVE STATISTICS OF THE DATASET AND POSSIBLY THE GROWTH STANDARDS
-In this paper I use data from two sources.
+In this paper we use data from two sources.
 The first is the South African National Income Dynamics Survey \parencite[NIDS][]{saldru2008nids, saldru2012nids, saldru2013nids} and the second is the World Health Organization's Child Growth Standards \parencite[WHO]{who2006child}.
 
 \subsection{South Africa: National Income Dynamics Survey}
 The main source of data is the National Income Dynamics Survey of South Africa \parencite{saldru2008nids, saldru2012nids, saldru2013nids}.
-This survey collects data on a representative set of appproximately 10,000 South-African households over time.
-The primary information types I use are:
+Like the 1993 survey used by \textcite{duflo2000child, duflo2003grandmothers}, this survey is conducted in cooperation with the World Bank.
+Unlike the 1993 survey, this survey does not use a random selection household,
+rather it collects data on a representative set of appproximately 10,000 South-African households over time.
+Currently three `waves' of data are available, these waves data from 2008, 2012, and 2013 respectively.
+
+The primary information types we use are:
 \begin{itemize}
   \item child anthropometrics,
   \item child age (in days)
@@ -66,6 +93,8 @@ For simplicity I have temporarily used this variable as a dummy.
 
 Children's anthropometrics are taken, these are length/height, weight, and waist.
 Using these anthropometics and WHO growth standards, z-scores have been calculated.
+
+
 
 \subsection{WHO: Child Growth Standards}
 In 2006 the WHO published its standards for child growth \parencite{who2006child}.
@@ -86,16 +115,16 @@ In general, can distinquish between two types of anthropometric z-scores, the ag
 Whereby `based' refers to the reference point at which anthropometrics are standardised.
 
 \subsubsection{Age-Based Z-scores}
-The age-based z-scores are the Height-for-Age Z-score (HAZ) and the Weight-for-Age Z-score (WAZ).
-Since these metrics are age-based, they provide information about all past growth issues,
-any past issues such a malnutrition and disease will have impaired growth,
+The Age-Based Z-scores (ABZs) are consistituted by the Height-for-Age Z-score (HAZ) and the Weight-for-Age Z-score (WAZ).
+Since these metrics are age-based, they provide information about all past growth issues.
+Any past issues such a malnutrition and disease will have impaired growth,
 and these effects will still be captured by today's height.
 
-The age-based z-scores are constructed on a weekly basis up to the age of 60 months, and on a monthly basis thereafer.
+The ABZs are constructed on a weekly basis up to the age of 60 months, and on a monthly basis thereafer.
 
 
 \subsubsection{Height-Based Z-scores}
-The height-based z-scores are the Weight-for-Height Z-score (WHZ)
+The Height-Based Z-scores (HBZs) are the Weight-for-Height Z-score (WHZ)
 and Body Mass Index Z-score (BMIZ).
 Where the BMI (or Quetelet) is a transformed version of the WHZ, which has a quadratic height effect.
 The equation for BMI is:
@@ -107,7 +136,7 @@ These scores compare children with others of the same height, irrispective of th
 As a results we only observe the relatively short-term effect of weight.
 The height-based metrics thus provide is with a short-term insight.
 
-The height-based z-scores are available on a semi-centimeter level throughout all heights.
+The HBZs are available on a semi-centimeter level throughout all heights.
 
 \subsection{Data Structure}
 The NIDS uses a file and data structure which is ill suied for panel data analysis.
@@ -116,20 +145,28 @@ In doing so, we try to stay as close as possible to the`Tidy data' structure, as
 This is easiest using the R package `Reshape2' by the same author \parencite[Reshape2 implementation]{wickham2007reshaping}.
 
 \section{Research Design}
+
+
+
+\subsection{Identification Strategy}
 \label{sa:identification}
-% The policy change, a natural experiment
+The identification strategy in this paper is based on a policy change in the pension eligibility age for men,
+which was introduced between mid 2009 and January 1st 2011.
+This policy change thus fall between waves 1 and 2 (2008 and 2012 respectively) of the NIDS data sets.
 
+Before this policy change, the eligibility age for men was 65 years old.
+Post the policy change, the eligibility age is 60 years old,
+which bring it at par with the pension eligibility age for women.
 
-
-\subsection{Ordinary Least Squares}
-We first perform an Ordinary Least Squares estimation (OLS).
-This is done using the linear model (lm) procedure from the R package `Base' \parencite{R}.
+We operationalise this natural experiment, by constructing a policy dummy.
+This policy dummy is called \textbf{elig.men.60}, and takes the value \textbf{1}
+for data after the policy change (i.e.~waves 2 \& 3), and the value \textbf{0} otherwise (i.e.~wave 1).
 
 \subsection{Difference in Differences}
 In order to fully exploit the available data and the policy change,
-we also employ a `Difference-in-Differences' estimator (DiD).
+we employ a `Difference-in-Differences' estimator (DiD).
 This estimator operationalised by using the fixed-effects (within) estimator, with a time-effect\footnote{The time effect estimated here is symmetric to the individual effect.
-We use the term `time effect', since this is a more meaningful description of the policy change.}.
+We employ the term `time effect', since it is a more meaningful description of the policy change.}.
 
 We perform the estimations using the R package `PLM' \parencite[see][]{croissant2008panel}.
 It is worth noting  that questions have been raised about the Difference-in-Difference estimator being employed in certain situations,
@@ -138,15 +175,16 @@ for example by (ironically) \textcite{bertrand2004much}.
 \subsubsection{Formal DiD Specification}
 % ATET etc.
 
+
 \section{Results}
 In \autoref{sa:hazwaz} we present our estimation results for the age-based z-scores,
 and in \autoref{sa:whzbmiz} we present our estimation results for the height-based z-scores.
 
 % LaTeX table created manually
 % Fri Dec 27 23:22:00 2013
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
-\caption{Estimation Results: HAZ \& WAZ}
+\caption{Age-Based Z-scores}
 \label{sa:hazwaz}
 \begin{tabular}{l|rrr|rrr}
 % \hline
@@ -165,9 +203,9 @@ w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 \\
 
 % LaTeX table created manually
 % Fri Dec 27 23:53 2013
-\begin{table}[h!]
+\begin{table}[!ht]
 \centering
-\caption{Estimation Results: WHZ \& BMIZ}
+\caption{Height-Based Z-scores}
 \label{sa:whzbmiz}
 \begin{tabular}{l|rrr|rrr}
 & \multicolumn{3}{c}{Weight for Height Z-score} & \multicolumn{3}{c}{Body Mass Index Z-score}\\
@@ -185,10 +223,6 @@ w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & 0.0000 & 0.0000
 
 
 \subsection{Robustness Checks}
-
-\subsubsection{OLS Robustness}
-
-\subsubsection{DiD Robustness}
 % HAUSMAN TEST FOR FE / RE
 
 \section{Conclusion}
