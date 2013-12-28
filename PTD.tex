@@ -55,8 +55,6 @@ The Graduate Institute, Geneva}
 
 \maketitle
 \tableofcontents
-% \listoftables
-% \listoffigures
 
 \input{intro.tex}
 
@@ -64,147 +62,15 @@ The Graduate Institute, Geneva}
 
 \input{uncertainty.tex}
 
-\begin{refsection}
-\chapter{Bitcoin and Remitances: The Potential of `Stupid Phones'}
-\label{btc}
-In the 2009 whitepaper \parencite{nakamoto2008bitcoin} called \citetitle{nakamoto2008bitcoin} an anonymous individual or collective referred to a Satoshi Nakamoto (the Japanese equivalent of John Smith) describes an online currency called Bitcoin (BTC). 
-This currency -the first of a group called cryptocurrencies- has the following economics features:
+\input{bitremit.tex}
 
-\begin{itemize}
-\item public transactions
-\item anonymous addresses
-\item fixed amount of units
-\item high granularity (1 Bitcoin = 100,000,000 Satoshi)
-\item no or low transaction costs
-\end{itemize}
+\input{bitattack.tex}
 
-An addition to these economic features, the key feature of Bitcoin is decentralisation.
-All transactions are kept in a public ledger called the blockchain. An incentive in the form of transaction fees is provided to stimulate the creation of multiple copies of this ledger.
-Conflict resolution, in this system, is done through majority consensus of blockchain copy holders.
-
-There are a number of features which make Bitcoin attractive for remittances. Firstly, the low transaction costs are a huge step up from the current facilitators, which charge high percentages. Secondly, government intervention (especially in the recipient country) is prevented by the anonymity. Thirdly, recipients can choose to keep their remittance in a currency which is not controlled by their government. Fourthly, the granularity ensures very small transactions can be conducted.
-
-Bitcoin initially because popular in advanced economies such as those in Europe and North America.
-However, since mid 2013 there has been a large shift towards developing economies,
-in which comparative advantages of Bitcoin are more pronounced.
-For example, since its inception, Mt.Gox (located in Japan) was the largest Bitcoin exchange (marketplace), however in October 2013, Mt.Gox was overtaken by a Chinese exchange.
-
-Bitcoin transactions are conducted by the electronic `signing' of a transaction.
-This is a very simple electronic process.
-Currently many smartphone apps are available to this purpose.
-However, in the targeted developing economies, many phones are not smartphones, the vast majority using Nokia Operating System (Nokia OS).
- These phone can also run applications, using the Java Mobile App platform. Currently there are no Bitcoin apps available for this platform.
-
-I propose to participate in the development of open-source applications which would enable the users of stupid phones.
-We can then exploit the temporal difference when releasing the applications in different languages at different times,
-as well the downloads from traceable IP addresses.
-
-\section{Data}
-\label{btc:data}
-Funds held at Bitcoin exchanges are not held in the owners bitcoin wallet.
-Rather, the exchange holds them in their wallet, and the clients have a claim on this wallet.
-Much like the way bank clients have a claim to their money, which is in the bank's vault.
-
-Therefore Bitcoin purchases at exchanges do not lead to transaction being recorded in the blockchain.
-Since the Bitcoins remain in the Exchange's wallet, the only thing which changes is the claims of the clients.
-
-\begin{itemize}
- \item The blockchain (public ledger)
- \begin{itemize}
- 	\item IP address
- 	\item Language of transaction notice
- 	\item Transaction times
- \end{itemize}
- \item The exchanges
- \begin{itemize}
- 	\item Location of exchanges
- 	\item Transaction costs for each currency
-	\item The order books
-	\item Transaction times
- 	\item The traded currency
- \end{itemize}
- \item Software
- \begin{itemize}
- 	\item Downloads
- 	\item Translation contributions (?)
- 	\item Connections to server
- \end{itemize}
-\end{itemize}
-
-\printbibliography
-\end{refsection}
-
-\begin{refsection}
-\chapter{Bitcoin Attacks: Or how cryptocurrencies gain momentum}
-As discussed in \autoref{btc}, there has been a new phenonemon in international finance called cryptocurrencies. The first of these was the cryptocurrency called Bitcoin \parencite{nakamoto2008bitcoin}. However, soon after Bitcoin started gaining momentum, alternative crypotcurrencies where being designed. All of these cryptocurrencies are based to a large extend on the Bitcoin protocol, but often introduce small technological innovations.
-
-The most known of all of these alternative crypocurrencies is Litecoin. Litecoin introduces a number of small technological innovations, the most import of these is the change that the process of `mining' coins is 4 times faster, this has two consequences, transactions are approved faster than in the bitcoin protocol. It also means that the technological limit for the total number of Litecoins ever available is 4x times higher. For Bitcoin the technical limit is around 21 million Bitcoin, which is expected to be reached in the year 2140. For Litecoin, the limit is around 84 million bitcoin, which is also expected to be reached around this time.
-
-The key thing to note here is the perspective of the new cryptocurrecy adopt. Even though the value of Bitcoin is much higher than that of Litecoin, it does not have more to offer. The lower valued new cryptocurrency is technologically superior and thus more attractive. Most new cryptocurrencies do not gain momentum and their value is only trivialy more than zero. However, some currencies have gain momentum, the previously mentioned litecoin introduces a technological innovation and build it base on that. However, recently a new cryptocurrency has arisen and become quite popular. This cryptocurrency is called `Dogecoin' and besides it name, it does not introduce any novelty. Dogecoin is a reference to an internet phenomenon called `Doge Meme'. Despite the fact that `Dogecoin' does not have a real reason for being considered valuable (in the sense that crypotocurrencies are considered valuable), however, by utilising a previously existing internet phenomenon, and it's fanbase, this currencies has become valuable. We thus observe that from the perspective of economic and technological fundamentals, there is a situation of multiple equilibria.
-
-My idea is to adapt standard models of currency attacks such as in \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models} to model the gaining of long (v.s.~currency attacks' short) momentum for cryptocurrencies. Initially we would model how a currency can gain sufficient momentum to establish itself as a stably above zero.
-
-This could later be expended to a model with several cryptocurrencies competing for the investment of the same new cryptocurrency adopt, who is converting his/her fiat currency into one of several cryptocurrencies.
-
-\begin{figure}
-\caption{A Doge Meme}
-\label{doge}
-%\includegraphics[scale=0.8]{doge.jpg}
-\end{figure}
-
-\printbibliography
-\end{refsection}
-
-\begin{refsection}
-\chapter{End notes}
-\label{end-notes}
-In the previous chapters I have presented my current research projects.
-These projects are in various stages of completions.
-
-I believe that my South Africa paper provides an interesting opportunity to exploit the data from the household survey,
-done before and after a highly relevant policy change.
-Especially since the methodology and location are the same as in \textcite{duflo2000child, duflo2003grandmothers}.
-In addition to this there is now a third data wave which has become available.
-This provides us with more data, and mostly the opportunity to use more interesting methodology.
-The text of the paper still has to be written. 
-
-% The replication of Surviving Andersonville is already completed in term of the replication in Stata.
-% We would like to redo the analysis in R \parencite{R}.
-% The relevance of this for replications can be seen from the recent replication \textcite{bell2013questioning} of the original \textcite{rauchhaus2009evaluating} paper.
-% The findings of this replication can summarised as:
-
-%\begin{quote}
-%``We were easily able to replicate Rauchhaus’ key findings in Stata, but couldn't get it to work in R. It took us a long while to work out why, but the reason turned out to be an error in Stata: Stata was finding a solution when it shouldn’t'have (because of separation in the data). This solution, as we show in the paper, was wrong – and led Rauchhaus’ paper to overestimate the effect of nuclear weapons on conflict by a factor of several million.''~\parencite{bell2013questioning}
-%\end{quote}
-
-% We do not expect to find anything similar to Bell and Miller,
-% but think that it can nevertheless be interesting to replicate findings using a different software package.
-% In R, we can replicate this using the package called `survival', which supports the Kaplan Meier and NPMLE methods.
-% In addition to this, the paper needs to be rewritten to emphasise the key finding of our replication.
-
-The discussion of \textcite{morris1998unique} is in a very early stage.
-I have looked at the paper in detail, I have also done a brief analysis of my main critique,
-namely the conflation of risk (quantifiable) and Knightian uncertainy (unquantifiable).
-However, I would like to presenta worked out example which demonstrates how this convolution leads to the main result of the paper.
-In addition to this, this example should demonstrate how only a part of the `ripe for attack' region is solved for the unique equilibrium.
-
-Finally, relating to Bitcoin \parencite{nakamoto2008bitcoin}, I think that there is a enormous potention for uncontrolled low-cost remintances using Bitcoin. I would like to analyse the spread of this. I propose to follow the spread of applications for platforms which are popular in developing economies.
-
-At this point, three out of four of the previously discussed research projects are some form of a replication of prior work. As replications they are mostly critiques of others' work, rather than constructive ideas. This is mostly a result of the fact that these projects progress faster. For this reason, these research projects have progressed more than the projects which are primarily based on my own ideas. However, it is my attention to shift the focus of my thesis to include more original work. Here I present two more ideas which are too preliminary to include in the main body of the text, but are based on my own work.
-
-Firstly, I was in charge of setting up a baseline diagnostic into security perceptions in Conakry, Guinea. This diagnostic will be used to analyse the impact of a police reform conducted here. The reform constitutes of the implementation of a model of `police de proximitee'. The baseline consist of 4500 interviews using smartphones in the comune of Conkary as well a large number of interviews in N'Zerekore (east Guinea). Some time after the implementation of the police reform as follow up study will be conducted. I propose to conduct an impact evaluation using the results from the studies in which I have taken and will take part.
-
-Secondly, I have previously studied philosophy of science in my bachelors in Theoretical Philosophy. I would like to write one paper about an issue relating to this. In particular I would like to at the effect of outliers. The effect how these outliers has extensively been discussed in contexts such as finance and international economics \parencite{taleb2010black,   sornette2009dragon},  as well as indiviual behaviour \parencite{kahneman2011thinking}. I would like to see how these principles affect research in development microeconomics.
-
-In this document I have tried to give a description of my research projects. None of these projects are near completion and many are in fact in a very early stage. The purpose of this has been to describe the direction I am taking with my thesis, and to receive feedback on this. As a result of this being work in progress, the articles are still incomplete, this includes lacking the proper attribution of ideas using citations.
-
-\printbibliography
-\end{refsection}
+\input{endnotes.tex}
 
 \appendix
 
 % The Surviving Andersonville replication goes to the appendix
 % \input{andersonville.tex}
-
 
 \end{document}

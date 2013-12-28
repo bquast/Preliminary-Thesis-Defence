@@ -26,6 +26,7 @@ Because of this the status as a recipient is quite exogenous and there are few s
 The problematic difference between the eligibility age of men and women was eliminated between the two surveys which creates an interesting natural experiment.
 
 This study deviates from the Duflo study in several ways.
+% MAIN DEVIATION, PANEL NATURAL EXPERIMENT
 First of all, the data from the \textcite{saldru2008nids,saldru2012nids} surveys, contains actual information on income,
 including pension recipient status.
 Whereas Duflo uses age as a proxy for recipient status.
@@ -33,18 +34,30 @@ Secondly, between mid 2008 and the end of 2009 the pension age for men was gradu
 Another deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child} in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}.
 Since these have superseded the CDC charts, however this should not be of any consequence.
 
-The main preliminary result is that the household effect (i.e. having one or more recipients in the household),
-is very insignificant in the 2008 estimate.
-But in the 2012 estimate it is very significant.
+% THE IMPERTUS FOR THE PAPER IS THE GENDER IN CCTs and OPTIMAL DESIGN
+% RELATES TO THE ISSUE OF HOUSEHOLD AS A UNIT
+% THEY ARE NO LONGER THAT RARE IN DEVELOPING COUNTRIES ???
+
+% HISTORY OF APARTHEID AND CHANGE IN PENSION SCHEME
+
+% STATE THE MAIN RESULT
 
 \section{Data}
 \label{sa:data}
+% DESCRIPTIVE STATISTICS OF THE DATASET AND POSSIBLY THE GROWTH STANDARDS
 In this paper I use data from two sources.
-The first is the South African National Income Dynamics Survey \parencite[NIDS]{saldru2008nids, saldru2012nids, saldru2013nids} and the second is the World Health Organization's Child Growth Standards \parencite[WHO]{who2006child}.
+The first is the South African National Income Dynamics Survey \parencite[NIDS][]{saldru2008nids, saldru2012nids, saldru2013nids} and the second is the World Health Organization's Child Growth Standards \parencite[WHO]{who2006child}.
 
-The main source of data is the NIDS.
-This survey collects data on a representative set of appproximately 10,000 South-African households.
-The primary information types I use are, the child anthropometrics, the age and gender of household members, and the status as state pension recipients.
+\subsection{South Africa: National Income Dynamics Survey}
+The main source of data is the National Income Dynamics Survey of South Africa \parencite{saldru2008nids, saldru2012nids, saldru2013nids}.
+This survey collects data on a representative set of appproximately 10,000 South-African households over time.
+The primary information types I use are:
+\begin{itemize}
+  \item child anthropometrics,
+  \item child age (in days)
+  \item adult pension recipient status
+  \item adult pension recipient gender
+\end{itemize}
 
 For adults several variables measure the different amounts and sources of income.
 Among those, a variable if the adult receives a state pension, and if so, how much.
@@ -53,50 +66,132 @@ For simplicity I have temporarily used this variable as a dummy.
 
 Children's anthropometrics are taken, these are length/height, weight, and waist.
 Using these anthropometics and WHO growth standards, z-scores have been calculated.
-Unfortunately wave 2 (2012) accidentally omitted the z-scores, so that these cannot be evaluated until an updated version is published.
-However, I have computed the length-for-age z-scores manually.
 
+\subsection{WHO: Child Growth Standards}
 In 2006 the WHO published its standards for child growth \parencite{who2006child}.
-These standards are based on the scores of children from different ethnic populations in households which observed a healthy lifestyle.
-The standards provide the means and standards deviations used. 
-These are on a monthly basis for height-for-age, and on a semi-centimeter level for weight-for-height scores.
+These standards measure the difference between a child's anthropometrics
+standardised against an ideal score.
 
-\section{Identification Strategy
-\label{sa:identification}}
-The policy change, a natural experiment
+Z-score anthropometrics are used since they are considered to be a good representation of a child's health,
+and by extension, the household in which they grow up.
+These ideal scores are based on a sample of children from different ethnic populations,
+in households which observed a healthy lifestyle.
+Any health issues, such as malnutrition or disease will affect these metrics,
+by causing the child to be shorter or lighter.
+However, it is impossible to distinquish between the causes of an observed slow growth.
 
-the ATET, etc.
+We stay with the best practice of using only metrics for children between the ages of 6 months and 60 months.
 
-\subsection{The estimation using OLS}
-Our first estimation method uses OLS.
+In general, can distinquish between two types of anthropometric z-scores, the age-based z-scores and the height-based z-scores.
+Whereby `based' refers to the reference point at which anthropometrics are standardised.
+
+\subsubsection{Age-Based Z-scores}
+The age-based z-scores are the Height-for-Age Z-score (HAZ) and the Weight-for-Age Z-score (WAZ).
+Since these metrics are age-based, they provide information about all past growth issues,
+any past issues such a malnutrition and disease will have impaired growth,
+and these effects will still be captured by today's height.
+
+The age-based z-scores are constructed on a weekly basis up to the age of 60 months, and on a monthly basis thereafer.
+
+
+\subsubsection{Height-Based Z-scores}
+The height-based z-scores are the Weight-for-Height Z-score (WHZ)
+and Body Mass Index Z-score (BMIZ).
+Where the BMI (or Quetelet) is a transformed version of the WHZ, which has a quadratic height effect.
+The equation for BMI is:
+\[
+\textbf{BMI} = \frac{\textbf{weight(kg)}}{\textbf{height(m)}^2}
+\]
+
+These scores compare children with others of the same height, irrispective of their age.
+As a results we only observe the relatively short-term effect of weight.
+The height-based metrics thus provide is with a short-term insight.
+
+The height-based z-scores are available on a semi-centimeter level throughout all heights.
+
+\subsection{Data Structure}
+The NIDS uses a file and data structure which is ill suied for panel data analysis.
+We therefore transform the data to a format which is more conducive to our analysis.
+In doing so, we try to stay as close as possible to the`Tidy data' structure, as described in \textcite{wickham2014tidy}.
+This is easiest using the R package `Reshape2' by the same author \parencite[Reshape2 implementation]{wickham2007reshaping}.
+
+\section{Research Design}
+\label{sa:identification}
+% The policy change, a natural experiment
+
+
+
+\subsection{Ordinary Least Squares}
+We first perform an Ordinary Least Squares estimation (OLS).
+This is done using the linear model (lm) procedure from the R package `Base' \parencite{R}.
 
 \subsection{Difference in Differences}
-The estimation using diff-in-diff, its equivalence to fixed-effects, and how it is different when using T=3.
+In order to fully exploit the available data and the policy change,
+we also employ a `Difference-in-Differences' estimator (DiD).
+This estimator operationalised by using the fixed-effects (within) estimator, with a time-effect\footnote{The time effect estimated here is symmetric to the individual effect.
+We use the term `time effect', since this is a more meaningful description of the policy change.}.
 
-\section{Obsolete: Analysis}
-\label{sa:analysis}
-I perform three types of analysis.
-The first analysis uses the Duflo method, whereby I compute the z-scores (using WHO in stead of CDC, this is of no consequence)
-and then compare based on living in the household with an of-pension-eligible adult.
-Secondly, I use my computed z-scores and the data set provided variable which describes the actual pension received (or lack thereof).
-Lastly, I use this state pension variable to evaluate the z-scores provided in the dataset.
+We perform the estimations using the R package `PLM' \parencite[see][]{croissant2008panel}.
+It is worth noting  that questions have been raised about the Difference-in-Difference estimator being employed in certain situations,
+for example by (ironically) \textcite{bertrand2004much}.
 
-The first type of analysis is almost identical to Duflo.
-Using an internation set of standard anthropometrics for healthy children between 6 and 60 months old, I standarize observed anthropometrics.
-I then construct a number of dummies of different ages and gender of the pension recipients.
+\subsubsection{Formal DiD Specification}
+% ATET etc.
 
-In the second analysis, I use the same z-scores I calculated for the Duflo method.
-However, here I use the state pension recipient variable provided by the NIDS data set.
-For simplicity I change the numerical variable to a dummy variable (as the benefits are virtually identical this is without much loss of information).
+\section{Results}
+In \autoref{sa:hazwaz} we present our estimation results for the age-based z-scores,
+and in \autoref{sa:whzbmiz} we present our estimation results for the height-based z-scores.
 
-This method uses the pre calculated z-scores from the data set and the state pension dummy.
-Unfortunately the 2012 z-scores are missing except for height-for-age.
-I therefore use only the height-for-age z-scores for the 2012 estimates.
+% LaTeX table created manually
+% Fri Dec 27 23:22:00 2013
+\begin{table}[h!]
+\centering
+\caption{Estimation Results: HAZ \& WAZ}
+\label{sa:hazwaz}
+\begin{tabular}{l|rrr|rrr}
+% \hline
+& \multicolumn{3}{c}{Height for Age Z-score} & \multicolumn{3}{c}{Weight for Age Z-score}\\
+\hline
+specification & 1 & 2 & 3 & 1 & 2 & 3\\
+\hline
+w\_spen\_m & 0.2366 & *0.8228 & 0.7908 & 0.2366 & 0.2981 & 0.4780 \\
+w\_spen\_w & -0.2331 & 0.1053 & 0.1072 & -0.2331 & -0.3112 & -0.3280 \\
+elig.men.60 & & **-0.3419 & **-0.3465 & & ***-0.3475 & **-0.3243 \\
+w\_spen\_m1:elig.men.60 & & & 0.0446 & & & -0.2545 \\
+% \hline
+w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 \\
+\end{tabular}
+\end{table}
 
-In all of these methods the z-scores can be compared on a number of properties.
-Firstly, the status of living in the same household as a state pension recipient or not is the first property to compare.
-Secondly, when living with a recipient,the effects of male and female recipients can be compared.
-Thirdly, the effects based on the gender of the child can be compared.
+% LaTeX table created manually
+% Fri Dec 27 23:53 2013
+\begin{table}[h!]
+\centering
+\caption{Estimation Results: WHZ \& BMIZ}
+\label{sa:whzbmiz}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c}{Weight for Height Z-score} & \multicolumn{3}{c}{Body Mass Index Z-score}\\
+\hline
+specification & 1 & 2 & 3 & 1 & 2 & 3 \\
+\hline
+w\_spen\_m &  -0.3532 & -0.3210 & -0.4303 & *-0.8058 & *-0.7905 & *-1.0226 \\
+w\_spen\_w & 0.0655 & 0.0371 & 0.0478 & -0.1592 & -0.1956 & -0.1742 \\
+elig.men.60 & & -0.1417 & -0.1574 & & -0.1674 & -0.2049 \\
+w\_spen\_m1:elig.men.60 & & & 0.1484 & & & 0.3407 \\
+w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & 0.0000 & 0.0000
+\end{tabular}
+\end{table}
+
+
+
+\subsection{Robustness Checks}
+
+\subsubsection{OLS Robustness}
+
+\subsubsection{DiD Robustness}
+% HAUSMAN TEST FOR FE / RE
+
+\section{Conclusion}
 
 \printbibliography
 \end{refsection}
