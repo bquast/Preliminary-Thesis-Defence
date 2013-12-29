@@ -1,6 +1,7 @@
 \begin{refsection}
 \chapter{Pensions and Child Growth in South Africa}
 \label{sa}
+\vspace{\stretch{1}}
 \section*{Abstract}
 In this paper we look at variation in the health of young children driven by the gender of the household income recipient.
 We do this by comparing z-scores of anthropometrics of South-African children living in the same household as state pension recipients.
@@ -12,6 +13,7 @@ This enables us to perform a Difference-in-Difference estimation on the panel da
 
 Our finding is that policy change had a negative effect on long-term growth metrics of young children
 and the general mens pension income had a negative effect on young children's BMI.
+\pagebreak
 
 \section{Introduction}
 \label{sa:intro}
@@ -188,8 +190,23 @@ It is worth noting  that questions have been raised about the Difference-in-Diff
 for example by (ironically) \textcite{bertrand2004much}.
 
 \subsubsection{Formal DiD Specification}
-% ATET etc.
-
+We can now formally specify our estimation as:
+\begin{equation}
+y_{it} = \gamma_i + \lambda_t + \delta T_{it} + P^f_{it} + P^m_{it} + X_{it} + \epsilon_{it}
+\end{equation}
+The outcome variable is $y_{it}$, this outcome variable takes the form of the of the z-scores,
+such as HAZ or WAZ.
+Where $t$ denotes the time and $i$ the individual.
+The individual and time fixes effects are denoted by $\gamma_i$ and $\lambda_t$ respectively.
+Dummies for living in a household with a female or a male pension recipient are included as $P^f_{it}$ and $P^m_{it}$ respectively.
+The dummy variable $T_{it}$ denoted the treatment status.
+Lastly, $\epsilon_{it}$ is the error term, which is assumed to be distributed as:
+\[
+\epsilon_{it} \sim N(0,\sigma)
+\]
+As we have only one time period before the treatment goes into effect,
+we cannot establish a common trend.
+The assumption here made is thus that the effects of $P^f_{it}$ and $P^m_{it}$ are level over time.
 
 \section{Results}
 In \autoref{sa:hazwaz} we present our estimation results for the age-based z-scores,
