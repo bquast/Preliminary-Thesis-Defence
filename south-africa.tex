@@ -70,19 +70,24 @@ and divide by the standard devation ($\sigma_y$), like so:
 z_{xy} = \frac{x - \mu_y}{\sigma_{y}}
 \]
 We distinquish between Age Based Z-scores (ABZ) and Height-Based Z-scores (HBZ).
+We use two types ABZs and two types of HBZs, for a total of four types of z-scores.
 This is described in futher detail in \autoref{sa:data:who}.
 
 These z-scores are considered a good representation of short-term or long-term health issues, respectively.
 This relation is especially well observed for children between 6 and 60 months old.
 We therefore stay with the best practice and only include those observations in our analysis.
 
+We formulate three models. One without the treatment dummy,
+one with the treatment dummy, and one with the treatment dummy,
+and an interaction term with male pension recipient status.
+Each of these models is estimated with all four types of z-scores,
+which gives a total of twelve estimation equations.
+
 
 % HISTORY OF APARTHEID AND CHANGE IN PENSION SCHEME
 
 
-% ESTIMATION
-
-Our main finding is that we find a negative effect of the policy change on the age-based growth metrics on children (HAZ and WAZ).
+Our main finding is a negative effect of the policy change on the age-based growth metrics on children (HAZ and WAZ).
 In the height-based metrics we find a negative effect of the state pension income of men on the body mass index (though not on the WHZ).
 Our results seems to indicate that the policy change had a negative impact on the long-term growth of children.
 Furthermore, we see a negative effect of the mens pension income on the BMI of children.
