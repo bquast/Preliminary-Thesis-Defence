@@ -13,12 +13,15 @@ This enables us to perform a Difference-in-Difference estimation on the panel da
 
 Our finding is that policy change had a negative effect on long-term growth metrics of young children
 and the general male pension income had a negative effect on young children's BMI.
+
+These results provide support for the idea that it is preferable to use female recipients in poverty-relief projects such as CCTs.
 \pagebreak
 
 \section{Introduction}
 \label{sa:intro}
 This paper looks at the effect of the gender of pension recipients on the growth of children in the same household.
-The study is based on South-African data and the approach is very similar to \textcite{duflo2000child,duflo2003grandmothers}.
+The study is based on South-African data and the approach is very similar to \textcite{duflo2000child,duflo2003grandmothers},
+and orignally based on the work of \textcite{thomas1994like}.
 The difference from international standards \parencite[WHO Child Growth Standards]{who2006child} for anthropometrics are computed as z-scores.
 Using these standardised metrics, we compare children living in household with pension recipients of different gender.
 
@@ -44,32 +47,31 @@ The lack Paretto optimal allocation of resources within households as discussed 
 indicates the necesity of optimal design in such schemes.
 Based on this lack of Paretto optimal allocation,
 we have to reject the idea of households acting as a unit in an economic sense.
-For the design of cash transfer schemes it is therefore necessary to determine the prefered recipient within the household.
+For the design of cash transfer schemes it is therefore necessary to determine the prefered recipient within the household
+\footnote{For a good overview see e.g.~\textcite{haddad1997intrahousehold}}.
 
 As mentioned above, we follow \textcite{duflo2000child,duflo2003grandmothers} general design.
-Looking at the gender of pension recipients gives a relatively clean analysis,
+Looking at the gender of pension recipients gives a reasonably clean analysis,
 because of it's relative exogeneity.
-We therefore use these as the Right-Hand Side variables, or explanata.
+We therefore use these pension receipts as the Right-Hand Side variables, or explanata.
 Anthopometrics for children are used, since these capture well, the effects of both malnutrition and disease,
-the two most common health issues that we are addressing.
+the two most common health impediments that we are addressing.
 
 The South African pension system is an interesting object of study because of its eligibility criteria.
 The primary criterium is the age of the recipient.
 In adition to this there is a maximum income threshold.
 Outside of this, there are very few criteria.
 The reletive general applicablility of the program makes that there are few selection bias issues when studying this.
+A thorough, though a points somewhat dated, discussion can be found in \textcite{case1998large}.
+Although the pension system was intended as a form of poverty relief for the elder population,
+it has also become that for the South-African rural population\parencite{tangwe2013impact}.
+Average household income in rural area is much lower than in urban areas.
+Pension receipt have therefore formed a large share of household income.
+Upon the initial expension to include the black population, in 1991,
+this was a much as twice the mean monthly income.
 
-The anthropometrics are useful for computing z-scores.
-With z-scores we refer to the practice of standardising the anthropometrics using an `idea' standard \parencite{who2006child}.
-
-For example, if we measure a height $x$ for a child of age $y$ (in weeks/months),
-then we refer the to WHO tables, find the relevant ideal height and standard deviation for a child of age $y$.
-We then substract the ideal height ($\mu_y$) from the observed height,
-and divide by the standard devation ($\sigma_y$), like so:
-\[
-z_{xy} = \frac{x - \mu_y}{\sigma_{y}}
-\]
-We distinquish between Age Based Z-scores (ABZ) and Height-Based Z-scores (HBZ).
+The anthropometrics taken in the NIDS are useful for computing z-scores.
+We distinguish between Age Based Z-scores (ABZ) and Height-Based Z-scores (HBZ).
 We use two types ABZs and two types of HBZs, for a total of four types of z-scores.
 This is described in futher detail in \autoref{sa:data:who}.
 
@@ -77,15 +79,14 @@ These z-scores are considered a good representation of short-term or long-term h
 This relation is especially well observed for children between 6 and 60 months old.
 We therefore stay with the best practice and only include those observations in our analysis.
 
-We formulate three models. One without the treatment dummy,
-one with the treatment dummy, and one with the treatment dummy,
+We formulate three models. One model without the treatment dummy,
+one model with the treatment dummy, and finally one model with the treatment dummy,
 and an interaction term with male pension recipient status.
 Each of these models is estimated with all four types of z-scores,
 which gives a total of twelve estimation equations.
-
-
-% HISTORY OF APARTHEID AND CHANGE IN PENSION SCHEME
-
+All twelve equation are estimated as fixed-effect panel models, with, where included, a time effect.
+We have only one data period before the policy change, which means that we cannot test for a common trend.
+The implicit assumption here is thus that the effects are level over the time period studied here.
 
 Our main finding is a negative effect of the policy change on the age-based growth metrics on children (HAZ and WAZ).
 In the height-based metrics we find a negative effect of the state pension income of men on the body mass index (though not on the WHZ).
@@ -115,7 +116,7 @@ The primary information types we use are:
   \item adult pension recipient status
   \item adult gender
 \end{itemize}
-In addition to these variables of interest, we include a number of covariates in the analysis. These are
+In addition to these variables of interest, we include a number of covariates in the analysis, these are:
 \begin{itemize}
   \item Household income
   \item Parent's education
@@ -158,6 +159,15 @@ standardised against an ideal score.
 
 Z-score anthropometrics are used since they are considered to be a good representation of a child's health,
 and by extension, the household in which they grow up.
+With z-scores we refer to the practice of standardising the anthropometrics using an `idea' standard \parencite{who2006child}.
+
+For example, if we measure a height $x$ for a child of age $y$ (in weeks/months),
+then we refer the to WHO tables, find the relevant ideal height and standard deviation for a child of age $y$.
+We then substract the ideal height ($\mu_y$) from the observed height,
+and divide by the standard devation ($\sigma_y$), like so:
+\[
+z_{xy} = \frac{x - \mu_y}{\sigma_{y}}
+\]
 These ideal scores are based on a sample of children from different ethnic populations,
 in households which observed a healthy lifestyle.
 Any health issues, such as malnutrition or disease will affect these metrics,
@@ -227,7 +237,7 @@ We operationalise this natural experiment, by constructing a policy dummy.
 This policy dummy is called \textbf{elig.men.60}, and takes the value \textbf{1}
 for data after the policy change (i.e.~waves 2 \& 3), and the value \textbf{0} otherwise (i.e.~wave 1).
 
-\subsection{Estimator}
+\subsection{Estimation}
 In order to fully exploit the available data and the policy change,
 we employ a `Difference-in-Differences' estimator (DiD).
 This estimator operationalised by using the fixed-effects (within) estimator, with a time-effect\footnote{The time effect estimated here is symmetric to the individual effect.
@@ -366,6 +376,16 @@ Firstly, we find that there is a significant and consistant negative effect of t
 (i.e. Height for Age and Weight for Height).
 Secondly, we find a consistent and negative effect of the men's pension variable (\textbf{w\_spen\_m}) on the Body-Mass-Index Z-scores.
 Both of these effect are consistent across the different specifications used in our estimations.
+
+% ASSUMPTIONS
+
+% LIMITATIONS
+
+% ROBUSTNESS
+
+% RECOMMENDATIONS
+
+
 
 \printbibliography
 \end{refsection}
