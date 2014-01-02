@@ -12,7 +12,7 @@ This takes place between two waves in the South-African National Income Dynamics
 This enables us to perform a Difference-in-Difference estimation on the panel data set.
 
 Our finding is that policy change had a negative effect on long-term growth metrics of young children
-and the general mens pension income had a negative effect on young children's BMI.
+and the general male pension income had a negative effect on young children's BMI.
 \pagebreak
 
 \section{Introduction}
@@ -46,6 +46,13 @@ Based on this lack of Paretto optimal allocation,
 we have to reject the idea of households acting as a unit in an economic sense.
 For the design of cash transfer schemes it is therefore necessary to determine the prefered recipient within the household.
 
+As mentioned above, we follow \textcite{duflo2000child,duflo2003grandmothers} general design.
+Looking at the gender of pension recipients gives a relatively clean analysis,
+because of it's relative exogeneity.
+We therefore use these as the Right-Hand Side variables, or explanata.
+Anthopometrics for children are used, since these capture well, the effects of both malnutrition and disease,
+the two most common health issues that we are addressing.
+
 The South African pension system is an interesting object of study because of its eligibility criteria.
 The primary criterium is the age of the recipient.
 In adition to this there is a maximum income threshold.
@@ -53,11 +60,25 @@ Outside of this, there are very few criteria.
 The reletive general applicablility of the program makes that there are few selection bias issues when studying this.
 
 The anthropometrics are useful for computing z-scores.
+With z-scores we refer to the practice of standardising the anthropometrics using an `idea' standard \parencite{who2006child}.
+
+For example, if we measure a height $x$ for a child of age $y$ (in weeks/months),
+then we refer the to WHO tables, find the relevant ideal height and standard deviation for a child of age $y$.
+We then substract the ideal height ($\mu_y$) from the observed height,
+and divide by the standard devation ($\sigma_y$), like so:
+\[
+z_{xy} = \frac{x - \mu_y}{\sigma_{y}}
+\]
+We distinquish between Age Based Z-scores (ABZ) and Height-Based Z-scores (HBZ).
+This is described in futher detail in \autoref{sa:data:who}.
+
 These z-scores are considered a good representation of short-term or long-term health issues, respectively.
 This relation is especially well observed for children between 6 and 60 months old.
 We therefore stay with the best practice and only include those observations in our analysis.
 
+
 % HISTORY OF APARTHEID AND CHANGE IN PENSION SCHEME
+
 
 % ESTIMATION
 
@@ -99,11 +120,33 @@ For adults several variables measure the different amounts and sources of income
 Among those, a variable if the adult receives a state pension, and if so, how much.
 This is a numeric variable, the values of which lie very close together.
 
+The income from the pension system is just above 1000 SAR.
+There are a number of different exact amount, which we have simplified to a dummy.
+Since the variation in the amount is around 5\% this should not be without much loss of generality.
+\autoref{sa:ta:income} gives a description of the distribution of income as found in the NIDS data sets.
+
+\begin{table}[hb!]
+\centering
+\caption{NIDS Income distribution}
+\label{sa:ta:income}
+\begin{tabular}{l|r}
+\hline
+  Min. & 0 \\
+  1st Qu. & 1,070 \\
+  Median & 1,870 \\
+  Mean & 3,939 \\
+  3rd Qu. & 3,150 \\
+  Max. & 3,413,000 \\
+\end{tabular}
+\end{table}
+
 Children's anthropometrics are taken, these are length/height, weight, and waist.
 Using these anthropometics and WHO growth standards, z-scores are calculated.
+The following z-scores are included:
 
 
 \subsection{WHO: Child Growth Standards}
+\label{sa:data:who}
 In 2006 the WHO published its standards for child growth \parencite{who2006child}.
 These standards measure the difference between a child's anthropometrics
 standardised against an ideal score.
