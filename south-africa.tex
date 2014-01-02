@@ -122,9 +122,31 @@ In addition to these variables of interest, we include a number of covariates in
   \item Parent's education
 \end{itemize}
 
+\begin{table}[hb!]
+\centering
+\caption{Z-score distributions}
+\label{sa:ta:zscore}
+    \begin{tabular}{l|rrrr}
+    \hline
+    & HAZ & WAZ & WHZ & BMIZ\\
+    \hline
+    Min.   & -5.972 & -6.000  & -4.916 & -4.994 \\
+    1st    & -1.768 & -1.110  & -0.302 & -0.602 \\
+    Median & -0.941 & -0.310  &  0.491  & 0.207  \\
+    Mean   & -0.956 & -0.296  &  0.501  & 0.240   \\
+    3rd    & -0.132 &  0.516  &  1.351  & 1.069  \\
+    Max.   &  5.975 &  4.958  &  4.967  & 4.992  \\
+    \end{tabular}
+\end{table}
+
 For adults several variables measure the different amounts and sources of income.
 Among those, a variable if the adult receives a state pension, and if so, how much.
 This is a numeric variable, the values of which lie very close together.
+We observe that 22.99\% of household in our dataset have a female pension recipient as part of the household.
+Furthermore, we observe that 9.06\% of households in our dataset have a male pension recipient.
+This implies that, despite the fact that men are now eligible at the same age as women,
+the vast majority of pension recipients is female.
+Therefore, there is still a selection bias issue in the data we are analysing.
 
 The income from the pension system is just above 1000 SAR.
 There are a number of different exact amount, which we have simplified to a dummy.
@@ -148,7 +170,6 @@ Since the variation in the amount is around 5\% this should not be without much 
 
 Children's anthropometrics are taken, these are length/height, weight, and waist.
 Using these anthropometics and WHO growth standards, z-scores are calculated.
-The following z-scores are included:
 
 
 \subsection{WHO: Child Growth Standards}
