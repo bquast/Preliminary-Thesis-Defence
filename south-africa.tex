@@ -212,6 +212,7 @@ The ABZs are constructed on a weekly basis up to the age of 60 months, and on a 
 
 
 \subsubsection{Height-Based Z-scores}
+\label{sa:se:hbz}
 The Height-Based Z-scores (HBZs) are the Weight-for-Height Z-score (WHZ)
 and Body Mass Index Z-score (BMIZ).
 Where the BMI (or Quetelet) is a transformed version of the WHZ, which has a quadratic height effect.
@@ -346,7 +347,7 @@ w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 \\
 \end{tabular}
 \end{table}
 
-As \autoref{sa:hazwaz} shows both the Height-for-Age and the Weight-for-Age estmations for all three Right-Hand Side variations give similar results.
+As \autoref{sa:hazwaz} shows both the Height-for-Age and the Weight-for-Age estimations for all three Right-Hand Side variations give similar results.
 For all the height-based z-score estmations, we find that the policy variable \textbf{elig.men.60} has a negative coefficient estimate, which is highly significant (where included).
 In all cases the estimate has a p-value of less that \textbf{0.01}.
 Meaning that (meta-discussion aside) the probabiliy that this coefficient represents a non-existant relation (Type II error) is less than one percent.
@@ -385,16 +386,67 @@ w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & 0.0000 & 0.0000
 \end{tabular}
 \end{table}
 
-
 In \autoref{sa:whzbmiz} we do not find an effect of the \textbf{elig.men.60} variable.
 In the WHZ estimation we do not find any significant variables.
 However, the \textbf{BMIZ} estimation we find \textbf{w\_spen\_m} to be significant at a 5\% level of all specifications.
+
+We thus find a negative effect of the treatment on growth metrics.
+Furthermore, for one height-based z-score we also find a negative effect of male pension recipients on growth metrics.
+Additionaly, it is suprising that we find significant coefficients for \textbf{w\_spen\_m} in one height-based z-score (\textbf{BMIZ}), but not in the other \textbf{WHZ}.
+
+The last results is especially surprising,
+considering that the coefficient estimates for \textbf{w\_spen\_m} in the \textbf{WHZ} estimations are all similar to each other,
+and roughtly half of the estimates of the \textbf{BMIZ} estimations.
+
+For the lower coefficient estimates, it is important to note that \textbf{BMIZ} is essentially a convex mapping of \textbf{WHZ},
+since height is squared in the denominator of the BMI function, as described in \autoref{sa:se:hbz}.
+In other words, the fact that the estimators, which give transformed coefficient estimates can have different significance levels,
+can be explained as follows.
+The squaring of the height in the denominator of the Body-Mass Index function, makes it a non-linear mapping of the Weight-for-Height Z-scores.
+Furthermore, from the significance of the coefficients in the \textbf{BMIZ} estimations,
+we can conclude that the coefficient estimates are higher that the standard error estimates,
+by a factor of several times (for Degrees of Freedom $\sim 380$).
+Combining the small estimates of the standard errors, with the convex mapping,
+gives the results that the standard errors are scaled up to a lesser degree than the coefficient estimates.
+This then gives the results, that with t-testing the significance of the convexly mapped coefficients and standard errors,
+we can find significance at the 5\% level for the convexly mapped \textbf{BMIZ} estimates of \textbf{w\_spen\_m},
+where for the \textbf{WHZ} estimates of \textbf{w\_spen\_m} we could not.
+
+% DROP IN FEMALE RECIPIENTS, REMAIN LEVEL FOR MEN
+
+\begin{table}[ht!]
+\centering
+\caption{Households with and without Male Pension Recipients}
+\label{sa:ta:hmr}
+    \begin{tabular}{l|rrrr}
+    \hline
+    Year              & 2008   & 2012   & 2013   & Overall \\
+    \hline
+    Male Recipient    & 612    & 595    & 623    & 1830    \\
+    No Male Recipient & 6121   & 6138   & 6110   & 18369   \\
+    Ratio of Male Recipients & 0.0909 & 0.0884 & 0.0925 & 0.0906  \\
+    \end{tabular}
+\end{table}
+
+\begin{table}[ht!]
+\centering
+\caption{Households with and without Female Pension Recipients}
+\label{sa:ta:fmr}
+    \begin{tabular}{l|rrrr}
+    \hline
+    Year                & 2008   & 2012   & 2013   & Overall \\
+    \hline
+    Female Recipient    & 1637   & 1498   & 1509   & 4644    \\
+    No Female Recipient & 5096   & 5235   & 5224   & 15555   \\
+    Ratio               & 0.2431 & 0.2225 & 0.2241 & 0.2299  \\
+    \end{tabular}
+\end{table}
 
 
 \section{Conclusions and Limitations}
 We find two results from out estimations.
 Firstly, we find that there is a significant and consistant negative effect of the policy variable \textbf{elig.men.60} on the age-based z-scores
-(i.e. Height for Age and Weight for Height).
+(i.e.~Height for Age and Weight for Height).
 Secondly, we find a consistent and negative effect of the men's pension variable (\textbf{w\_spen\_m}) on the Body-Mass-Index Z-scores.
 Both of these effect are consistent across the different specifications used in our estimations.
 
