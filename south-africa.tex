@@ -239,7 +239,7 @@ The ABZs are constructed on a weekly basis up to the age of 60 months, and on a 
 
 
 \subsubsection{Height-Based Z-scores}
-\label{sa:se:hbz}
+\label{sa:hbz}
 The Height-Based Z-scores (HBZs) are the Weight-for-Height Z-score (WHZ)
 and Body Mass Index Z-score (BMIZ).
 Where the BMI (or Quetelet) is a transformed version of the WHZ, which has a quadratic height effect.
@@ -342,8 +342,8 @@ The assumption here made is thus that the effects of $P^f_{it}$ and $P^m_{it}$ a
 
 \section{Results}
 \label{sa:results}
-In \autoref{sa:hazwaz} we present our estimation results for the age-based z-scores,
-and in \autoref{sa:whzbmiz} we present our estimation results for the height-based z-scores.
+In \autoref{sa:ta:haz} and \autoref{sa:ta:waz} we present our estimation results for the age-based z-scores.
+In \autoref{sa:ta:whz} and \autoref{sa:ta:bmiz} we present our estimation results for the height-based z-scores.
 
 In these tables the dependent variable used it defined on the top row.
 The second row defines the model used (as defined in \autoref{sa:models}).
@@ -358,24 +358,39 @@ Lastly, we unclude de covariate \textbf{w\_h\_tinc} which represents total house
 % Fri Dec 27 23:22:00 2013
 \begin{table}[!ht]
 \centering
-\caption{Age-Based Z-scores}
-\label{sa:hazwaz}
-\begin{tabular}{l|rrr|rrr}
-% \hline
-& \multicolumn{3}{c}{Height for Age Z-score} & \multicolumn{3}{c}{Weight for Age Z-score}\\
+\caption{Height-for-Age Z-score}
+\label{sa:ta:haz}
+\begin{tabular}{l|rrr}
 \hline
-specification & 1 & 2 & 3 & 1 & 2 & 3\\
+specification & 1 & 2 & 3\\
 \hline
-w\_spen\_m & 0.2366 & *0.8228 & 0.7908 & 0.2366 & 0.2981 & 0.4780 \\
-w\_spen\_w & -0.2331 & 0.1053 & 0.1072 & -0.2331 & -0.3112 & -0.3280 \\
-elig.men.60 & & **-0.3419 & **-0.3465 & & ***-0.3475 & **-0.3243 \\
-w\_spen\_m1:elig.men.60 & & & 0.0446 & & & -0.2545 \\
-% \hline
-w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 & -0.0000 \\
+w\_spen\_m & 0.2366 & *0.8228 & 0.7908 \\
+w\_spen\_w & -0.2331 & 0.1053 & 0.1072 \\
+elig.men.60 & & **-0.3419 & **-0.3465 \\
+w\_spen\_m1:elig.men.60 & & & 0.0446 \\
+w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
 \end{tabular}
 \end{table}
 
-As \autoref{sa:hazwaz} shows both the Height-for-Age and the Weight-for-Age estimations for all three Right-Hand Side variations give similar results.
+% LaTeX table created manually
+% Fri Dec 27 23:22:00 2013
+\begin{table}[!ht]
+\centering
+\caption{Weight-for-Age Z-score}
+\label{sa:ta:waz}
+\begin{tabular}{l|rrr}
+\hline
+specification & 1 & 2 & 3\\
+\hline
+w\_spen\_m & 0.2366 & 0.2981 & 0.4780 \\
+w\_spen\_w & -0.2331 & -0.3112 & -0.3280 \\
+elig.men.60 & & ***-0.3475 & **-0.3243 \\
+w\_spen\_m1:elig.men.60 & & & -0.2545 \\
+w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
+\end{tabular}
+\end{table}
+
+As \autoref{sa:ta:haz} and \autoref{sa:ta:waz} shows the Height-for-Age and the Weight-for-Age estimations for all three Right-Hand Side variations give similar results.
 For all the height-based z-score estmations, we find that the policy variable \textbf{elig.men.60} has a negative coefficient estimate, which is highly significant (where included).
 In all cases the estimate has a p-value of less that \textbf{0.01}.
 Meaning that (meta-discussion aside) the probabiliy that this coefficient represents a non-existant relation (Type II error) is less than one percent.
@@ -386,8 +401,9 @@ The fact that this outcome is consistent across different Right-Hand Side,
 as well as Left-Hand Side specifications, further lends credibility of there not being a Type II error.
 As mentioned above, the HAZ and the WAZ Z-scores capture long-term or past health issues.
 
-Furthermore, when using Height-for-Age as the LHS, and the model 2 on the HRS, we find a positive effect of living with a male pension recipient.
-The coefficient output here is no longer significant when we include the interaction term in the model 3 specification.
+Furthermore, when using Height-for-Age as the LHS, and the model 2 on the RHS,
+we find a positive effect of living with a male pension recipient.
+However, the coefficient output here is no longer significant when we include the interaction term in the model 3 specification.
 
 The interpretation of the coefficients of these dummy variables is as follows.
 The coefficient represents the change in the expected value of a child's deviation for the standard growth anthropometics in standard deviations. 
@@ -395,26 +411,45 @@ A coefficient of \textbf{-0.3419} of the dummy \textbf{elig.men.60} in HAZ model
 after the lowering of the male pension eligibility age, ceteris paribus, a child's expected Height-for-Age Z-score is 0.3410 standard deviation lower than before the lowering of the eligibility age.
 
 
+
 % LaTeX table created manually
 % Fri Dec 27 23:53 2013
 \begin{table}[!ht]
 \centering
-\caption{Height-Based Z-scores}
-\label{sa:whzbmiz}
-\begin{tabular}{l|rrr|rrr}
-& \multicolumn{3}{c}{Weight for Height Z-score} & \multicolumn{3}{c}{Body Mass Index Z-score}\\
+\caption{Weight-for-Height Z-score}
+\label{sa:ta:whz}
+\begin{tabular}{l|rrr}
 \hline
-specification & 1 & 2 & 3 & 1 & 2 & 3 \\
+specification & 1 & 2 & 3 \\
 \hline
-w\_spen\_m &  -0.3532 & -0.3210 & -0.4303 & *-0.8058 & *-0.7905 & *-1.0226 \\
-w\_spen\_w & 0.0655 & 0.0371 & 0.0478 & -0.1592 & -0.1956 & -0.1742 \\
-elig.men.60 & & -0.1417 & -0.1574 & & -0.1674 & -0.2049 \\
-w\_spen\_m1:elig.men.60 & & & 0.1484 & & & 0.3407 \\
-w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 & -0.0000 & 0.0000 & 0.0000
+w\_spen\_m &  -0.3532 & -0.3210 & -0.4303 \\
+w\_spen\_w & 0.0655 & 0.0371 & 0.0478 \\
+elig.men.60 & & -0.1417 & -0.1574 \\
+w\_spen\_m1:elig.men.60 & & & 0.1484 \\
+w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
 \end{tabular}
 \end{table}
 
-In \autoref{sa:whzbmiz} we do not find an effect of the \textbf{elig.men.60} variable.
+% LaTeX table created manually
+% Fri Dec 27 23:53 2013
+\begin{table}[!ht]
+\centering
+\caption{Body-Mass-Index Z-score}
+\label{sa:ta:bmiz}
+\begin{tabular}{l|rrr}
+\hline
+specification & 1 & 2 & 3 \\
+\hline
+w\_spen\_m & *-0.8058 & *-0.7905 & *-1.0226 \\
+w\_spen\_w & -0.1592 & -0.1956 & -0.1742 \\
+elig.men.60 & & -0.1674 & -0.2049 \\
+w\_spen\_m1:elig.men.60 & & & 0.3407 \\
+w\_h\_tinc & -0.0000 & 0.0000 & 0.0000\\
+\end{tabular}
+\end{table}
+
+
+In \autoref{sa:ta:whz} and \autoref{sa:ta:bmiz} we do not find an effect of the \textbf{elig.men.60} variable.
 In the WHZ estimation we do not find any significant variables.
 However, the \textbf{BMIZ} estimation we find \textbf{w\_spen\_m} to be significant at a 5\% level of all specifications.
 
@@ -427,7 +462,7 @@ Especially considering that the coefficient estimates for \textbf{w\_spen\_m} in
 and roughtly half of the estimates of the \textbf{BMIZ} estimations.
 
 For the higher coefficient estimates, it is important to note that \textbf{BMIZ} is essentially a convex mapping of \textbf{WHZ},
-since height is squared in the denominator of the BMI function, as described in \autoref{sa:se:hbz}.
+since height is squared in the denominator of the BMI function, as described in \autoref{sa:hbz}.
 In other words, the fact that the estimators, which give transformed coefficient estimates can have different significance levels,
 can be explained as follows.
 The squaring of the height in the denominator of the Body-Mass Index function, makes it a non-linear mapping of the Weight-for-Height Z-scores.
@@ -603,11 +638,6 @@ the analysis in \autoref{sa:results} seems to indicate a need to establish the c
 at least over the period 2008-2012.
 Since the female recipient base in this period serves as a control group, we possibly could establish this, using the evolution here.
 Alternatively, it would be possible to establish a trend using statistics on nationwide pension recipients.
-
-% RECOMMENDATIONS
-% estimate using by weighting the drop for women with life exp. evolution, and male also
-% or use the drop for women (unaffected) to scale men and women back to 2008 levels.
-
 
 \printbibliography
 \end{refsection}
