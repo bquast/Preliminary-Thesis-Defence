@@ -30,18 +30,46 @@ The core contribution of this paper is the analyis of exogenous change in men's 
 which is the main explanatum.
 The pension eligibility age for men was lowered from 65 to 60 between mid 2009 and 1-1-2011.
 This brought the pension eligibility age for men at par with women.
-We employ a Difference-in-Difference (or Fixed Effects) analysis of this change.
+There are two reasons why this warants a further look at this topic in this dataset.
+
+Firstly, life expectancy is South Africa is substantialy below the pension eligibility age.
+Around the end of the first decade of the century, which is when our data was collected,
+the average life expectancy at birth was only slighly above 50 years old.
+In the year 1993, when \textcite{duflo2000child,duflo2003grandmothers} are analysed,
+the average life expectancy at birth was somewhat higher (slightly above 55 years old).
+A further discussion of this can be found is \autoref{sa:results}
+However, in both cases, there is a substantial selection bias in the pension recipient base.
+Moreover, the fact that men receive pension only at 65, and women at sixty,
+causes an even more pronounced selection bias in the male pension recipient base.
+This also makes the comparing of the effect of male pension reicipient and female pension recipients,
+on the anthropometrics of children in the same household problematic,
+since much more attrition will have take place in the male pension base.
+The drop in life expectancy also aggravates the issue of attrition,
+and the associated selection bias.
+However, since pension eligibility becomes equal, for both men and women, at least,
+provides us with effects which internally more comparable.
+We say more, because the difference in attribition between the male and female pension base in our sample has not entirely been eliminated.
+Throughout the evolution of the average life expectancy at birth in South Africa,
+female life expectancy has been higher than male life expectancy by about one year.
+Bearing in mind that the difference between average life expectancy and pension eligibility is around 9 years,
+this additional selection bias effect, should not be underestimated.
+Furthermore, is seems likely that a healthy lifestyle, which increases the chance of becoming a pension recipient,
+also has an effect on the lifestyle of household members.
+In this is so, then our observed attrition will be an actual cause of a selection bias \textbf{effect}.
+
+
+Secondly, we employ a Difference-in-Difference (or Fixed Effects) analysis of this change.
 Under then assumptions of the Difference-in-Difference model,
 this enables us to make a causal inference on the policy variable.
 
 The other deviations are of a more practical nature.
-Firstly, the data from the \textcite{saldru2008nids,saldru2012nids} surveys contains actual information on income,
+Firstly, the data from the \textcite{saldru2008nids,saldru2012nids,saldru2013} surveys contains actual information on income,
 including pension recipient status, whereas Duflo uses age as a proxy for recipient status.
 Secondly, another minor deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child},
 in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}, since these have superseded the CDC charts.
 As long as all observations are held against the same standards, this should not be of any consequence.
 
-The impertus for this paper lies in the optimal design of cash transfer schemes such as CCTs and UCTs.
+The impetus for this paper lies in the optimal design of cash transfer schemes such as CCTs and UCTs.
 The lack Paretto optimal allocation of resources within households as discussed in i.a.
 \textcite{udry1995gender}, \textcite{udry1996gender}, and \textcite{duflo2004intrahousehold},
 indicates the necesity of optimal design in such schemes.
@@ -107,7 +135,6 @@ Like the 1993 survey used by \textcite{duflo2000child, duflo2003grandmothers}, t
 Unlike the 1993 survey, this survey does not use a random selection household,
 rather it collects data on a representative set of appproximately 10,000 South-African households over time.
 Currently three `waves' of data are available, these waves date from 2008, 2012, and 2013 respectively.
-
 The primary information types we use are:
 \begin{itemize}
   \item child anthropometrics,
@@ -119,7 +146,7 @@ The primary information types we use are:
 In addition to these variables of interest, we include a number of covariates in the analysis, these are:
 \begin{itemize}
   \item Household income
-  \item Parent's education
+  \item Parents education
 \end{itemize}
 
 \begin{table}[hb!]
@@ -394,16 +421,16 @@ We thus find a negative effect of the treatment on growth metrics.
 Furthermore, for one height-based z-score we also find a negative effect of male pension recipients on growth metrics.
 Additionaly, it is suprising that we find significant coefficients for \textbf{w\_spen\_m} in one height-based z-score (\textbf{BMIZ}), but not in the other \textbf{WHZ}.
 
-The last result is surprising,
-considering that the coefficient estimates for \textbf{w\_spen\_m} in the \textbf{WHZ} estimations are all similar to each other,
+The last result is surprising, in the sense that it is significant for one dependent variable, but not the other.
+Especially considering that the coefficient estimates for \textbf{w\_spen\_m} in the \textbf{WHZ} estimations are all similar to each other,
 and roughtly half of the estimates of the \textbf{BMIZ} estimations.
 
-For the lower coefficient estimates, it is important to note that \textbf{BMIZ} is essentially a convex mapping of \textbf{WHZ},
+For the higher coefficient estimates, it is important to note that \textbf{BMIZ} is essentially a convex mapping of \textbf{WHZ},
 since height is squared in the denominator of the BMI function, as described in \autoref{sa:se:hbz}.
 In other words, the fact that the estimators, which give transformed coefficient estimates can have different significance levels,
 can be explained as follows.
 The squaring of the height in the denominator of the Body-Mass Index function, makes it a non-linear mapping of the Weight-for-Height Z-scores.
-Furthermore, from the significance of the coefficients in the \textbf{BMIZ} estimations,
+Furthermore, from the significance at the 5\% level of the coefficients in the \textbf{BMIZ} estimations,
 we can conclude that the coefficient estimates are higher that the standard error estimates,
 by a factor of several times (for Degrees of Freedom $\sim 380$).
 Combining the small estimates of the standard errors, with the convex mapping,
@@ -432,9 +459,22 @@ where as the number for female recipients remains around the lower 2012 levels.
 We thus observe a drop even in the number of children living with female pension recipients,
 despite the fact that female pension recipients were unaffected by the policy change.
 
-One of the reason for this drop in life expectancy in South Africa.
- % Include graph
+The most immediate explanation for this is the life expectancy in South Africa.
+Since the year 1990 the life expectancy for both women and men has consistently been dropping.
 The predominant reason for the this drop in life expectancy is taken to be HIV/AIDS.
+
+Around the year 2005 the life expectancy at birth was slighly above 50 years.
+Since pension eligibility age is 60 years (and 65 for men until 2009),
+there is an almost ten year gap between average life expectancy and pension eligibility.
+This gap causes a delayed in the effect of the drop in life expectancy.
+The attribition effect of a person passing away at the age of fifty, on the pension recipient base,
+will thus only be observed ten years after death.
+
+After the year 2005, life expectancy started rising slowly,
+however, as explained above, it will take some time for this effect to disseminate into the pension base.
+
+% Include graph
+
 % stats of people over 65.
 
 
@@ -474,14 +514,44 @@ Firstly, we find that there is a significant and consistant negative effect of t
 Secondly, we find a consistent and negative effect of the men's pension variable (\textbf{w\_spen\_m}) on the Body-Mass-Index Z-scores.
 Both of these effect are consistent across the different specifications used in our estimations.
 
-% ASSUMPTIONS
-% level effects
+The main impetus for this paper lies in the optimal design of cash transfer schemes,
+such as Conditional Cash Transfers (CCTs) and the newly fashionable Uncondional Cash Transfers (UCTs).
+Which is the optimal manner in which these grants are distributed, measured along the bars of health,
+as well as education and work force participation.
+In this paper \parencite[like in][]{duflo2000child,duflo2003grandmothers} we try to address of the issue of differential effects relating to the gender of the cash recipient.
 
-% LIMITATIONS
-% simultanuous movement in recipient numbers.
+We do this by evaluating the z-scores of anthropometrics of children between the ages of six and sixty months old, living in the same household as recipients of the South-African old-age state pension system. We then compare the z-scores for children living with male pension recipients, which the z-scores of children living with female pension recipients.
 
-% ROBUSTNESS
-% questionable regarding the levelness.
+This approach is identical to \textcite{duflo2000child,duflo2003grandmothers}, however this analysis offers some additional value.
+Firstly, we analyse data around a policy change, which lowers the pension eligibility age for men from 65 to 60,
+which brings it at par with women's pension eligibility age.
+There are two impeti for further analysis of this data.
+
+Firstly, this partly overcomes major issues with attrition and the associated selection bias.
+Since average life expectancy is well below pension eligibility age,
+there is a strong indication that such a selection bias issue would be present.
+It is also very likely that confounding variables would be effecting both the selection bias, as well as the dependent variable.
+With the differential in pension eligibility age, this would make the effect incomparable,
+however, as the men's eligibility age is brought to the same as women's, this makes comparison less problematic.
+Considering the fact that selection bias in our analysis is comparable, but nevertheless still present,
+we note that we cannot automatically draw inferences about the external validity of the results presented here.
+
+Secondly, analysing data around the policy change allows us to employ a Difference-in-Differences estimation (DiD).
+Which enables us to draw a causal inference from the treatment effect,
+which is onthologically more intersting than a correlation.
+
+We use the South-African National Income Dynamics Survey data
+\parencite[in collaboration with The World Bank]{saldru2008nids,saldru2012nids,saldru2013nids}.
+This full-panel dataset provides observations from 2008, 2012, and 2013.
+The treatment, a policy change which lowers the pension elgilibity age for men from 65 to 60, takes place around 2009.
+Since we have only one time period before the treatment (the year 2008), we cannot establish the common trend.
+This common trend is used to validate the common trend assumption, which unpins the Difference-in-Differences method.
+As discussed in \autoref{sa:results}, we find that not establishing the trend proves problematic for our analysis.
+Between the years 2008 and 2012,
+we see a substantial drop in the number of children living in the same household as a female pension recipient.
+Since female pension recipients are unaffected by the policy change, we have to assume that a further exogenous factor is the cause of this drop.
+
+
 
 % CONCLUSIONS
 % which hold? what do we think?
