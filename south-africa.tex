@@ -63,7 +63,7 @@ Under then assumptions of the Difference-in-Difference model,
 this enables us to make a causal inference on the policy variable.
 
 The other deviations are of a more practical nature.
-Firstly, the data from the \textcite{saldru2008nids,saldru2012nids,saldru2013} surveys contains actual information on income,
+Firstly, the data from the \textcite{saldru2008nids,saldru2012nids,saldru2013nids} surveys contains actual information on income,
 including pension recipient status, whereas Duflo uses age as a proxy for recipient status.
 Secondly, another minor deviation is the usage of \textcite[WHO Child Growth Standards]{who2006child},
 in stead of \textcite[CDC Growth Charts: United States]{nchs2000cdc}, since these have superseded the CDC charts.
@@ -297,6 +297,7 @@ It is worth noting  that questions have been raised about the Difference-in-Diff
 for example by (ironically) \textcite{bertrand2004much}.
 
 \subsubsection{Models and Variations}
+\label{sa:models}
 We define the variables for our estimation equations.
 The outcome variable is $y_{it}$, this outcome variable takes the form of the of the z-scores,
 such as HAZ or WAZ.
@@ -551,10 +552,57 @@ Between the years 2008 and 2012,
 we see a substantial drop in the number of children living in the same household as a female pension recipient.
 Since female pension recipients are unaffected by the policy change, we have to assume that a further exogenous factor is the cause of this drop.
 
+In our estimations we use the Difference-in-Differences method,
+which is operationalised a fixed-effect panel estimation with a time effect.
+The contruct three Right-Hand Side (RHS) model.
+The first model is a fixed-effect estimation without the treatment dummy.
+The second model is a fixed-effects estimation with the treatment dummy (\textbf{elig.men.60}).
+the third model is a fixed-effects estimation with the treatment dummy,
+as well as an interaction term with the male pension recipient dummy (\textbf{w\_spen\_m}).
 
+On the Left-Hand Side (LHS) we use four different anthropometric z-scores,
+Height-for-Age (HAZ), Weight-for-Age (WAZ), Weight-for-Height (WHZ), and BMI (BMIZ).
+The first two z-scores are age based (ABZ), the latter two height based (since height factors in the BMI equation, HBZ).
 
-% CONCLUSIONS
-% which hold? what do we think?
+Combining the three RHS models with the four LHS z-scores gives us twelve estimation equations.
+In the estimation of these twelve equations, we find two effects.
+
+Firstly, we find that in for both the Age-Based Z-scores (ABZs),
+the treatment dummy is significant for the models 2 and the models 3
+(we do not find this in model 1, since it is not included the model 1 equation).
+In all cases, the coefficient for the treatment dummy is negative.
+Since both these Age-Based Z-scores (ABZs) reflect long-term or past health issues,
+this seems to indicate a negative correlation between the policy change on the long-term anthropometrics.
+Since this is the treatment dummy, this would suggest a negative causal effect of male pension receipts on child health.
+However, as discussed in \autoref{sa:results},
+this is likely to be a consequence of the common trend not having been established.
+Since we also observe a sharp drop in the number of children living with female pension recipients,
+despite the fact that the female pension recipient base in unaffected by the policy change.
+
+Secondly, we find that living with male pension recipient (\textbf{w\_spen\_m}),
+is negatively correlated with a the BMI z-scores (\textbf{BMIZ}).
+As discussed in \autoref{sa:results}, the Body-Mass-Index Z-score is a convex mapping of the Weight-for-Height z-score.
+This can explain the fact that these essentialy similar estimations, give different significance levels.
+Considering that the use of the Body Mass Index is far more wide spread than the Weight for Height metric,
+we believe that the significance of these coefficients carries more weight.
+The fact that these coefficients are negative, indicates that for this short-term z-score,
+the prefered recipient would be female household members.
+
+In conclusion, we find a negative correlation between the treatment dummy and the long-term ABZs.
+This is likely to be a consequence of the common trend not having been established,
+since there is also a drop in the number of children living with female pension recipients, which serves as the control group.
+Furthermore, we find a negative correlation between the male pension recipient variable (\textbf{w\_spen\_m}) and the short-run \textbf{BMIZ}.
+
+The later result seems to indicate that, at least in the short-run,
+the prefered recipient of cash transfers would be a female household member.
+As discussed, the selection bias issue in age,
+leads to the need for a careful interpretation of the possible external validity of this results.
+
+Regarding the former result, the significant negative coefficient of the treatment variable,
+the analysis in \autoref{sa:results} seems to indicate a need to establish the common trend,
+at least over the period 2008-2012.
+Since the female recipient base in this period serves as a control group, we possibly could establish this, using the evolution here.
+Alternatively, it would be possible to establish a trend using statistics on nationwide pension recipients.
 
 % RECOMMENDATIONS
 % estimate using by weighting the drop for women with life exp. evolution, and male also
