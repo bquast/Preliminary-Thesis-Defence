@@ -16,16 +16,18 @@
 
 
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{times}
-\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+\usepackage[authordate,noibid,backend=biber]{biblatex-chicago}
+\usepackage[]{hyperref}
+
+\addbibresource{bibliography.bib}
+
+\setbeamertemplate{bibliography item}{}
 
 \title[]{Preliminary Thesis Defence}
 \subtitle{December 18, 2013}
-
-% Supervisor:&\footnote{Professor of Economics, The Graduate Institute, Geneva; }\\
-% Second Reader:&\footnote{Professor of Economics, The Graduate Institute, Geneva; }
-
 
 \author[Bastiaan Quast]{
   Jean-Louis Arcand\inst{1,4}
@@ -35,7 +37,7 @@
   \\Bastiaan Quast\inst{3,4}
   }
 
-\institute[The Graduate Institute, Geneva] % (optional, but mostly needed)
+\institute[The Graduate Institute, Geneva]
 {
   \inst{1}
   Professor of Economics,\\
@@ -75,54 +77,177 @@
   % You might wish to add the option [pausesections]
 \end{frame}
 
-\section[Pensions, Child Growth]{Pensions and Child Growth: Additional Evidence from South-Africa}
-
-\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa}
-using the new data
+\begin{frame}{Questions}
+Cryptocurrency Inflation
+	\begin{itemize}
+		\item Relevant enough for Development Economics?
+	\end{itemize}
+Knightian Uncertainty:
+	\begin{itemize}
+		\item What to do with this critique?
+	\end{itemize}
+Pensions and  Child Growth:
+	\begin{itemize}
+		\item Defining of Age-Based and Height-Based Z-scores,\\ correct?
+		\item BMI as convex mapping of Weight-for-Height,\\ significance?
+		\item Drop in children living with recipient 2008-2012,\\ 		how to account for this?
+	\end{itemize}
 \end{frame}
 
-\section[Surviving Andersonville]{Replication: Surviving Andersonville}
+\section{Cryptocurrency Inflation}
 
-\begin{frame}{Replication: Surviving Andersonville}
-these guys mislabeled everything
+\begin{frame}{Cryptocurrency Inflation}
+Often heard problems Bitcoin:
+\begin{enumerate}
+	\item There is no inflation
+	\item Mining is wasteful
+\end{enumerate}
+Consider Bitcoin together with other Cryptocurrencies
+\begin{itemize}
+	\item Expansion in no. of coins, but expansion in no. of currencies
+	\item Miners will move to less-mined currencies, leading to less waste
+	\item Model as positive currency attack \parencite{obstfeld1986rational,obstfeld1996models}
+\end{itemize}
+
 \end{frame}
 
 \section[Uncertainty, Currency Attacks]{Uncertainty and Risk in Currency Attacks}
 
 \begin{frame}{Uncertainty and Risk in Currency Attacks}{Knightian Uncertainty in Morris and Shin (1998)}
-This paper makes no sense!!
+A review of \citetitle{morris1998unique} \parencite{morris1998unique}
+\begin{itemize}
+	\item Based on currency models \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models}
+	\item Finds a unique equilibrium when `uncertainy' is added
+\end{itemize}
+Critiques:
+\begin{itemize}
+	\item Strange result, does not correspond to reality
+	\item The `distortion' changes uncertainty to risk, effectively increasing the body of knowledge
+	\item The distortion of perception has a uniform distribution, results do not hold under e.g. Gaussian
+	\item Speculator risk profile is redefined:
+\end{itemize}
+\begin{quotation}
+	For the next step,
+	consider the strategy profile where every speculator attacks the currency if and only if
+	the message $x$ is less than some fixed number $k$.
+	\hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+\end{quotation}
 \end{frame}
 
-\section[Bitcoin, Stupid Phones]{Bitcoin and Remittances: Stupid Phone Potential}
+\section[Pensions, Child Growth]{Pensions and Child Growth: Additional Evidence from South-Africa}
 
-\begin{frame}{Bitcoin and Remittances}{Stupid Phone Potential}
-stupid phones rock!!
+\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa I}
+	\begin{itemize}
+		\item Based on \citetitle{duflo2003grandmothers} \parencite{duflo2000child,duflo2003grandmothers} methodology
+		\item Address the issue of eligibility-age discrepancy
+		\item South African Household Survey \parencite{saldru2008nids,saldru2012nids,saldru2013nids}
+		\item Elibility-age equalisation in 2009
+	\end{itemize}
+	Model:
+	\setcounter{equation}{2}
+	\begin{equation}
+		\label{sa:eq:interaction}
+		y_{it} = \gamma_i + \lambda_t + \mu P^f_{it} + \nu P^m_{it} + X_{it} + \delta T_{it} + \rho T_{it}*P^m_{it} + \epsilon_{it}
+		\end{equation}
 \end{frame}
+
+\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa II}
+	\begin{table}[!ht]
+	\centering
+	\caption{Height-for-Age Z-score}
+	\label{sa:ta:haz}
+		\begin{tabular}{l|rrr}
+		\hline
+		specification & 1 & 2 & 3\\
+		\hline
+		w\_spen\_m & 0.2366 & *0.8228 & 0.7908 \\
+		w\_spen\_w & -0.2331 & 0.1053 & 0.1072 \\
+		elig.men.60 & & **-0.3419 & **-0.3465 \\
+		w\_spen\_m1:elig.men.60 & & & 0.0446 \\
+		w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa III}
+	\begin{table}[!ht]
+	\centering
+	\caption{Weight-for-Age Z-score}
+	\label{sa:ta:waz}
+	\begin{tabular}{l|rrr}
+		\hline
+		specification & 1 & 2 & 3\\
+		\hline
+		w\_spen\_m & 0.2366 & 0.2981 & 0.4780 \\
+		w\_spen\_w & -0.2331 & -0.3112 & -0.3280 \\
+		elig.men.60 & & ***-0.3475 & **-0.3243 \\
+		w\_spen\_m1:elig.men.60 & & & -0.2545 \\
+		w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+
+\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa IV}
+% LaTeX table created manually
+% Fri Dec 27 23:53 2013
+\begin{table}[!ht]
+\centering
+\caption{Weight-for-Height Z-score}
+\label{sa:ta:whz}
+\begin{tabular}{l|rrr}
+\hline
+specification & 1 & 2 & 3 \\
+\hline
+w\_spen\_m &  -0.3532 & -0.3210 & -0.4303 \\
+w\_spen\_w & 0.0655 & 0.0371 & 0.0478 \\
+elig.men.60 & & -0.1417 & -0.1574 \\
+w\_spen\_m1:elig.men.60 & & & 0.1484 \\
+\end{tabular}
+\end{table}
+\begin{table}[!ht]
+\centering
+\caption{Body-Mass-Index Z-score}
+\label{sa:ta:bmiz}
+\begin{tabular}{l|rrr}
+\hline
+specification & 1 & 2 & 3 \\
+\hline
+w\_spen\_m & *-0.8058 & *-0.7905 & *-1.0226 \\
+w\_spen\_w & -0.1592 & -0.1956 & -0.1742 \\
+elig.men.60 & & -0.1674 & -0.2049 \\
+w\_spen\_m1:elig.men.60 & & & 0.3407 \\
+\end{tabular}
+\end{table}
+\end{frame}
+
 
 \section{End Notes}
 
 \begin{frame}{End Notes}
+Summary
   \begin{itemize}
   \item
-    The \alert{first main message} of your talk in one or two lines.
+    Cryptocurrency Inflation, through multiplicity
   \item
-    The \alert{second main message} of your talk in one or two lines.
+	Currency Attacks: uncertainty vs. risk, redefining risk profile, uniform distribution 
   \item
-    Perhaps a \alert{third message}, but not more than that.
+    Pensions and Child Growth: negative effect
   \end{itemize}
-  
-  % The following outlook is optional.
-  \vskip0pt plus.5fill
-  \begin{itemize}
-  \item
-    Outlook
-    \begin{itemize}
-    \item
-      Something you haven't solved.
-    \item
-      Something else you haven't solved.
-    \end{itemize}
-  \end{itemize}
+
+Questions  
+	\begin{itemize}
+	\item
+		Cryptocurrency Inflation: relevant for Development Economics?
+	\item
+		Knightian Uncertainty: What to do with this critique?
+	\item
+		Pensions and  Child Growth: Account for drop in no. children?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+	\printbibliography
 \end{frame}
 
 \end{document}

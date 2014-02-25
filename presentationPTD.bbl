@@ -1,0 +1,218 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{cms}
+    \entry{duflo2000child}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+      \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+      \field{sortinit}{D}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Child health and household resources in South Africa: Evidence from the Old Age Pension program}
+      \field{journaltitle}{The American Economic Review}
+      \field{number}{2}
+      \field{title}{Child health and household resources in South Africa: Evidence from the Old Age Pension program}
+      \field{volume}{90}
+      \field{year}{2000}
+      \field{pages}{393\bibrangedash 398}
+      \verb{url}
+      \verb http://www.jstor.org/discover/10.2307/117257
+      \endverb
+    \endentry
+    \entry{duflo2003grandmothers}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7e6b0ea4eee38822cdb0a4361e98752c}{Duflo}{D\bibinitperiod}{Esther}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7e6b0ea4eee38822cdb0a4361e98752c}
+      \strng{fullhash}{7e6b0ea4eee38822cdb0a4361e98752c}
+      \field{sortinit}{D}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Grandmothers and Granddaughters: Old-Age Pensions and Intrahousehold Allocation in South Africa}
+      \field{journaltitle}{The World Bank Economic Review}
+      \field{number}{1}
+      \field{title}{Grandmothers and Granddaughters: Old-Age Pensions and Intrahousehold Allocation in South Africa}
+      \field{volume}{17}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 25}
+      \verb{doi}
+      \verb 10.1093/wber/lhg013
+      \endverb
+    \endentry
+    \entry{morris1998unique}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{Morris}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d3a2debdbad0deee29421ed58a13855d}{Shin}{S\bibinitperiod}{Hyun\bibnamedelima Song}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{cbca2efafa750c0a0b976f37ebb1a375}
+      \strng{fullhash}{cbca2efafa750c0a0b976f37ebb1a375}
+      \field{sortinit}{M}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Unique equilibrium in a model of self-fulfilling currency attacks}
+      \field{journaltitle}{American Economic Review}
+      \field{title}{Unique equilibrium in a model of self-fulfilling currency attacks}
+      \field{year}{1998}
+      \field{pages}{587\bibrangedash 597}
+      \verb{url}
+      \verb http://www.jstor.org/stable/116850
+      \endverb
+    \endentry
+    \entry{obstfeld1986rational}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{0c923601596f623c2abb75d6ce9e3d84}
+      \strng{fullhash}{0c923601596f623c2abb75d6ce9e3d84}
+      \field{sortinit}{O}
+      \field{labelyear}{1986}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Rational and self-fulfilling balance-of-payments crises}
+      \field{title}{Rational and self-fulfilling balance-of-payments crises}
+      \field{year}{1986}
+    \endentry
+    \entry{obstfeld1995logic}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0c923601596f623c2abb75d6ce9e3d84}
+      \strng{fullhash}{0c923601596f623c2abb75d6ce9e3d84}
+      \field{sortinit}{O}
+      \field{labelyear}{1995}
+      \field{datelabelsource}{}
+      \field{labeltitle}{The logic of currency crises}
+      \field{title}{The logic of currency crises}
+      \field{year}{1995}
+    \endentry
+    \entry{obstfeld1996models}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0c923601596f623c2abb75d6ce9e3d84}{Obstfeld}{O\bibinitperiod}{Maurice}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0c923601596f623c2abb75d6ce9e3d84}
+      \strng{fullhash}{0c923601596f623c2abb75d6ce9e3d84}
+      \field{sortinit}{O}
+      \field{labelyear}{1996}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Models of currency crises with self-fulfilling features}
+      \field{journaltitle}{European economic review}
+      \field{number}{3}
+      \field{title}{Models of currency crises with self-fulfilling features}
+      \field{volume}{40}
+      \field{year}{1996}
+      \field{pages}{1037\bibrangedash 1047}
+    \endentry
+    \entry{saldru2008nids}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \strng{fullhash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \field{sortinit}{S}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{National Income Dynamics Study, Wave 1}}
+      \field{title}{{National Income Dynamics Study, Wave 1}}
+      \field{version}{5.1}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://www.nids.uct.ac.za/home/
+      \endverb
+    \endentry
+    \entry{saldru2012nids}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \strng{fullhash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \field{sortinit}{S}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{National Income Dynamics Study, Wave 2}}
+      \field{title}{{National Income Dynamics Study, Wave 2}}
+      \field{version}{2.1}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.nids.uct.ac.za/home/
+      \endverb
+    \endentry
+    \entry{saldru2013nids}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c4056dd2906700580e7f2bd7bd04ff03}{{Southern\bibnamedelimb Africa\bibnamedelimb Labour\bibnamedelimb and\bibnamedelimb Development\bibnamedelimb Research\bibnamedelimb Unit}}{S\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \strng{fullhash}{c4056dd2906700580e7f2bd7bd04ff03}
+      \field{sortinit}{S}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{National Income Dynamics Study, Wave 3}}
+      \field{title}{{National Income Dynamics Study, Wave 3}}
+      \field{version}{1.1}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.nids.uct.ac.za/home/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
