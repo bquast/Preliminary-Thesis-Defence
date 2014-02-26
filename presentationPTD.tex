@@ -16,6 +16,8 @@
 
 
 \usepackage[english]{babel}
+\usepackage{mathtools}
+\usepackage{accents}
 %\usepackage[utf8]{inputenc}
 %\usepackage{times}
 %\usepackage[T1]{fontenc}
@@ -27,7 +29,7 @@
 \setbeamertemplate{bibliography item}{}
 
 \title[]{Preliminary Thesis Defence}
-\subtitle{December 18, 2013}
+\subtitle{\today}
 
 \author[Bastiaan Quast]{
   Jean-Louis Arcand\inst{1,4}
@@ -88,9 +90,9 @@ Knightian Uncertainty:
 	\end{itemize}
 Pensions and  Child Growth:
 	\begin{itemize}
+		\item Negative policy effect \\ explanation?
 		\item Defining of Age-Based and Height-Based Z-scores,\\ correct?
 		\item BMI as convex mapping of Weight-for-Height,\\ significance?
-		\item Drop in children living with recipient 2008-2012,\\ 		how to account for this?
 	\end{itemize}
 \end{frame}
 
@@ -115,28 +117,46 @@ Consider Bitcoin together with other Cryptocurrencies
 
 \begin{frame}{Uncertainty and Risk in Currency Attacks}{Knightian Uncertainty in Morris and Shin (1998)}
 A review of \citetitle{morris1998unique} \parencite{morris1998unique}
-\begin{itemize}
-	\item Based on currency models \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models}
-	\item Finds a unique equilibrium when `uncertainy' is added
-\end{itemize}
-Critiques:
-\begin{itemize}
-	\item Strange result, does not correspond to reality
-	\item The `distortion' changes uncertainty to risk, effectively increasing the body of knowledge
-	\item The distortion of perception has a uniform distribution, results do not hold under e.g. Gaussian
-	\item Speculator risk profile is redefined:
-\end{itemize}
-\begin{quotation}
-	For the next step,
-	consider the strategy profile where every speculator attacks the currency if and only if
-	the message $x$ is less than some fixed number $k$.
-	\hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
-\end{quotation}
+	\begin{itemize}
+		\item Based on currency models \textcite{obstfeld1986rational,obstfeld1995logic,obstfeld1996models}
+		\item Finds a unique equilibrium when `uncertainy' is added
+	\end{itemize}
+	Model:
+	\begin{itemize}
+		\item State of economic fundamentals: $\theta \sim U[0,1]$
+		\item Pegged at a level larger than fundamentals: ($e* \geq f(\theta)$)
+		\item Speculators can short, their payoff: $e^* - f(\theta) - t$
+		\item Peg cost: economic fund. and speculators attacking ($\alpha$)
+		\item Government derives value: $\nu - c(\alpha, \theta)$ from defending peg
+	\end{itemize}
+	Outcomes:
+	\begin{enumerate}
+		\item $ [0, \underaccent{\bar}{\theta} ] $, cost always too high, unstable region
+		\item $[\underaccent{\bar}{\theta}, \bar{\theta}]$, enough attack, cost too high, `ripe for attack'
+		\item $[\bar{\theta}, 1]$, cost of shorting always outweigh gains, stable region
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Uncertainty and Risk in Currency Attacks}
+	Critiques:
+	\begin{enumerate}
+	
+		\item Strange result, does not correspond to reality
+		\item The `distortion' changes uncertainty to risk, effectively increasing the body of knowledge
+		\item The distortion of perception has a uniform distribution, results do not hold under e.g. Gaussian
+		\item Speculator risk profile is redefined:
+	\end{enumerate}
+	\begin{quotation}
+		For the next step,
+		consider the strategy profile where every speculator attacks the currency if and only if
+		the message $x$ is less than some fixed number $k$.
+		\hspace{\stretch{1}}\parencite[p.~592]{morris1998unique}
+	\end{quotation}
 \end{frame}
 
 \section[Pensions, Child Growth]{Pensions and Child Growth: Additional Evidence from South-Africa}
 
-\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa I}
+\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa}
 	\begin{itemize}
 		\item Based on \citetitle{duflo2003grandmothers} \parencite{duflo2000child,duflo2003grandmothers} methodology
 		\item Address the issue of eligibility-age discrepancy
@@ -151,7 +171,7 @@ Critiques:
 		\end{equation}
 \end{frame}
 
-\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa II}
+\begin{frame}{Pensions and Child Growth}{Results: Age-Based Z-scores}
 	\begin{table}[!ht]
 	\centering
 	\caption{Height-for-Age Z-score}
@@ -164,12 +184,8 @@ Critiques:
 		w\_spen\_w & -0.2331 & 0.1053 & 0.1072 \\
 		elig.men.60 & & **-0.3419 & **-0.3465 \\
 		w\_spen\_m1:elig.men.60 & & & 0.0446 \\
-		w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
 		\end{tabular}
 	\end{table}
-\end{frame}
-
-\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa III}
 	\begin{table}[!ht]
 	\centering
 	\caption{Weight-for-Age Z-score}
@@ -182,13 +198,11 @@ Critiques:
 		w\_spen\_w & -0.2331 & -0.3112 & -0.3280 \\
 		elig.men.60 & & ***-0.3475 & **-0.3243 \\
 		w\_spen\_m1:elig.men.60 & & & -0.2545 \\
-		w\_h\_tinc & -0.0000 & -0.0000 & -0.0000 \\
 		\end{tabular}
-	\end{table}
+	\end{table}	
 \end{frame}
 
-
-\begin{frame}{Pensions and Child Growth}{Additional Evidence from South Africa IV}
+\begin{frame}{Pensions and Child Growth}{Results: Height-Based Z-scores}
 % LaTeX table created manually
 % Fri Dec 27 23:53 2013
 \begin{table}[!ht]
@@ -238,11 +252,11 @@ Summary
 Questions  
 	\begin{itemize}
 	\item
+		Negative policy effect: explanation?
+	\item
 		Cryptocurrency Inflation: relevant for Development Economics?
 	\item
 		Knightian Uncertainty: What to do with this critique?
-	\item
-		Pensions and  Child Growth: Account for drop in no. children?
 	\end{itemize}
 \end{frame}
 
